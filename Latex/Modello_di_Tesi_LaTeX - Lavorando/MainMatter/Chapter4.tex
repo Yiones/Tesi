@@ -1,0 +1,109 @@
+\chapter{Mt script}
+\label{capitolo4}
+\thispagestyle{empty}
+
+\begin{quotation}
+{\footnotesize
+\noindent \emph{``Bud: No, calma, calma, stiamo calmi, noi siamo su un'isola deserta, e per il momento non t'ammazzo perch\'e mi potresti servire come cibo ...''}
+\begin{flushright}
+Chi trova un amico trova un tesoro
+\end{flushright}
+}
+\end{quotation}
+\vspace{0.5cm}
+
+My thesis' work is the creation of a python script that simulate a ray-tracing of a beam. This tracing take in account the effect of different type of optical elements that that can find the beam in its way. To implement this ray-tracing it have to define three elements:
+\\ - source
+\\ - optical elements
+\\ - tracing system
+
+\vspace{0.5cm}
+
+\section{Source}
+The beam source is characterized by two parameters: spot dimension divergence. For the geometry dimension is possible to choose between a spot of uniform ray in a rectangular or circular shape or a gaussian profile with a parameters setted by the users (radius for the circular case, two sides for rectangular shape and FWHM for Gaussian profile), there is the possibility to choose a point-wise shape for the source. Also the divergence profile have different possibilities, there is the Gaussian profile, with FWHM as parameter, rectangular flat divergence, with two side as parameters, and a collimate one. for the setting parameter of the source shape there are no limitation, but for the divergence parameters, because of the normalization of the velocity, be careful on the parameter's values.
+Figure 1 shows an example of circular shape for the source beam, and Figure 2 shows a gaussian profile. It is choose a red marker for the plot of the real space, and blue marker for the plot of the divergence.
+
+\section{Optical Elements}
+There are implemented two kind of optical elements in the script: lens and mirror. Because, as discussed in Chapter 1, mirrors are the principal elements used in synchrotron, more attention is focused on them, on the contrary , for testing uses, only one kind of lens, an ideal lens, is implemented. 
+\subsection{Mirrors}
+It is possible to choose a mirror that have shape of: plane, sphere, ellipse, parabola and hyperbola. All this mirror to have a conical shape in two dimension, or a conical shape in one dimension and cylindrical in the other, moreover is possible to set a dimension of the mirrors that, in the default case, are setted as infinite mirrors. The mirrors are expressed in a Cartesian defined as surface conical equation with a characteristic focal parameter depending on their nature, for plane mirror no parameter are needed, for spherical mirror only one focal distance is needed, for parabolic mirror is needed one focal distance plus a term that define the nature of the mirror and, for ellipsoidal and hyperbolic mirror, two focal distance are needed, moreover, apart for the plane mirror, also the incidence angle is needed to determine the shape of the mirror. The surface conical equation is determined such that the origin of the cartesian system correspond to the point where the optical axis hit the mirror and the normal correspond to the z-axis. To understand better the situation look at Figure 2, that report an ellipsoidal mirror characterised by two focal distance equal to p and q, and an angle of incidence equal to $\theta $, and also, it is possible to see the dimension of the mirror.
+\\
+FIGURE
+\\
+In the appendix A is reported the calculation of the changing from system solidal with the mirrors.
+\subsection{Lens}
+As said before the only lens defined is an ideal lens that bring the entrance beam and, following the typical equation \ref{eq: lens equation} of a lens, do the correct transformation
+
+\begin{equation}
+		\frac{1}{f} = \frac{1}{p} + \frac{1}{q}
+		\label{eq: lens equation}
+\end{equation}
+
+\noindent As reported in equation \ref{eq: lens equation}, the parameter needed to characterize the lens is $f $, in the 3D system, a lens is defined by two parameter $f_x $ and $f_z $, that define the focal distance for the two direction and, those parameter, are the parameter that the users have to define in order to use the ideal lens in the program.
+
+\section{Tracing System}
+Defined the source and the different optical element, to have a simulation, is needed a tool that put everything together and modify the property of the beam after the interaction with the optical elements.
+\\
+Before to trace the system is important to define the system, in other word is important to locate the position of the optical elements. The program is written in such a way that the tracing system work in series one optical element after the other, and, for every element, it have to define the object plane distance and the image plane distance, that can be different from the focal distance which are defined as default. For example, if we want to simulate a system such that reported in figure 3, we have to define firstly the mirror and after there are different possibilities to define the tracing distance, one possibilities is that.
+\\Figure
+Going deeper in the code, the algorithm that trace a single element is divided in 5 step
+\begin{enumerate}
+	\item change the reference system with that soldal with the optical element after two rotation, one along x-axis, and second along y-axis, and a translation equal to the object distance of the optical element
+	\item free propagation up to the optical element
+	\item effect of the optical element
+	\item free propagation to the image plane
+	\item changing the Cartesian system in that one that have the optical axis equal to the y-axis
+\end{enumerate}
+
+
+FIGURE
+\\
+
+\section{Compound Optical Element}
+
+This program include also two different system composed by more mirrors. Starting from more surface conical mirror, combining them, is possible to have a compound optical elements that can simulate the behaviour of some typical instrumentation that characterize the facilities, in particular the synchrotron environment. The compound optical include are two of those mentioned in Chapter 2
+\begin{itemize}
+\item KirkPatrickBaez system (KB system)
+\item Montel
+\end{itemize}
+
+\subsection{KirkPatrickBaez System}
+KirkPatrickBaez or, more simply, KB system are shown in Figure 2 are two cylindrical surfacing conic mirror placed one after the other with the two focal lens that converge in the same point. There are implemented two different kind of KB system, a one composed by elliptical mirrors and a second one composed by parabolic mirrors. The parameter parameter that needed to the program that define the system are two focal distances and the two incidence angle that define the two surface conic, in the default mode the two angle are identical.
+\\
+FIGURE
+\\
+Because this system is simply a system composed by two surface conical mirror in series the parameter that the system need to define the mirror are no the ones defined by the user but are the focal distance of the two mirrors that are, as shown in Figure, p1, q1, p2, q2. The parameter p and q are, respectively, the distance of the first focal point to the center of the system, and the distance between the center of the system to the second focal point. This system can do two different thing, the first one is to focalize a beam in a point, the second one is to collimate a beam, obviously this work if the system is defined with the correct parameters.
+\subsection{Montel System}
+FIGURE
+\\
+This compound optical system is defined, as defined for KB, from the definition of two cylindrical conical surface rotating, one of them, of 90$^\circ $, in order to have a mirror in the xy plane, and another one in the zy plane. As shown in Figure 2 the center of the Cartesian system is setted in the point where the  optical axis of the system hit the compound system having the normal of the first normal equal to the z-axis, and the second normal equal to the -x-axis. The system is defined by the following parameter p, q, $\theta_z $, $\theta_x $, where p and q are the focal distance of the two mirrors and $\theta_z $ and $\theta_x $ are the angle of incidence to define the correct mirrors  (by default $\theta_z = \theta_x $).
+\\
+Another parameter that can be setted to this system is the value of the angle that there is between the first optical element and the second one. As for the KB system also in this case there are the two cases, an ellipsoidal system (having the two mirror as ellipsoid), and parabolic system (having the two mirror as ellipsoid). The aim of the Montel, as for the KB, is that to work on the two dimension of the beam for each mirror, such that to localize the system on the same point, or collimate the beam in the two direction.
+
+\section{Tracing system for compound optical elements}
+Because of the different definition, the tracing method of the rays' beam, need a different interpreter that can link the beam with the different optical elements that meet on his way. Because of the different nature, there are implemented two kind of tracing, a first one that trace the KB system, that is composed by a series of optical elements and so can be used for all the compound optical elements that are in series. And a second one that is specific for the Montel system, because it is not composed by mirrors in series rather than mirrors in parallel, having the two elements in a very small region of the space that have in which order the rays of the beam hit the different mirrors.
+\subsection{Tracing for KB}
+For KB system the situation is more or less the same as for a simple optical mirrors, with the only difference that there are more than one mirror. So the algoritm to simulate the tracing system is nothing else than a for loop, that use the tracing system of the simple optical element. In this case is needed the object and the image distance from the center of the system, as for the optical element tracing, that are set by default as the focal distances, and the incidence angle of the two mirror, that, by default, are the ones in which the mirrors are designed. As shown in Figure, having the object and image distances, and using the trace elements defined for one mirror, there is one degree of freedom, that is the 
+\\
+Figure (sistemare bene questa parte qui)
+\subsection{Tracing for Montel}
+Montel system is completely different from the KB system and all the series optical system, so it need a new trace system. This new trace system is divided as follow
+\begin{enumerate}
+	\item Changing the reference frame in one having the center on the center of the mirrors, with a z-axis corresponding to the normal of one mirror and -x-axis equal to the normal of the second mirror. This transformation is done in a similar way of the normal tracing, two rotation of the beam, and one translation, differently from the normal tracing, the tw rotation are done such that the beam hit the mirrors with an incidence angle set by the user
+	\item Focus the attention on the travel time of each ray in order to know which is the nearest optical element of each ray
+	\item free propagation of each ray up to the nearest optical element
+	\item effect of the system for each ray
+	\item repeat the 2$^{nd} $, 3$^{rd} $ and 4$^{th} $ passage two times, in order to consider the two reflection
+	\item Change the reference system solidale with the beam that is subject to two reflection, doing two rotation and one translation
+\end{enumerate}  
+
+\noindent What is reported above is the default tracing system that, because of its centrality on my thesis' work have many option. What is setted by the user is 
+\begin{enumerate}
+	\item focal distances and incidence angles, that define the two rotation and the translation of the tracing system
+	\item name of the File in which is saved the data of the simulation, by default no data is saved
+	\item there is the possibility to choose a different point, from the origin, in which the the optical axis hit the system
+	\item there is also the possibility to have a final output frame that is not solidal by the two-reflected beam, but with the non reflected beam or with the other two beam that are reflected only one time
+	\item It is also the possibility to figure out the footprint of the two reflected beam on the system. For clarity the beam that hit the first mirror and after the second is labelled with red point, the beam that hit the second and after first mirror is labelled by blue color
+\end{enumerate}
+
+\noindent These options are added in order to study better the behaviour of a beam with a Montel system. The possibilities to change the angle of incidence and to hit different part from the origin can be used to study what happen to a beam when is not aligned, or not perfectly aligned, and use these result to align the system in the laboratories. The possibilities to save a File is useful in particular in those case where there is a huge computational effort that need a lot of time, in these cases is possible to work with the result of a big simulation without reappointing it, and so save time.

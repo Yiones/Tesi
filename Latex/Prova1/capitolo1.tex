@@ -1,0 +1,328 @@
+\chapter{Focusing for X-rays}
+\label{Introduzione}
+\thispagestyle{empty}
+
+\begin{quotation}
+{\footnotesize
+\noindent{\emph{``Terence: Rotta a nord con circospezione \\
+Bud: Ehi, gli ordini li do io qui!\\
+Terence: Ok, comante\\
+Bud: Rotta a nord\\
+Terence: Soltanto?\\
+Bud: Con circospezione!''}
+}
+\begin{flushright}
+Chi Trova un Amico Trova un Tesoro
+\end{flushright}
+}
+\end{quotation}
+\vspace{0.5cm}
+
+\noindent L'introduzione deve essere atomica, quindi non deve contenere n\`e sottosezioni n\`e paragrafi n\`e altro. Il titolo, il sommario e l'introduzione devono sembrare delle scatole cinesi, nel senso che lette in quest'ordine devono progressivamente svelare informazioni sul contenuto per incatenare l'attenzione del lettore e indurlo a leggere l'opera fino in fondo. L'introduzione deve essere tripartita, non graficamente ma logicamente:
+
+\section{Introduction}
+Image formation usually implies some form of focusing. How this focusing occurs depends on the way in which the radiation interacts with its surroundings. Thus for visible light the well-known laws of reflection and refraction are utilized, while, while electrons are caused to travel in curved paths in electromagnetic field. X-rays interact with matter in three ways (each causing attenuation of the X-ray beam): elastic scattering, inelastic scattering, and absorption via the photoelectric effect.
+\\
+Elastic scattering (in which exchange of energy is involved) is caused by two process: Thomson scattering from single atomic electrons, and Rayleigh (or coherent) scattering, which occurs from strongly bound electrons acting cooperatively. The scattered and incident beams have a ddefinite phase relationship and interference can occour (Bragg diffraction). Inelastic, incoherent, or Compton scattering occurs from loosely bound (essentialle free) electron and involves the transfer of a small fraction of the energy of an incident X-ray photon. The scattered and incident beams do not have fixed relationship, and the atom is raised to a different quantum state due to the excitation of the electron. Absorbtion (through the photoelectric effect) occurs when the X-ray photon transfer all its energy to an inner atomic electron, thereby releasing it from atom (ionization)
+\\
+In Figure 1 the linear attenuation coefficient for these processes are plotted as functions of energy for two materials, carbon and gold, important in soft X-ray physics. For the soft X-ray regime
+
+
+\section{Interaction with Matter}
+When a beam of electromagnetic radiation passes through a material, the intensity is exponentially attenuated
+
+\begin{equation}
+I = I_0 exp(-\alpha x)
+\label{eq: intensity}
+\end{equation}
+
+\begin{flushleft}
+where $x $ is the thickness of the material, $\alpha$ is the linear attenuation coefficient, and $I_0$ is the intensity at $x=0$. The amplitude of the electromagnetic wave at $x$ is
+\end{flushleft}
+
+\begin{equation}
+A=A_0exp(\frac{-2 \pi \beta x}{\lambda})exp(\frac{-2 \pi i (nx-ct)}{\lambda})
+\label{eq: amplitude}
+\end{equation}
+
+\begin{flushleft}
+where $\lambda$ is the vacuum wavelength of the radiation, $n $ is the refractive index of the material, and $\beta $ is its absorption coefficient. The complex refractive index of the material, which governs the propagation of the electromagnetic wave is 
+\end{flushleft}
+
+\begin{equation}
+\overline{n} = n - i \beta
+\label{eq: n_comlex}
+\end{equation}
+
+\begin{flushleft}
+Since, at soft X-ray wavelengths, absorption is the dominant process, $\alpha$ may be identified with a linear absorption coefficient, where
+\end{flushleft}
+
+\begin{equation}
+\alpha = \frac{4 \pi \beta}{\lambda}
+\label{eq: alpha1}
+\end{equation}
+
+\begin{flushleft}
+Tabulation of X-ray absorption data usually give the mass absorption coefficient $\mu$, where
+\end{flushleft}
+
+\begin{equation}
+\alpha = \mu \rho
+\label{eq: alpha2}
+\end{equation}
+
+\begin{flushleft}
+and $\rho $ is the density of the material. The mass absorption of a compound is given by
+\end{flushleft}
+
+\begin{equation}
+\mu \textsubscript{com} = \sum_{j} w_j \mu_j
+\label{eq: mu_com}
+\end{equation}
+
+\begin{flushleft}
+where $w_j$ is the weight fraction of the constituent with mass absorption coefficient $\mu_j$. The linear absorption coefficient of the compound is then 
+\end{flushleft}
+
+\begin{equation}
+\alpha \textsubscript{com} = \mu \textsubscript{com} \rho \textsubscript{com}
+\label{eq: alpha com}
+\end{equation}
+
+\begin{flushleft}
+where $\rho \textsubscript{com}$ is the density of the compound.
+\end{flushleft}
+
+In the X-ray region, the energies of individual photons are much larger than the binding energies of outer atomic electron (typically a few electron volts) and molecular binding energies. Absorbing atoms are therefore ionized by the radiation and most of the energy is transferred to the kinetic energy of ejected electron. The energy of an X-ray photon may only be absorbed by an atomic electron from the state. Thus, as the X-ray energy increase, the absorption coefficient will undergo several relatively sharp increases (absorption edges) at energies corresponding to binding energies of different atomic levels. as shown in Figure 1. In practice these increases are not so sharp as indicated, because of the finite energy widths of atomic states and because of the environment of the absorbing atoms.
+\\
+The theoretical treatment of X-ray scattering and absorption has been given in detail by many authors. A brief summary is included here because the results have implication for the design of X-ray optical system. The starting point of the calculation is to consider the scattering of X rays by free electron (Thomson scattering). An electro-magnetic wave whose electric vector has amplitude $A_0$ causes such an electron (of charge $e $ and mass $m_e $) to be accelerated by an amount $A_0 $($e / m $). Accelerated charges radiate, the amplitude of the electric vector at a distance $r $ from the charge being
+
+\begin{equation}
+A_T(\Phi) = \frac{e}{4 \pi \epsilon_0 c^2 r} a \sin \Phi
+\label{eq: At1}
+\end{equation}
+
+\begin{flushleft}
+where $\Phi $ is the angle between the direction \textbf{r} and the acceleration \textbf{a}. Thus
+\end{flushleft}
+
+\begin{equation}
+A_T(\Phi) = A_0 \frac{e^2}{4 \pi \epsilon_0 c^2 r} \sin \Phi
+\label{eq: At2}
+\end{equation}
+
+\begin{flushleft}
+To describe the interaction of an electromagnetic wave with an electron bound in an atom, the Thomson amplitude $A_T (\Phi) $ is multiplied by a complex atomic scattering factor $f_1 + if_2 $, so that the scattered amplitude is given by
+\end{flushleft}
+
+\begin{equation}
+A(\Phi, E) = A_T(\Phi) [f_1(E) + if_2(E)]
+\label{eq: A(fi, E)}
+\end{equation}
+
+\begin{flushleft}
+where the factor $f_1 $ and $f_2 $ depend on the energy $E $ of the incoming radiation but it is assumed that, to a first approximation, they do not depend on the scatting angle $\theta $ (i.e. the angle between the incoming and scattered radiation). This assumption is valid since the wavelengths of interest ($\sim 1-10nm $) are larger to typical dimension of the atomic electron distribution ($\sim 1-50pm $) so that the atomic electrons may  be considered to scatter in phase. The factor $f_1 $ and $f_2 $ can be calculated in relativistic quantum dispersion theory and are given by 
+\end{flushleft}
+
+\begin{equation}
+f_1(E) = Z + 4 \frac{\epsilon_0 m_e c}{h e^2} \int_{0}^{+ \infty}\frac{W^2 \sigma(W)}{E^2 - W^2} dW - \Delta \textsubscript(rel)
+\label{eq: f1}
+\end{equation}
+
+\begin{flushleft}
+and
+\end{flushleft}
+
+\begin{equation}
+f_2(E) = 2 \frac{\epsilon_0 m_e c}{h} E \sigma(E)
+\label{eq: f2}
+\end{equation}
+
+\begin{flushleft}
+The first term in the equation \ref{eq: f1} describes Thomson scattering ($Z $ is the atomic number of scatterer) and, to describe the angular dependence of the scattering, may be replaced by the angle-dependent form factor
+\end{flushleft}
+
+\begin{equation}
+f0 = \int_{0}^{+ \infty} U(r) sinc[\frac{4 \pi r}{\lambda} \sin \frac{\theta}{2}] dr
+\label{f0}
+\end{equation}
+
+\begin{flushleft}
+where $U(r) $ is the radical charge distribution and $sinc(x) = \frac{\sin x}{x} $. If the wavelength $\lambda $ is in nanometres, then for $\sin \frac{\theta}{2} \leq \frac{\lambda}{2}, f_0=Z $, while for $\sin \frac{\theta}{2}=\lambda, f_0 \simeq 0.9Z $ for most elements.
+\end{flushleft}
+
+\vspace{10 mm}
+The second term in \ref{eq: f1}, the anomalous dispersion integral, is the same as that given semiclassically by considering the electrons to be caused to oscillate by the incoming radiation, Because it neglects damping, this term results in imprecise values for $f_1 $ close to absorption edges. The atomic photo ionization cross section $\sigma(E) $ ( in $m^2 atom ^{-1} $) is related to the mass absorption coefficient by 
+
+\begin{equation}
+\sigma(E) = A \frac{\mu}{N_0}
+\label{eq: sigma}
+\end{equation}
+
+\begin{flushleft}
+where $A $ is the atomic weight and $N_0 $ is Avogadro's number. In order to calculate $\sigma(E) $ theoretically the atomic wave function must be know; these have to be obtained by approximation methods for all system excepts hydrogen, leading to to uncertainties in the expressions for $f_1 $ and $f_2 $. 
+\end{flushleft}
+\vspace{10 mm} The third term in equation \ref{eq: f1} is a relativistic correction, which is negligible at X-ray energies (except near absorption edges) to assume that the solid state environment does nor greatly affect the ionization process, since it is the outer atomic levels that are most modified when an atom is bound in a solid. Then, the atomic parameters $f_1 $ and $f_2 $ may be related to macroscopic factors $n $ and $\beta $ by
+
+\begin{equation}
+\delta = 1 - n = \frac{e^2 \hbar^2}{2 \epsilon_0 m_e E^2} \overline{f_1}
+\label{eq: delta}
+\end{equation}
+
+\begin{flushleft}
+and
+\end{flushleft}
+
+\begin{equation}
+\beta = \frac{e^2 \hbar^2}{2 \epsilon_0 m_e E^2} \overline{f_2}
+\label{eq: beta}
+\end{equation}
+
+\begin{flushleft}
+where $f_1 $ and $f_2 $ are the average atomic scattering factors per unit volume,
+\end{flushleft}
+
+\begin{equation}
+\overline{f_1} = \sum{j} N_j f_{1j} \qquad \overline{f_2} = \sum{j} N_j f_{2j}
+\label{f1, f2, mean}
+\end{equation}
+
+\begin{flushleft}
+and $N_j $ is the number of atoms of type $j $ per unit volume. For energies well away from any absorption edges, equation \ref{eq: delta} reduces to 
+\end{flushleft}
+
+\begin{equation}
+\delta = \frac{N e^2 \hbar^2}{2 \epsilon_0  E^2} = \frac{N e^2 \lambda^2}{8 \pi^2 \epsilon_0 m_e c^2}
+\label{eq: delta new}
+\end{equation}
+
+\begin{flushleft}
+where $N $ is the total number of electrons per unit volume. This equation \ref{eq: delta new}, is the same as that originality derived by Lorentz using classical ideas of absorption. In X-ray region, $\delta $ is small (typically $\sim 10^{-3} $) and positive, i.e., the refractive index for soft X rays is slightly less than unity. Tables of values for $f_1 $ and $f_2 $ have been published, and these were used to generate Figure 1, along with the experimentally observed variation of the absorption coefficient away from an absorption edge:
+\end{flushleft}
+
+\begin{equation}
+\beta \sim Z^2 \lambda^3
+\label{eq: new beta}
+\end{equation}
+
+
+\section{Total External Reflection}
+
+The propagation of X rays in matter may be described by the complex refractive index
+
+\begin{equation}
+\overline{n} = n - i \beta = 1 - \delta - i \beta
+\label{eq: n_bar new}
+\end{equation}
+
+\begin{flushleft}
+where $\delta $ is small and positive. Thus the real part of the refractive index is, unlike the case for visible light, less than one and so, if a normal refractive lens were to be usef for focusing, it would habe ti ve concave to give a real focus for an incident plane wave. For a plano-concave lens with central thickness $d $ (Figure 1.19)
+\end{flushleft}
+
+\begin{equation}
+	\frac{f}{\rho} = 1 + \frac{n}{\cos \phi - n \cos \phi^{'}}
+	\label{eq: f/rho}
+\end{equation}
+
+\begin{flushleft}
+where $f $ is the focal length, $\rho $ is the radius of curvature of the concave surface, and $\phi $ and $\phi^{'} $ are the anlges with respect to the normal to the concave surface as defined in Figure 2. For axial rays, this becomes
+\end{flushleft}
+
+\begin{equation}
+	\frac{f}{\rho} = 1 + \frac{n}{1 - n} = \frac{1}{\delta}
+	\label{eq: f/rho new}
+\end{equation}
+
+\begin{flushleft}
+The depth of focus of such a lens is given by
+\end{flushleft}
+
+\begin{equation}
+	\Delta f = \pm \frac{1}{2} \left( \frac{f}{r} \right)^2 \lambda
+	\label{eq: Delta f}	
+\end{equation}
+
+\begin{flushleft}
+where $r $ is the radius of the lens aperture and $\lambda $ is the illuminating wavelength. The maximum thickness of lens is, form Figure 2 ,
+\end{flushleft}
+
+\begin{equation}
+	t = \rho - ( \rho^2 - r^2)^{\frac{1}{2}} + d
+	\label{eq: t}
+\end{equation}
+
+\begin{flushleft}
+The closeness of the refractive index to unity, and the high absorption of soft X rays, means that lenses of the same sort of dimensions as those used for visible light would have impossibly long focal length ($\geq 10 m $),  very small depths of focus ($\sim $tens of micrometers), and they would absorb essentially all of the incident radiation. Thus this type of lens s impractical for X ray, as has been started by previous authors.
+
+However, optical components currently in use for X rays can have focusing effective of about $10\% $ and effective aperture radii of about $10-50 \mu m $. To match this this efficiency, a refractive lens should have a mean thickness such that about $10\% $ of the incident intensity is transmitted. Two possible lenses, for soft-X ray wavelength of about $3.5nm $, are shown in Table 1. These results show that such lenses may nor be unreasonable, although they have very large f-number and so very intense source would be needed to prevent long imaging times. Calculation for biconcave lenses give similar results. However, the exact focusing property of soft X-ray refractive lenses depend on a better knowledge than currently available for the optical constants, and to date no attempts have been made to manufacture them.
+\end{flushleft}
+The other conventional method of focusing at visible wavelengths is to use refractive optics. The reflected amplitude, $a $, at an interface between vacuum and a material is given by the Fresnel equation. For radiation polarized so that the electric vector is perpendicular to the plane of incidence (s polarization)
+
+\begin{equation}
+	a_{\perp} = \frac{\cos \phi - (\overline{n}^2 - \sin^2 \phi)^{\frac{1}{2}}}{\cos \phi + (\overline{n}^2 - \sin^2 \phi)^{\frac{1}{2}}}
+	\label{eq: a_perp}
+\end{equation}
+
+\begin{flushleft}
+where the angle of incidence $\phi $ is measured from the surface normal. In terms of the glancing angle, $\theta = 90 ^{\circ} - \phi$, this becomes
+\end{flushleft}
+
+\begin{equation}
+	a_{\perp} = \frac{\sin \theta - (\overline{n}^2 - \cos^2 \theta)^{\frac{1}{2}}}{\sin \theta + (\overline{n}^2 - \cos^2 \theta)^{\frac{1}{2}}}
+	\label{eq: a_perp new}
+\end{equation}
+
+\begin{flushleft}
+For parallel polarized radiation (p polarization)
+\end{flushleft}
+
+
+\begin{equation}
+	a_{\parallel} = \frac{\overline{n}^2 \sin \theta - (\overline{n}^2 - \cos^2 \theta)^{\frac{1}{2}}}{\overline{n}^2 \sin \theta + (\overline{n}^2 - \cos ^2 \theta)^{\frac{1}{2}}}
+	\label{eq: a_parall}
+\end{equation}
+
+\begin{flushleft}
+The reflectivity is given by
+\end{flushleft}
+
+\begin{equation}
+	R = \frac{I}{I_0}= aa^{*}
+	\label{eq: R}
+\end{equation}
+
+\begin{flushleft}
+where $I_0 $ is the incident intensity and $I $ is the reflected intensity. For radiation incident normally on a surface, $\theta = 90^{\circ} $ and equations \ref{eq: a_perp new} and \ref{eq: a_parall} both lead to the normal incident reflectivity
+\end{flushleft}
+
+\begin{equation}
+	R_n = \left( \frac{1 - \overline{n}}{1 + \overline{n}} \right)^2 = \frac{\delta^2 + \beta^2}{(2 - \delta)^2 + \beta^2}
+	\label{eq: Rn}
+\end{equation}
+
+\begin{flushleft}
+Using the values given in Table 1, and equation \ref{eq: alpha1}, gives, for a wavelength of $3.5 nm, R_n=3.3x10^{-6} $ for carbon and $R_n=4.6x10^{-5} $ for gold. Normal incidence reflectivity are very small for all material over soft X ray range, which means that conventional mirror used in this way are impracticable. 
+\end{flushleft}  
+
+\section{Enhancement of Reflectivity}
+
+\hspace{10mm} The reflectivities of surfaces for X rays wavelength may be increased by using grazing angle incidence. If, in equation \ref{eq: a_perp new} and \ref{eq: a_parall}, the glancing angle is such that
+
+\begin{equation}
+	(\overline{n}^2 - \cos^2 \theta)^{\frac{1}{2}} = 0
+	\label{eq: enhancement of R}
+\end{equation}
+
+\begin{flushleft}
+then the reflectivity is identically equal to unity. For a non absorbing medium ($\beta = 0 $), total reflection is obtained for glancing angles smaller than the critical angle $\theta_c $, where
+\end{flushleft}
+
+\begin{equation}
+	\cos \theta_c = n = 1 - \delta
+	\label{eq: cos thetac} 
+\end{equation}
+
+\begin{flushleft}
+For real media, the reflectivity  approaches unity as $\theta \rightarrow 0 $. If $\beta << \delta $ a sharp increase in reflectivity is obtained as $\theta $ fall below $\theta_c $; for $\beta \sim \delta $, a more graduate transition occurs. For $\theta < \theta_c $ no wave can propagate in the mirror material and the incident energy is reflected ("total external reflection"). Calculated grazing incidence reflectivity (for s polarization) are shown for beryllium, carbon, and gold at $\lambda = 3.5 nm$ in Figure 1. The p-polarization reflectivity not significantly different. A major problem with grazing incidence optics is their severe aberration, especially astigmatism that can be .
+\end{flushleft}

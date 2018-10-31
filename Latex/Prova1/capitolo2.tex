@@ -1,0 +1,119 @@
+\chapter{Mirrors for X-rays}
+\label{capitolo2}
+\thispagestyle{empty}
+
+\begin{quotation}
+{\footnotesize
+\noindent{\emph{``Terence: Tu lo reggi il whisky? \\
+Bud: Beh, i primi due galloni si, al terzo divento nostalgico e ci pu\`o scappare la lite... E tu lo reggi? \\
+Terence: Eh, che domande, io sono stato allattato a whisky!''
+} }
+\begin{flushright}
+I due superpiedi quasi piatti
+\end{flushright}
+}
+\end{quotation}
+\vspace{0.5cm}
+
+\noindent A spherical surface is defined by only one parameter, the radius of curvature of the surface. A spherical surface has the property that the rate of change of the surface slope is exactly the same everywhere on the surface, and thus the aberration is inevitable. This shape bring an intrinsic aberration ("spherical aberration").
+If a beam having rays parallel to the optical axis, with a big aperture,  hits a concave mirror, as shown in Figure 3, the rays will not focus in the same point "focus", but they converge at the circumference of a circle. So, the image, is not any more a single point but a spot, beams at different position have different focal points. Consider ray AB parallel to the optical axis at a distance d from it
+\\
+\noindent After the reflection of the mirror AB intercept the optical axis at the point $F^{'} $ from the origin O. The relation between $F^{'} $, the radius of the mirror R and the distance d is
+
+\begin{equation}
+	\frac{f{'}}{R}=1 - \frac{1}{2 \sqrt{1 - \left(\frac{d}{R} \right)^2}}
+	\label{eq: f/R}
+\end{equation}
+
+\noindent Equation \ref{eq: F/R} can be obtained by Figure 4. $BF^{'} $ is the reflected ray of the non-paraxial ray AB, $F^{'} $ is the intersection point with the optical axis. Because the law of reflection
+
+\begin{equation}
+	\alpha = \beta  \Rightarrow \alpha=\gamma
+	\label{eq: alpha=beta}
+\end{equation}
+
+\noindent Therefore $F{'}BC $ is isosceles and $F^{'}D $ is both median and height, thus
+
+\begin{equation}
+	DC = \frac{R}{2}
+	\label{eq: DC}
+\end{equation}
+
+\noindent From the right-angle triangle $F^{'}DC $ we obtain
+
+\begin{equation}
+	\cos \gamma = \frac{R}{2F^{'}C} \Rightarrow F^{'}C = \frac{R}{2 \cos \alpha} = \frac{R}{2 \sqrt{1 - \sin^2 \alpha}}
+	\label{eq: F'C}
+\end{equation}
+
+\noindent From the right-angle triangle $CGB $
+
+\begin{equation}
+	\sin \alpha = \frac{d}{R}
+	\label{eq: sin a}
+\end{equation}
+
+\noindent The last two equation combined with 
+
+\begin{equation}
+	OF^{'} = OC - F^{'}C \Rightarrow f^{'} = R - F^{'}
+	\label{eq: f'}
+\end{equation}
+
+\noindent When $\frac{d}{R} \rightarrow 0 $ then $\frac{f^{'}}{R} = \frac{1}{2} $, therefore
+
+ \begin{equation}
+ 	f^{'} = \frac{R}{2}
+ 	\label{eq: f' new}
+ \end{equation}
+ 
+ \noindent and the mirror is ideal
+ \\
+If the slope in not any more constant all over the mirror but become flatten in the region surrounding the outer rays, it is possible to focus all the rays in the same point. While correction of spherical aberration is not the only application of aspherical surfaces, it is one of the major application areas. On the contrary from spherical surface, aspherical surfaces cannot be defined with only one curvature, this kind of aspherical surfaces are usually defined by an analytical formula. There exist different kind of aspherical surface with different properties, if there is not the rotational symmetry it is possible to have either a $biconic $ surface with two basic curvature and two conic constant in two orthogonal direction or as an $ anarmorphic asphere $, which has additional higher-order terms in two orthogonal directions.
+\noindent Another form of aspheric surface is a $toroidal $ or $toric$.  This shape is a surface of revolution with a hole in the middle, like a doughnut, forming a solid body. This shape is caraterized by two radii, the overall outer radius and the smaller cross-sectional radius. The good point of this geometry is the minimization of astigmatism that make it possible to focus on a small spot, differently form the spherical ones.
+
+\section{Conic Surfaces}
+
+A special kind of aspherical surfaces is those named $"conic surfaces"$ that can be defined as
+
+\begin{equation}
+	z = \frac{c r^2}{1 + \sqrt{1 - (1 + k)} c^2 r^2}
+\end{equation}
+
+\noindent where $c $ is the base curvature at the vertex, $k $ is a conic constant, and $r $ is the radial coordinate of the point on the surface. In Table \ref{tab: conic surface} it is shown how the different shape are obtained changing the conic constant $k $
+
+\begin{table}[ht]
+	\centering
+		\begin{tabular}{l|r}
+			Conic Constant k & Surface Type\\
+			\hline
+			0 & Sphere \\
+			$k < -1 $ & Hyperboloid \\
+			$k = -1 $ & Paraboloid \\
+			$-1 < k < -0 $ & Ellipsoid \\
+			$k > 0 $ & Oblate Ellipsoid \\	
+		\end{tabular}
+	\caption{Parameter of different conic surfaces}
+	\label{tab: conic surface}
+\end{table}
+
+\noindent A good point that have the conical surfaces are the no-presence of spherical aberration. If the object is at the center pf curvature of the surface there are no aberration. Considering an ellipsoid, it is possible to form aberration-free-image for a pair of real image, similar to a hyperboloid mirror. For parabolic mirror there is only one point that make a perfect image of a point for an axial object at infinity. This parabolic behaviour is the main point that make those mirror widely used in astronomical optics. Moving axially the object from the free-aberration point induce a certain amount of spherical aberration: If the movement is laterally, different type of aberration are induced such as: coma, astigmatism.
+
+\section{Compound Optical system}
+A further step to obtain a better image is that to use a more than one mirror in order to have o perfect image at the focus. The system that whose invented which respect the sine-Abbe-conidtion are the wolter system that are widely used in astronomy, using combinations of coaxial and confocal conic section.A first approximation system that respect the sine Abbe condition are the Kirkpatrick-Baez system and Montel or nested-Kirkpatrik-Baez system, those compound optical system involves reflector whose meridian planes are at right angle (crossed).
+
+\subsection{Sine Abbe condition}
+
+\subsection{Wolter System}
+
+\hspace{10mm} In 1952 Wolter published a paper in which he discussed several disposition of two conical mirror in order to collect light for an astronoical use. Figure show the different disposition discussed: Wolter $\mathrm{I} $, Wolter $\mathrm{II} $, Wolter $\mathrm{III} $.
+\noindent Wolter $\mathrm{I} $ telescope consist of a coaxialparaboloid (primary mirror) and hyperboloid (secondary mirror). The focus of the paraboloid is coincident with the rear focus of the hyperboloid, and the reflection inside both mirrors. The Wolter $\mathrm{II} $ telescope use the same kind of mirror of Wolter $\mathrm{I} $ paraboloid and hyperboloid. But the focus of the paraboloid coincident with the front focus of the hyperboloid, and, the reflection, occurs internally for the paraboloid and externally for the hyperboloid. The Wolter $\mathrm{III} $ telescope consist in a paraboloid and an ellipse. In this system the first mirror is the paraboloid one, and the second is the ellipsoidal that have front focus coincident with that of the parabola, moreover the reflection is external for the paraboloid and internal for the ellipsoidal.
+\noindent The Wolter $\mathrm{I} $ have typical grazing angle of less than a degree and is used for hard X-rays. The Wolter $\mathrm{II} $ telescope has typical grazing angle of, approximate, 10 degree and is used for soft X rays and extreme ultraviolet (EUV).
+\noindent Because of circular symmetry, astigmatism and spherical aberration are eliminated but  exhibit coma aberration. Other problem is the difficulty of fabrication , and require a huge area to achieve a very small collecting angle.
+
+\subsection{Kirkpatrick-Baez System}
+
+\hspace{10mm} This kind of optics are used in the ESRF and consist, as shown in Figure, in two separated cylindrical surface conical mirror that focus the incident beam in both saggital and transverse thus astigmatism is removed. Although such system introduce another type of distortion, anamorphotism. Because of the different distance of the image plane with respect to the mirrors the magnification is different in the two direction.  Another technical problem that face with system is the big volume that occurs to implement it.
+\noindent To overcome those two problem and obtain a system that conjugate the good behaviour of the KB system with an equal magnification of the two direction and compact system, it is possible to implement a system as it is showed in Figure, a system in which both mirrors are at the same distance from the object. This sort of arrangement is extremely difficult to manufacture and, consequently, very expensive.
+\noindent Despite these problem K-B system are very used in ESRF and in European synchrotron, on the contrary, in American synchrotron another type of optical system, named "Montel", is used that will be discussed in the next section.
+

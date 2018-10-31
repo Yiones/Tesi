@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0098)https://s0.2mdn.net/6337903/1538144149783/BAU_October-HTML-RowloIntoBlackYarn-2_160x600/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="ad.size" content="width=160,height=600">
+
+	<!-- css -->
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+	</style>
+
+	<script>var clickTag = ""; </script>
+
+	<!-- greensock -->
+	<script type="text/javascript" src="./tweenmax_1.20.0_d360d9a082ccc13b1a1a9b153f86b378_min.js.download"></script>
+
+	<!-- bannerboy -->
+	<script type="text/javascript" src="./bannerboy.min.js.download"></script>
+
+	<!-- main -->
+	<script type="text/javascript" src="./banner.js.download"></script>
+
+<script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script></head>
+<body onload="bannerboy.main();">
+<div id="banner" style="cursor: pointer; overflow: hidden; background-color: rgb(255, 255, 255); height: 600px; width: 160px; perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px);"><div style="height: 626px; width: 198px; top: -14px; left: -19px; perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px);"><div style="height: 626px; width: 198px; perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px) scale(1.00313, 1.00313);"><div style="height: 605px; width: 198px; perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px);"><div style="background-size: contain; background-repeat: no-repeat; height: 605px; width: 198px; background-image: url(&quot;https://s0.2mdn.net/6337903/1538144149783/BAU_October-HTML-RowloIntoBlackYarn-2_160x600/bg_0.jpg&quot;); perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px;"></div></div><div style="height: 374px; width: 106px; top: 252px; left: 93px; perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px);"><div style="background-size: contain; background-repeat: no-repeat; height: 374px; width: 106px; background-image: url(&quot;https://s0.2mdn.net/6337903/1538144149783/BAU_October-HTML-RowloIntoBlackYarn-2_160x600/bg_1.png&quot;); perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px;"></div></div></div><div style="height: 557px; width: 198px; top: 70px; perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px) scale(1.00625, 1.00625);"><div style="height: 557px; width: 198px; perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px);"><div style="background-size: contain; background-repeat: no-repeat; height: 557px; width: 198px; background-image: url(&quot;https://s0.2mdn.net/6337903/1538144149783/BAU_October-HTML-RowloIntoBlackYarn-2_160x600/person.png&quot;); perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px); transform-origin: 30% 50% 0px;"></div></div></div></div><div style="height: 39px; width: 109px; top: 36px; left: 26px; perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px) scale(0.99375, 0.99375);"><div style="background-size: contain; background-repeat: no-repeat; height: 39px; width: 109px; background-image: url(&quot;https://s0.2mdn.net/6337903/1538144149783/BAU_October-HTML-RowloIntoBlackYarn-2_160x600/logo.png&quot;); perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px); opacity: 1;"></div></div><div id="banner_cover" style="height: 600px; width: 160px; background-color: rgb(255, 255, 255); perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px); visibility: hidden; opacity: 0;"></div><div id="border" style="box-sizing: border-box; border: 1px solid rgb(221, 221, 221); height: 600px; width: 160px; perspective: 1000px; position: absolute; transform: translate3d(0px, 0px, 0px);"></div></div></body></html>
