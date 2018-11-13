@@ -21,36 +21,26 @@
 \contentsline {subsection}{\numberline {2.2.1}Sine Abbe condition}{15}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Wolter System}{15}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Kirkpatrick-Baez System}{16}{subsection.2.2.3}
-\contentsline {chapter}{\numberline {3}Montel System}{17}{chapter.3}
-\contentsline {subsection}{\numberline {3.0.1}Optical Design}{17}{subsection.3.0.1}
-\contentsline {chapter}{\numberline {4}Mt script}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Source}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Optical Elements}{19}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Mirrors}{20}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Lens}{20}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Tracing System}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}Compound Optical Element}{21}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}KirkPatrickBaez System}{21}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Montel System}{22}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Tracing system for compound optical elements}{22}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Tracing for KB}{22}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Tracing for Montel}{23}{subsection.4.5.2}
-\contentsline {chapter}{\numberline {5}Results}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}Testing with OASYS}{25}{section.5.1}
-\contentsline {section}{\numberline {5.2}Testing with the paper}{25}{section.5.2}
-\contentsline {section}{\numberline {5.3}Analysis of Montel system}{27}{section.5.3}
-\contentsline {section}{\numberline {5.4}Alignment}{27}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Orthogonality}{28}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Incidence angle}{29}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}point of incidence}{29}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}Prove Sperimentali}{31}{chapter.6}
-\contentsline {section}{\numberline {6.1}Sezione}{31}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Subsection}{31}{subsection.6.1.1}
-\contentsline {chapter}{\numberline {7}Analisi Numeriche}{35}{chapter.7}
-\contentsline {section}{\numberline {7.1}Vettori}{36}{section.7.1}
-\contentsline {chapter}{Conclusioni}{37}{section*.36}
-\contentsline {chapter}{\numberline {A}Primo Capitolo d'Appendice}{39}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Codici in Linea}{39}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Codici in Display e Codici Mobili}{39}{section.Alph1.2}
-\contentsline {chapter}{\numberline {B}Secondo Capitolo d'Appendice}{43}{appendix.Alph2}
-\contentsline {chapter}{Acronimi}{45}{appendix*.40}
+\contentsline {section}{\numberline {2.3}Montel}{16}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Optical Design}{16}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}MONWES}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Beam}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Optical Elements}{23}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Mirrors and lens}{23}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Compound Optical Element (KB and Montel system)}{27}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Tracing System}{29}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Tracing for simple Optical element}{30}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Tracing for KB}{31}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Tracing for Montel}{31}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}Results}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}Testing}{35}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Testing with OASYS}{35}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Testing with the paper}{35}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Analysis of Montel system}{36}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Alignment}{40}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Alignment: Orthogonality}{40}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Alignment: Incidence angle}{40}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Alignment: point of incidence}{40}{subsection.4.2.4}
+\contentsline {chapter}{\numberline {A}Primo Capitolo d'Appendice}{47}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Secondo Capitolo d'Appendice}{51}{appendix.Alph2}
+\contentsline {chapter}{Acronimi}{53}{appendix*.59}

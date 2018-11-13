@@ -9,18 +9,37 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of Beam definition\relax }}{20}{figure.caption.27}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Example 1\relax }}{20}{figure.caption.28}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example 2\relax }}{21}{figure.caption.29}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Example 3\relax }}{21}{figure.caption.30}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Resume of the Beam object parameter\relax }}{22}{figure.caption.31}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Parabola\relax }}{24}{figure.caption.32}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces System\relax }}{25}{figure.caption.33}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Ellipse System\relax }}{26}{figure.caption.34}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Hyperbola System\relax }}{26}{figure.caption.35}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces System\relax }}{27}{figure.caption.36}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces System\relax }}{28}{figure.caption.37}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Example 5\relax }}{28}{figure.caption.38}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces System\relax }}{29}{figure.caption.39}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Example 6\relax }}{29}{figure.caption.40}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces System\relax }}{30}{figure.caption.41}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Example 7\relax }}{30}{figure.caption.42}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Example 1\relax }}{31}{figure.caption.43}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Example 8\relax }}{31}{figure.caption.44}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Example 8\relax }}{33}{figure.caption.45}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Illustration of the Montel system used as a collimator in the paper \cite {resta2015nested}\relax }}{26}{figure.caption.27}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{26}{figure.caption.28}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Results of my Montel simulation of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{27}{figure.caption.29}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Nessuna immagine\dots Sorry.\relax }}{28}{figure.caption.30}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Nessuna immagine\dots Sorry.\relax }}{28}{figure.caption.31}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Different path for simulate the non-centred beam\relax }}{29}{figure.caption.32}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{30}{figure.caption.33}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Esempio di grafici}}{32}{figure.caption.34}
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of the Montel system used as a collimator in the paper \cite {resta2015nested}\relax }}{36}{figure.caption.46}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Results of the Montel simulations with a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{37}{figure.caption.47}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ideal system\relax }}{38}{figure.caption.48}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Footprint, on the xy-mirror (\ref {fig: footprint_oe1}) and on zy-mirror (\ref {fig: footprint_oe2}). The red dots are those rays that hit before xy-mirror and after zy-mirror, the blue ones hit first xy-mirror and after zy-mirror.\relax }}{39}{figure.caption.49}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Illumination at the image plane of the different Beam (red dots correspond to np-reflected rays, blue dot to one-reflected rays, green dots to two-reflected rays).\relax }}{39}{figure.caption.50}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Histogram of x' after Montel\relax }}{41}{figure.caption.51}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces FWHM of x' after the Montel changing the orthogonality\relax }}{42}{figure.caption.52}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Incidence angle\relax }}{42}{figure.caption.53}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Different path for simulate the non-centred beam\relax }}{43}{figure.caption.54}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{44}{figure.caption.55}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{45}{figure.caption.56}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,109 +1,262 @@
-\chapter{Mt script}
+\chapter{Results}
 \label{capitolo4}
-\thispagestyle{empty}
+
 
 \begin{quotation}
 {\footnotesize
-\noindent \emph{``Bud: No, calma, calma, stiamo calmi, noi siamo su un'isola deserta, e per il momento non t'ammazzo perch\'e mi potresti servire come cibo ...''}
+\noindent \emph{``Terence: Ma scusa di che ti preoccupi, i piedipiatti hanno altro a cui pensare, in questo momento stanno cercando due cadaveri scomparsi \\
+Bud: Se non spegni quella sirena uno di quei due cadaveri scomparsi lo trovano di sicuro!''}
 \begin{flushright}
-Chi trova un amico trova un tesoro
+Nati con la camicia
 \end{flushright}
 }
 \end{quotation}
 \vspace{0.5cm}
 
-My thesis' work is the creation of a python script that simulate a ray-tracing of a beam. This tracing take in account the effect of different type of optical elements that that can find the beam in its way. To implement this ray-tracing it have to define three elements:
-\\ - source
-\\ - optical elements
-\\ - tracing system
-
-\vspace{0.5cm}
-
-\section{Source}
-The beam source is characterized by two parameters: spot dimension divergence. For the geometry dimension is possible to choose between a spot of uniform ray in a rectangular or circular shape or a gaussian profile with a parameters setted by the users (radius for the circular case, two sides for rectangular shape and FWHM for Gaussian profile), there is the possibility to choose a point-wise shape for the source. Also the divergence profile have different possibilities, there is the Gaussian profile, with FWHM as parameter, rectangular flat divergence, with two side as parameters, and a collimate one. for the setting parameter of the source shape there are no limitation, but for the divergence parameters, because of the normalization of the velocity, be careful on the parameter's values.
-Figure 1 shows an example of circular shape for the source beam, and Figure 2 shows a gaussian profile. It is choose a red marker for the plot of the real space, and blue marker for the plot of the divergence.
-
-\section{Optical Elements}
-There are implemented two kind of optical elements in the script: lens and mirror. Because, as discussed in Chapter 1, mirrors are the principal elements used in synchrotron, more attention is focused on them, on the contrary , for testing uses, only one kind of lens, an ideal lens, is implemented. 
-\subsection{Mirrors}
-It is possible to choose a mirror that have shape of: plane, sphere, ellipse, parabola and hyperbola. All this mirror to have a conical shape in two dimension, or a conical shape in one dimension and cylindrical in the other, moreover is possible to set a dimension of the mirrors that, in the default case, are setted as infinite mirrors. The mirrors are expressed in a Cartesian defined as surface conical equation with a characteristic focal parameter depending on their nature, for plane mirror no parameter are needed, for spherical mirror only one focal distance is needed, for parabolic mirror is needed one focal distance plus a term that define the nature of the mirror and, for ellipsoidal and hyperbolic mirror, two focal distance are needed, moreover, apart for the plane mirror, also the incidence angle is needed to determine the shape of the mirror. The surface conical equation is determined such that the origin of the cartesian system correspond to the point where the optical axis hit the mirror and the normal correspond to the z-axis. To understand better the situation look at Figure 2, that report an ellipsoidal mirror characterised by two focal distance equal to p and q, and an angle of incidence equal to $\theta $, and also, it is possible to see the dimension of the mirror.
+\section{Testing}
+To demonstrate the correct behaviour of the program there are done a comparison  with respect to the OASYS software for ray tracing simulation, developed by Manuel Sanchez Del Rio, and with respect to the  paper \cite{resta2015nested}. The comparison with OASYS check the correct working of all the component apart from Montel system (mirrors, lens, KB ...), on the contrary, the paper is dedicate for the Montel simulation, because this particular kind of optical system, is not implemented on OASYS.
+%
+\subsection{Testing with OASYS}
+%
+\subsection{Testing with the paper} 
+In Figure \ref{fig: PaperMontelSystem} is depicted the Montel system used in the simulation done by the paper in its system of reference. The aim of this system is to collimate a Beam using a Montel with two parabolic mirrors. The source used have a Gaussian dimension with a FWHM of 2.5$\mu $m and a Gaussian divergence of 5$mrad $. The distances, between the source/image plane and the center of the Montel are, respectively,  $\simeq $ 0.26m and 10.06m, moreover, the incidence angle of the Beam is $\theta_g \simeq 2.86^{\circ} $.
+%
+\begin{figure}[]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Immagini/Chapter4/PaperMontelSystem}
+		\caption{Illustration of the Montel system used as a collimator in the paper \cite{resta2015nested}}
+		\label{fig: PaperMontelSystem}
+\end{figure}
+%
+The result, at the image plane, of the beam size and beam divergence, after the double-reflection of the Montel system, is showed in Figure \ref{fig: My Simulation Comparison}. Where, in Figure \ref{fig: PaperImageShape}, is showed the figure of the beam at the image plane, and, in Figure \ref{fig: PaperImageDivergence}, is showed the divergence. The quantitative values reported on the paper correspond to a Gaussian-like distribution with a spacial FWHM of $\sim $0.7mm, for the spot size, and a FWHM of the Gaussian divergence $\sim $ 0.01 mrad.
 \\
-FIGURE
+Repeating the simulation with my program using the parameter defined in  in the paper \cite{resta2015nested}, are figured out in Figure \ref{fig: My Simulation Comparison}. As it is showed in the Figure \ref{fig: My Simulation Comparison} there are a qualitative good agreement with the two simulation .Also, under a quantitative point of view, there is a good agreement in fact, in my simulation are obtained a value of $\sim $1mm of FWHM of image size, pretty similar to the one of the other simulation, and $\sim $0.01 mrad FWHM of divergence that is equal to the one obtained with the other simulation.
+%
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][Beam image shape of the paper\label{fig: PaperImageShape}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/PaperSpotMontel}}
+%
+\subfloat[][Beam image shape of the simulation\label{fig: Image dimension}]
+   {\includegraphics[width=.48\textwidth]{Immagini/Chapter4/ImageDimension}}\quad
+%
+\subfloat[][Beam image divergence of the paper\label{fig: PaperImageDivergence}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/PaperDivergenceMontel}}
+%
+\subfloat[][Beam image divergence of the simulation\label{fig: Divergence dimension}]
+   {\includegraphics[width=.48\textwidth]{Immagini/Chapter4/DivergenceDimension}}
+%
+\caption{Results of  the Montel simulations with a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $}
+%
+\label{fig: My Simulation Comparison}
+%
+\end{figure}
+%
+\section{Analysis of Montel system}
+In this section it is done, using the Montel tools devolopped, a study of the Montel effect with respect to a Beam, simulating different situation. The first point, to understand that Montel work well, it is simulated the behaviour of a pointwise source with a certain divergence, using a collimating system, and watching what happen to the beam. The  second step is to simulate a collimating beam with a certain source shape geometry and figure out the image plot obtained by a focalizing system in its image plane. What is expected is a point, in the velocity space for the first situation and in the real space for the second simulation, because this is the behaviour of an ideal collimating/focalizing system. For the simulation are used parabolical Montel and an incidence angle of 2$^{\circ} $ (the choice of the angle is arbitrary, that of the paraboic system is because is needed to collimate a beam, also for elliptical system is possible to tcollimate a beam using one focal distance very big).
 \\
-In the appendix A is reported the calculation of the changing from system solidal with the mirrors.
-\subsection{Lens}
-As said before the only lens defined is an ideal lens that bring the entrance beam and, following the typical equation \ref{eq: lens equation} of a lens, do the correct transformation
-
-\begin{equation}
-		\frac{1}{f} = \frac{1}{p} + \frac{1}{q}
-		\label{eq: lens equation}
-\end{equation}
-
-\noindent As reported in equation \ref{eq: lens equation}, the parameter needed to characterize the lens is $f $, in the 3D system, a lens is defined by two parameter $f_x $ and $f_z $, that define the focal distance for the two direction and, those parameter, are the parameter that the users have to define in order to use the ideal lens in the program.
-
-\section{Tracing System}
-Defined the source and the different optical element, to have a simulation, is needed a tool that put everything together and modify the property of the beam after the interaction with the optical elements.
-\\
-Before to trace the system is important to define the system, in other word is important to locate the position of the optical elements. The program is written in such a way that the tracing system work in series one optical element after the other, and, for every element, it have to define the object plane distance and the image plane distance, that can be different from the focal distance which are defined as default. For example, if we want to simulate a system such that reported in figure 3, we have to define firstly the mirror and after there are different possibilities to define the tracing distance, one possibilities is that.
-\\Figure
-Going deeper in the code, the algorithm that trace a single element is divided in 5 step
-\begin{enumerate}
-	\item change the reference system with that soldal with the optical element after two rotation, one along x-axis, and second along y-axis, and a translation equal to the object distance of the optical element
-	\item free propagation up to the optical element
-	\item effect of the optical element
-	\item free propagation to the image plane
-	\item changing the Cartesian system in that one that have the optical axis equal to the y-axis
-\end{enumerate}
-
-
-FIGURE
-\\
-
-\section{Compound Optical Element}
-
-This program include also two different system composed by more mirrors. Starting from more surface conical mirror, combining them, is possible to have a compound optical elements that can simulate the behaviour of some typical instrumentation that characterize the facilities, in particular the synchrotron environment. The compound optical include are two of those mentioned in Chapter 2
+In Figure \ref{fig: ideal} are reported the result for the ideal collimating/focalizing cases.
+For the collimation system is used a point wise source with a Gaussian divergence of FWHM of 25$\mu $m, \ref{fig: coll.Source}, to the image plane. As it is showed there is a collimation, but not perfect, this effect is one limit of the Montel because the perpendicular geometry is not the ideal one. Moreover, for the focalizing system, it is used a circular source spot having a radius of 1mm, \ref{fig: foc.Source}, with a collimated beam, that show, at the image plane \ref{fig: focalizingImage}, a similar behaviour as for the collimation case, for the same reason.
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][Source divergence\label{fig: coll.Source}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/CollimationSource}}
+%
+\subfloat[][Image divergence\label{fig: CollimationImage}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/CollimationImage}}\quad
+%
+\subfloat[][Source divergence\label{fig: foc.Source}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/FocalizingSource}}
+%
+\subfloat[][Image divergence\label{fig: focalizingImage}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/FocalizingImage}}
+%
+\caption{Ideal system}
+%
+\label{fig: ideal}
+%
+\end{figure}
+%
+Another interested point to show is the footprint on the two mirror that are represented in Figure \ref{fig: footprint}. It is possible to note that the area hitted by the beam have a greater component on the y direction (due to the grazing incidence), than in the other direction. In this particular case the x-lenght of the xy-mirror, and the z-lenght of the zy-mirror, is very small (at the order of 20$\mu $m) with respect to the y-lenght that is $\sim $20mm. These calculatione are done for a very small Gaussian spot with a FWHM of 1$\mu $m and a narrow divergence of FWHM equal to 25$\mu $rad.
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][Footprint on oe1\label{fig: footprint_oe1}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/footprint_oe1}}
+%
+\subfloat[][Footprint on oe2\label{fig: footprint_oe2}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/footprint_oe2}}\quad
+%
+\caption{Footprint, on the xy-mirror (\ref{fig: footprint_oe1}) and on zy-mirror (\ref{fig: footprint_oe2}). The red dots are those rays that hit before xy-mirror and after zy-mirror, the blue ones hit first xy-mirror and after zy-mirror.}
+%
+\label{fig: footprint}
+%
+\end{figure}
+Up to know the dimension of the Montel were not considered, the Montel is setted to have infinite dimension in all the direction. This approach hold in the case of a small source and a narrow profile divergence, otherwise, for example of an isotropic souce that can be modelled with a very big divergence the situation change. In this section, it is used a Beam source with a square shape with a side of 1mm, with a Gaussian profile divergence of FWHM=1mrad in order to show what happen to the Montel  where it is covered over all its surface. The focalizing parabolic Montel parameter are:
 \begin{itemize}
-\item KirkPatrickBaez system (KB system)
-\item Montel
+\item object  distance: 1m
+\item image distance: 3m
+\item incidence angle: $2^{\circ} $
+\item length of the Monte: 0.1m
+\item width of the Montel: 20cm
 \end{itemize}
-
-\subsection{KirkPatrickBaez System}
-KirkPatrickBaez or, more simply, KB system are shown in Figure 2 are two cylindrical surfacing conic mirror placed one after the other with the two focal lens that converge in the same point. There are implemented two different kind of KB system, a one composed by elliptical mirrors and a second one composed by parabolic mirrors. The parameter parameter that needed to the program that define the system are two focal distances and the two incidence angle that define the two surface conic, in the default mode the two angle are identical.
+%
+\begin{figure}[]
+%
+\centering
+%
+\includegraphics[width=.6\textwidth]{Immagini/Chapter4/BigSourceMontel}
+%
+\caption{Illumination at the image plane of the different Beam (red dots correspond to np-reflected rays, blue dot to one-reflected rays, green dots to two-reflected rays).}
+%
+\label{fig:BigSourceMontel}
+%
+\end{figure}
+%
+Figure \ref{fig:BigSourceMontel}, show thee image plane of the Montel defined above. This plot show 4 figure, the biggest one, reppresented by the red dots, correspond to the rays that reach the image plane without touch the Montel, the rays coloured in blue, are those which are subject to only one reflection that are positioned in different part of the image plane depending which mirror meet, those that hit the xy-mirror correspond to the beam elongated along z, the zy-mirror correspond to the beam elongate along x. At the end, the green dots, are the rays that do both reflection and are centred to the center of the image plane by definition of it. 
+\subsection{Alignment}
+Alignment of a beam is important for experimental use so, this section studies the behaviour of a beam when the beam is not perfectly align, in order to understand the behaviour of the beam in the different cases and act consequently. 
 \\
-FIGURE
-\\
-Because this system is simply a system composed by two surface conical mirror in series the parameter that the system need to define the mirror are no the ones defined by the user but are the focal distance of the two mirrors that are, as shown in Figure, p1, q1, p2, q2. The parameter p and q are, respectively, the distance of the first focal point to the center of the system, and the distance between the center of the system to the second focal point. This system can do two different thing, the first one is to focalize a beam in a point, the second one is to collimate a beam, obviously this work if the system is defined with the correct parameters.
-\subsection{Montel System}
-FIGURE
-\\
-This compound optical system is defined, as defined for KB, from the definition of two cylindrical conical surface rotating, one of them, of 90$^\circ $, in order to have a mirror in the xy plane, and another one in the zy plane. As shown in Figure 2 the center of the Cartesian system is setted in the point where the  optical axis of the system hit the compound system having the normal of the first normal equal to the z-axis, and the second normal equal to the -x-axis. The system is defined by the following parameter p, q, $\theta_z $, $\theta_x $, where p and q are the focal distance of the two mirrors and $\theta_z $ and $\theta_x $ are the angle of incidence to define the correct mirrors  (by default $\theta_z = \theta_x $).
-\\
-Another parameter that can be setted to this system is the value of the angle that there is between the first optical element and the second one. As for the KB system also in this case there are the two cases, an ellipsoidal system (having the two mirror as ellipsoid), and parabolic system (having the two mirror as ellipsoid). The aim of the Montel, as for the KB, is that to work on the two dimension of the beam for each mirror, such that to localize the system on the same point, or collimate the beam in the two direction.
-
-\section{Tracing system for compound optical elements}
-Because of the different definition, the tracing method of the rays' beam, need a different interpreter that can link the beam with the different optical elements that meet on his way. Because of the different nature, there are implemented two kind of tracing, a first one that trace the KB system, that is composed by a series of optical elements and so can be used for all the compound optical elements that are in series. And a second one that is specific for the Montel system, because it is not composed by mirrors in series rather than mirrors in parallel, having the two elements in a very small region of the space that have in which order the rays of the beam hit the different mirrors.
-\subsection{Tracing for KB}
-For KB system the situation is more or less the same as for a simple optical mirrors, with the only difference that there are more than one mirror. So the algoritm to simulate the tracing system is nothing else than a for loop, that use the tracing system of the simple optical element. In this case is needed the object and the image distance from the center of the system, as for the optical element tracing, that are set by default as the focal distances, and the incidence angle of the two mirror, that, by default, are the ones in which the mirrors are designed. As shown in Figure, having the object and image distances, and using the trace elements defined for one mirror, there is one degree of freedom, that is the 
-\\
-Figure (sistemare bene questa parte qui)
-\subsection{Tracing for Montel}
-Montel system is completely different from the KB system and all the series optical system, so it need a new trace system. This new trace system is divided as follow
+The parameter that are changed are :
 \begin{enumerate}
-	\item Changing the reference frame in one having the center on the center of the mirrors, with a z-axis corresponding to the normal of one mirror and -x-axis equal to the normal of the second mirror. This transformation is done in a similar way of the normal tracing, two rotation of the beam, and one translation, differently from the normal tracing, the tw rotation are done such that the beam hit the mirrors with an incidence angle set by the user
-	\item Focus the attention on the travel time of each ray in order to know which is the nearest optical element of each ray
-	\item free propagation of each ray up to the nearest optical element
-	\item effect of the system for each ray
-	\item repeat the 2$^{nd} $, 3$^{rd} $ and 4$^{th} $ passage two times, in order to consider the two reflection
-	\item Change the reference system solidale with the beam that is subject to two reflection, doing two rotation and one translation
-\end{enumerate}  
+	\item orthogonality
+	\item incidence angle
+	\item point of incidence
+\end{enumerate}
+Using a focusing parabolic Montel system with a source of square shape having a side of 1$\mu $m, and a Gaussian divergence with FWHM of 25$\mu $m
 
-\noindent What is reported above is the default tracing system that, because of its centrality on my thesis' work have many option. What is setted by the user is 
+\subsection{Alignment: Orthogonality}
+In this section is it done an orthogonality studies of the Montel system, it is studied the behaviour of a beam, using a source parameter defined before. Figure \ref{fig:HistogramFitted} presents the interesting histogram versus the horizontal angle $x^{'} $ when the angle between the mirrors change ($\alpha = 90^{\circ} + \Delta $). It can be noted a improvement of the collimation of the beam changing the angle in the case of closer mirrors ($\Delta = -0.004^{\circ} $).
+\\
+Figure show the trend of the FWHM of the $x^{'} $ changing the angle $\Delta $, it is possible to note a minimum for negative angle (this  situation correspond to the indigo line) after that the situation become worse. Moreover, the behaviour of the FWHM is not symmetric with respect to $0^{\circ} $, in case of negative angle deviation the situation improve for small range of deviation angle, after that, the trend get worse, on the opposite way, the situation get worse increasing the positive deviation angle. 
+%
+%\begin{figure}[]
+%
+%\centering
+%
+%\includegraphics[width=.6\textwidth]{Immagini/Chapter4/HistogramFitted}
+%
+%\caption{x' values after the Montel system}
+%
+%\label{fig:HistogramFitted}
+%
+%\end{figure}
+%%%%%%%%%%%%%%%%
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][Real histogram\label{fig:HistogramFitted2}]
+   {\includegraphics[width=0.6\textwidth]{Immagini/Chapter4/Histogram}}\quad
+%
+\subfloat[][Fitted Histogram\label{fig:HistogramFitted}]
+   {\includegraphics[width=.6\textwidth]{Immagini/Chapter4/HistogramFitted}}
+%
+\caption{Histogram of x' after Montel}
+%
+\label{fig: incidence angle}
+%
+\end{figure}
+%%%%%
+\begin{figure}
+%
+\centering
+%
+\includegraphics[width=.6\textwidth]{Immagini/Chapter4/FWHMChangingOrt}
+%
+\caption{FWHM of x' after the Montel changing the orthogonality}
+%
+\label{fig:FWHM changing orthogonality}
+%
+\end{figure}
+\subsection{Alignment: Incidence angle}
+To understand the behaviour of a non aligned beam it is simulated the situation of a beam that arrive at the Montel system with the wrong angle. In this particular case the system is defined as follow: incidence angle of $3^{\circ} $, square spot of 100$\mu $ $m^{2} $, Gaussian divergence with FWHM of 25$\mu $rad. Figure
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][fwhm\label{fig: footprint_oe1}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/IncidenceAngle}}
+%
+\subfloat[][splitting of fwhm\label{fig: footprint_oe2}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/IncidenceAngle2}}\quad
+%
+\caption{Incidence angle}
+%
+\label{fig: incidence angle}
+%
+\end{figure}
+\subsection{Alignment: point of incidence}
+Another way that can be studied to align correctly a beam, is to study the behaviour of a non centred beam with respect to the center of the Montel system. In this section is reported the behaviour about the change of FWHM of both $x^{'} $ and $z^{'} $ following different path. Figure \ref{fig: path} show the different path followed to simulate the non-centred beam that are named:
 \begin{enumerate}
-	\item focal distances and incidence angles, that define the two rotation and the translation of the tracing system
-	\item name of the File in which is saved the data of the simulation, by default no data is saved
-	\item there is the possibility to choose a different point, from the origin, in which the the optical axis hit the system
-	\item there is also the possibility to have a final output frame that is not solidal by the two-reflected beam, but with the non reflected beam or with the other two beam that are reflected only one time
-	\item It is also the possibility to figure out the footprint of the two reflected beam on the system. For clarity the beam that hit the first mirror and after the second is labelled with red point, the beam that hit the second and after first mirror is labelled by blue color
+	\item Y
+	\item XZ
+	\item XYZ1
+	\item XZY2
 \end{enumerate}
 
-\noindent These options are added in order to study better the behaviour of a beam with a Montel system. The possibilities to change the angle of incidence and to hit different part from the origin can be used to study what happen to a beam when is not aligned, or not perfectly aligned, and use these result to align the system in the laboratories. The possibilities to save a File is useful in particular in those case where there is a huge computational effort that need a lot of time, in these cases is possible to work with the result of a big simulation without reappointing it, and so save time.
+\begin{figure}[]
+%
+\centering
+%
+\includegraphics[width=1.\textwidth]{Immagini/Chapter4/Cattura2}
+%
+\caption{Different path for simulate the non-centred beam}
+%
+\label{fig: path}
+%
+\end{figure}
+
+Figure \ref{fig: reuslt diff. path} show the behaviour of the two FWHM of the beam changing the incidence point of the beam moving the different paths. This point is defined with respect to the center of the Montel system that correspond to the origin (0, 0, 0). In Figure \ref{fig: Y path}, the incidence point move along y-axis, start from the point (0, 1.5mm, 0) and arriving to the point (0, -1.5mm, 0), and show, more or less, a flat behaviour of the FWHM. Figure \ref{fig: XZ path} start from the point (0, 0, 0.15mm) and arrive to (-0.15mm, 0, 0) and have specular behaviour for the two FWHM, there is a minumum of the two FWHM near the origin point, moving on the oe1 worse the FWHM of $z^{'} $ and maintain the other constant, on the contrary, moving on the oe2 the situation is reversed, in this case the FWHM of $x^{'} $ get worse, maintaining constant the one of $z^{'} $. Figure \ref{fig: XYZ1 path} start from (0, 1.5mm, 0.15mm) and arrive to (-0.15mm, -1.5mm, 0) and Figure \ref{fig: XYZ2 path} start from (-0.15mm, 1.5mm, 0) and arrive to (0., -1.5mm, 0.15mm). The behaviour of this last two path are similar to that of \ref{fig: XZ path}, this is reasonable, because the motion along y-axis does not influence the FWHM because of the definition of the cylindrical mirror, that in any point along the y direction have the same geometry.
+%
+%
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][Y path\label{fig: Y path}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/Ypath}}
+%
+\subfloat[][XZ path\label{fig: XZ path}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/XZpath}}\quad
+%
+\subfloat[][XYZ1 path\label{fig: XYZ1 path}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/XYZ1Path}}
+%
+\subfloat[][XYZ2 path\label{fig: XYZ2 path}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/XYZ2Path}}
+\caption{Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $}
+%
+\label{fig: reuslt diff. path}
+%
+\end{figure}
+In Figure \ref{fig: 2nd reuslt diff. path} it is show the intensity profile of the two-reflection beam after the Montel, calculated as the number of the rays in the two-reflection beam with respect to the initial number of rays. The source used, in this case, correspond to a big spot of a square geometry with an area of $1mm^2 $, and a large Gaussian divergence with a FWHM of 10mrad. The Montel used is a parabolic localizing system having e an object distance of 1m, an image distance of 3m, an incidence angle of $2^{\circ} $ and a finite dimension, with a length of 20cm and a width of 2cm.
+The different path move along these points; ymax=50cm, ymin=-50cm, xmin=-2cm, xmax=0, zmax=2cm, zmin=0
+\\
+The plots in Figure \ref{fig: 2nd reuslt diff. path}, are interesting, because rappresent the intensity of the "green" Beam in Figure \ref{fig:BigSourceMontel}, that can be directly measured and so, it is possible to realted the centring of the Beam calculating the intensity of this Beam.
+%
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][Y path\label{fig: Y path}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/Ypath_2}}
+%
+\subfloat[][XZ path\label{fig: XZ path}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/XZpath_2}}\quad
+%
+\subfloat[][XYZ1 path\label{fig: XYZ1 path}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/XYZ1Path_2}}
+%
+\subfloat[][XYZ2 path\label{fig: XYZ2 path}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/XYZ2Path_2}}
+\caption{Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $}
+%
+\label{fig: 2nd reuslt diff. path}
+%
+\end{figure}
