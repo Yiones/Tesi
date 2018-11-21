@@ -1,3 +1,9 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Tesi.aux
 The style file: alpha.bst
-Database file #1: Bibliografia.bib
+Database file #1: sample.bib
+Warning--entry type for "ThomsonScattering" isn't style-file defined
+--line 23 of file sample.bib
+Warning--entry type for "RayleighScattering" isn't style-file defined
+--line 29 of file sample.bib
+Warning--I didn't find a database entry for "henke1981atomic"
+(There were 3 warnings)

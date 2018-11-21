@@ -1,5 +1,15 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: MontelID20.aux
 The style file: alpha.bst
 Database file #1: sample.bib
+Warning--entry type for "engys:2012:a-comprehensive-tour-of-snappyhexmesh" isn't style-file defined
+--line 49 of file sample.bib
+Warning--entry type for "wikipedia:2013:law-of-the-wall" isn't style-file defined
+--line 71 of file sample.bib
+Warning--entry type for "cineca:2014:eurora-user-guide" isn't style-file defined
+--line 81 of file sample.bib
+Warning--entry type for "vuz:2014:test-centre-vuz-velim" isn't style-file defined
+--line 91 of file sample.bib
+Warning--entry type for "cineca:2014:ibm-plx-gpu-user-guide" isn't style-file defined
+--line 101 of file sample.bib
 Warning--empty journal in greenwade93
-(There was 1 warning)
+(There were 6 warnings)

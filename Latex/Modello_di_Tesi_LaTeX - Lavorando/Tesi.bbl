@@ -1,8 +1,25 @@
 \begin{thebibliography}{RKM15}
 
+\bibitem[Dal16]{ThomsonScattering}
+Daniele Dallacasa.
+\newblock Processi di radiazione e mhd, 2016.
+
+\bibitem[Fit06]{RayleighScattering}
+Richard Fitzpatrick.
+\newblock Rayleigh scattering, 2006.
+
+\bibitem[Mic86]{michette1986optical}
+A.G. Michette.
+\newblock {\em Optical systems for soft X rays}.
+\newblock Plenum Press, 1986.
+
 \bibitem[RKM15]{resta2015nested}
 Giacomo Resta, Boris Khaykovich, and David Moncton.
 \newblock Nested kirkpatrick--baez (montel) optics for hard x-rays.
 \newblock {\em Journal of Applied Crystallography}, 48(2):558--564, 2015.
+
+\bibitem[Uni16]{ComptonScattering}
+Boston University.
+\newblock {\em Compton Scattering}, 2016.
 
 \end{thebibliography}

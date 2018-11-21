@@ -1,12 +1,51 @@
-\begin{thebibliography}{Gmb17}
+\begin{thebibliography}{{ENG}12}
 
 \bibitem[Bau98]{baudoin:1998:impara-latex-e-mettilo}
 Marc Baudoin.
 \newblock {\em Impara {\LaTeX} (e mettilo da parte)}, 1998.
 
+\bibitem[CIN14a]{cineca:2014:eurora-user-guide}
+CINECA.
+\newblock Eurora user guide, 2014.
+
+\bibitem[CIN14b]{cineca:2014:ibm-plx-gpu-user-guide}
+CINECA.
+\newblock Ibm plx-gpu user guide, 2014.
+
+\bibitem[{ENG}12]{engys:2012:a-comprehensive-tour-of-snappyhexmesh}
+{ENGYS, Ltd.}
+\newblock A comprehensive tour of snappyhexmesh, 2012.
+
 \bibitem[Gmb17]{greenwade93}
 AXO~DRESDEN GmbH.
 \newblock Appendix c-astix for 11.215 kev, feasibility study.
 \newblock 5/05/2017.
+
+\bibitem[Mic86]{michette1986optical}
+A.G. Michette.
+\newblock {\em Optical systems for soft X rays}.
+\newblock Plenum Press, 1986.
+
+\bibitem[Ope13]{openfoam:2013:openfoam-user-guide}
+OpenFOAM.
+\newblock {\em OpenFOAM User Guide}.
+\newblock The OpenFOAM Foundation, 2013.
+
+\bibitem[Pan09]{pantieri:2009:latex-per-limpaziente}
+Lorenzo Pantieri.
+\newblock {\em {\LaTeX} per l'impaziente}, 2009.
+
+\bibitem[RKM15]{resta2015nested}
+Giacomo Resta, Boris Khaykovich, and David Moncton.
+\newblock Nested kirkpatrick--baez (montel) optics for hard x-rays.
+\newblock {\em Journal of Applied Crystallography}, 48(2):558--564, 2015.
+
+\bibitem[VUZ14]{vuz:2014:test-centre-vuz-velim}
+VUZ.
+\newblock Test centre vuz velim, 2014.
+
+\bibitem[Wik13]{wikipedia:2013:law-of-the-wall}
+Wikipedia.
+\newblock Law of the wall, 2013.
 
 \end{thebibliography}
