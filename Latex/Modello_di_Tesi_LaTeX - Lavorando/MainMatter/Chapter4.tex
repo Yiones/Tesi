@@ -18,6 +18,94 @@ To demonstrate the correct behaviour of the program there are done a comparison 
 %
 \subsection{Testing with OASYS}
 %
+OASYS (OrAnge SYnchrotron Suite) is a graphical environment for optic simulation used in synchrotron facilities based on orange 3, developped by Manuel Sanchez Del Rio (ESRF) and Luca Rebuffi (ELETTRA).
+The comparison between the program and the OASYS software is done with the system in Figure \ref{fig: Optical system}, where the 1st optical system collimate the source, the 2nd optical system focalize the mean at the image plane, the system beewtween the source and the 1st optical system correspond to the focal distance of the system $d_1 = f = 0.4 m $, between the 12st and the 2nd optical system thre is a distance $d_2 = 0.6 m $ and the distance beetween the 2nd the 2nd and the image plane correspond to the focal length of the 2nd optical system that is $d_3 = f = 0.4$. A system that have parameters defined as before, make a copy of the source image at the image plane.
+%
+\begin{figure}[]
+%
+\centering
+%
+\includegraphics[width=.6\textwidth]{Immagini/Chapter4/OpticalSystems}
+%
+\caption{Optical system}
+%
+\label{fig: Optical system}
+%
+\end{figure}
+%
+The source parameter used are showed in Figure \ref{fig: Source Parameter for OASYS}, and correspond to  a square source spot of $1 \mu m^2 $, and a initial Gaussian divergence with a FWHM of $1 mrad $.
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][Initial spot size \label{fig: Source OASYS}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/SouceOASYS}}
+%
+\subfloat[][Initial Beam divergence\label{fig: Divergence OASYS}]
+   {\includegraphics[width=.48\textwidth]{Immagini/Chapter4/DivergenceOASYS}}
+%
+\caption{Parameter of the source used for the comparison with OASYS}
+%
+\label{fig: Source Parameter for OASYS}
+%
+\end{figure}
+%
+The tests are done using different optical system, with the same focal length and, for the mirror it is used a grazing incidence angle of $\theta = 1.719^{\circ}$. Below are plotted the image of the Beam at the image plane, putting the OASYS' results on the right, and my results on the left. The system simulated are done with:
+\begin{enumerate}
+\item ideal lenses Figure \ref{fig: Ideal lense OASYS}
+\item parabolic mirror Figure \ref{fig: paraboloid OASYS}
+\item KB system Figure \ref{fig: KB system OASYS}
+\end{enumerate} 
+%
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][Initial spot size \label{fig: my Ideal Lenses}]
+   {\includegraphics[width=.5\textwidth]{Immagini/Chapter4/IdealLens}}
+%
+\subfloat[][Initial Beam divergence\label{fig: Ideal Lenses OASYS}]
+   {\includegraphics[width=.5\textwidth]{Immagini/Chapter4/IdealLensOASYS}}
+%
+\caption{Parameter of the source used for the comparison with OASYS}
+%
+\label{fig: Ideal lense OASYS}
+%
+\end{figure}
+%
+\begin{figure}[]
+%
+\centering
+%
+\subfloat[][Initial spot size \label{fig: my Paraboloid}]
+   {\includegraphics[width=.5\textwidth]{Immagini/Chapter4/IdealLens}}
+%
+\subfloat[][Initial Beam divergence\label{fig: Paraboloid OASYS}]
+   {\includegraphics[width=.5\textwidth]{Immagini/Chapter4/IdealLensOASYS}}
+%
+\caption{Parameter of the source used for the comparison with OASYS}
+%
+\label{fig: paraboloid OASYS}
+%
+\end{figure}
+%
+\begin{figure}[]
+%
+\subfloat[][Initial spot size \label{fig: my KB }]
+   {\includegraphics[width=.5\textwidth]{Immagini/Chapter4/KB}}
+%
+\subfloat[][Initial Beam divergence\label{fig: KB OASYS}]
+   {\includegraphics[width=.5\textwidth]{Immagini/Chapter4/KBOASYS}}
+%
+\caption{Parameter of the source used for the comparison with OASYS}
+%
+\label{fig: KB system OASYS}
+%
+\end{figure}
+ As it is showed in the figures, the result are pretty similar, with an image that depend on the kind of the system, with the ideal lenses the image is perfect, with KB and paraboloid, the image is similar to the original but degrades with the propagation.
+%
+\newpage
+%
 \subsection{Testing with the paper} 
 In Figure \ref{fig: PaperMontelSystem} is depicted the Montel system used in the simulation done by the paper in its system of reference. The aim of this system is to collimate a Beam using a Montel with two parabolic mirrors. The source used have a Gaussian dimension with a FWHM of 2.5$\mu $m and a Gaussian divergence of 5$mrad $. The distances, between the source/image plane and the center of the Montel are, respectively,  $\simeq $ 0.26m and 10.06m, moreover, the incidence angle of the Beam is $\theta_g \simeq 2.86^{\circ} $.
 %

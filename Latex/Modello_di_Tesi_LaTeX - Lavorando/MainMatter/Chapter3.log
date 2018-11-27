@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.29)  7 NOV 2018 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.29)  24 NOV 2018 21:10
 entering extended mode
-**./Chapter4.tex
-(Chapter4.tex
+**./Chapter3.tex
+(Chapter3.tex
 LaTeX2e <2018-04-01> patch level 5
 ! Undefined control sequence.
 l.1 \chapter
-            {Mt script}
+            {MONWES}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -20,18 +20,16 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter{M
-              t script}
+              ONWES}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no M in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no S in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--4
 []
@@ -1162,7 +1160,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.35 \includegraphics
-                     [width=.4\textwidth]{Immagini/Chapter4/BeamRays}
+                     [width=.4\textwidth]{Immagini/Chapter3/BeamRays}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1182,7 +1180,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.35 \includegraphics[width=.4\textwidth]
-                                         {Immagini/Chapter4/BeamRays}
+                                         {Immagini/Chapter3/BeamRays}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1191,7 +1189,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.35 \includegraphics[width=.4\textwidth]
-                                         {Immagini/Chapter4/BeamRays}
+                                         {Immagini/Chapter3/BeamRays}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1216,7 +1214,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2006,7 +2004,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.50    {\includegraphics
-                         [width=.4\textwidth]{Immagini/Chapter4/GaussianSpot...
+                         [width=.4\textwidth]{Immagini/Chapter3/GaussianSpot...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2026,7 +2024,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.50    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/GaussianSpot...
+                                             {Immagini/Chapter3/GaussianSpot...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2035,7 +2033,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.50    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/GaussianSpot...
+                                             {Immagini/Chapter3/GaussianSpot...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2060,7 +2058,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -2116,7 +2114,7 @@ LaTeX Warning: Reference `fig: CodeGaussian' on page  undefined on input line 5
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.53    {\includegraphics
-                         [width=.4\textwidth]{Immagini/Chapter4/GaussianExam...
+                         [width=.4\textwidth]{Immagini/Chapter3/GaussianExam...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2136,7 +2134,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.53    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/GaussianExam...
+                                             {Immagini/Chapter3/GaussianExam...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2145,7 +2143,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.53    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/GaussianExam...
+                                             {Immagini/Chapter3/GaussianExam...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2170,7 +2168,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -2882,7 +2880,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.66    {\includegraphics
-                         [width=.4\textwidth]{Immagini/Chapter4/CodeCircular...
+                         [width=.4\textwidth]{Immagini/Chapter3/CodeCircular...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2902,7 +2900,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.66    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/CodeCircular...
+                                             {Immagini/Chapter3/CodeCircular...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2911,7 +2909,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.66    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/CodeCircular...
+                                             {Immagini/Chapter3/CodeCircular...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2936,7 +2934,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3010,7 +3008,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.69    {\includegraphics
-                         [width=.4\textwidth]{Immagini/Chapter4/RectangularE...
+                         [width=.4\textwidth]{Immagini/Chapter3/RectangularE...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3030,7 +3028,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.69    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/RectangularE...
+                                             {Immagini/Chapter3/RectangularE...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3039,7 +3037,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.69    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/RectangularE...
+                                             {Immagini/Chapter3/RectangularE...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3064,7 +3062,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -3812,7 +3810,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.86    {\includegraphics
-                         [width=.4\textwidth]{Immagini/Chapter4/PersonExampl...
+                         [width=.4\textwidth]{Immagini/Chapter3/PersonExampl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3832,7 +3830,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.86    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/PersonExampl...
+                                             {Immagini/Chapter3/PersonExampl...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3841,7 +3839,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.86    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/PersonExampl...
+                                             {Immagini/Chapter3/PersonExampl...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3866,7 +3864,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -3933,7 +3931,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.89    {\includegraphics
-                         [width=.4\textwidth]{Immagini/Chapter4/CodePerson}}
+                         [width=.4\textwidth]{Immagini/Chapter3/CodePerson}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3953,7 +3951,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.89    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/CodePerson}}
+                                             {Immagini/Chapter3/CodePerson}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3962,7 +3960,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.89    {\includegraphics[width=.4\textwidth]
-                                             {Immagini/Chapter4/CodePerson}}
+                                             {Immagini/Chapter3/CodePerson}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3987,7 +3985,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -4449,7 +4447,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.99 \includegraphics
-                     [width=.4\textwidth]{Immagini/Chapter4/ResumeBeam}
+                     [width=.4\textwidth]{Immagini/Chapter3/ResumeBeam}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4469,7 +4467,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.99 \includegraphics[width=.4\textwidth]
-                                         {Immagini/Chapter4/ResumeBeam}
+                                         {Immagini/Chapter3/ResumeBeam}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -4478,7 +4476,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.99 \includegraphics[width=.4\textwidth]
-                                         {Immagini/Chapter4/ResumeBeam}
+                                         {Immagini/Chapter3/ResumeBeam}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -4503,7 +4501,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -8197,7 +8195,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.182    {\includegraphics
-                          [width=.4\textwidth]{Immagini/Chapter4/ParabolaFoc...
+                          [width=.4\textwidth]{Immagini/Chapter3/ParabolaFoc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8217,7 +8215,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.182    {\includegraphics[width=.4\textwidth]
-                                              {Immagini/Chapter4/ParabolaFoc...
+                                              {Immagini/Chapter3/ParabolaFoc...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -8226,7 +8224,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.182    {\includegraphics[width=.4\textwidth]
-                                              {Immagini/Chapter4/ParabolaFoc...
+                                              {Immagini/Chapter3/ParabolaFoc...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -8251,7 +8249,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -8294,7 +8292,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.185    {\includegraphics
-                          [width=.4\textwidth]{Immagini/Chapter4/ParabolaColl}}
+                          [width=.4\textwidth]{Immagini/Chapter3/ParabolaColl}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8314,7 +8312,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.185    {\includegraphics[width=.4\textwidth]
-                                              {Immagini/Chapter4/ParabolaColl}}
+                                              {Immagini/Chapter3/ParabolaColl}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -8323,7 +8321,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.185    {\includegraphics[width=.4\textwidth]
-                                              {Immagini/Chapter4/ParabolaColl}}
+                                              {Immagini/Chapter3/ParabolaColl}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -8348,7 +8346,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -8815,7 +8813,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.210 \includegraphics
-                      [width=0.8\textwidth]{Immagini/Chapter4/Parab}
+                      [width=0.8\textwidth]{Immagini/Chapter3/Parab}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8836,7 +8834,7 @@ Missing character: There is no 8 in font nullfont!
 <to be read again> 
                    ]
 l.210 \includegraphics[width=0.8\textwidth]
-                                           {Immagini/Chapter4/Parab}
+                                           {Immagini/Chapter3/Parab}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -8845,7 +8843,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.210 \includegraphics[width=0.8\textwidth]
-                                           {Immagini/Chapter4/Parab}
+                                           {Immagini/Chapter3/Parab}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -8870,7 +8868,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -9256,7 +9254,7 @@ or  <return>  to continue without it.
 
 [1
 ! Undefined control sequence.
-<write> \newlabel{capitolo4}{{}{\thepage 
+<write> \newlabel{capitolo3}{{}{\thepage 
                                          }}
 l.234 \end{equation}
                     
@@ -9266,7 +9264,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\newlabel{capitolo4}{{}{}}
+\newlabel{capitolo3}{{}{}}
 {C:/Users/Yunes/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 ! Undefined control sequence.
 <write> \newlabel{fig: BeamRays}{{}{\thepage 
@@ -9563,7 +9561,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.240 \includegraphics
-                      [width=.8\textwidth]{Immagini/Chapter4/EllipseSystem3}
+                      [width=.8\textwidth]{Immagini/Chapter3/EllipseSystem3}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9583,7 +9581,7 @@ Missing character: There is no 8 in font nullfont!
 <to be read again> 
                    ]
 l.240 \includegraphics[width=.8\textwidth]
-                                          {Immagini/Chapter4/EllipseSystem3}
+                                          {Immagini/Chapter3/EllipseSystem3}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -9592,7 +9590,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.240 \includegraphics[width=.8\textwidth]
-                                          {Immagini/Chapter4/EllipseSystem3}
+                                          {Immagini/Chapter3/EllipseSystem3}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -9617,7 +9615,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -10079,7 +10077,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.272 \includegraphics
-                      [width=.5\textwidth]{Immagini/Chapter4/Hyperbola}
+                      [width=.5\textwidth]{Immagini/Chapter3/Hyperbola}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10099,7 +10097,7 @@ Missing character: There is no 5 in font nullfont!
 <to be read again> 
                    ]
 l.272 \includegraphics[width=.5\textwidth]
-                                          {Immagini/Chapter4/Hyperbola}
+                                          {Immagini/Chapter3/Hyperbola}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -10108,7 +10106,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.272 \includegraphics[width=.5\textwidth]
-                                          {Immagini/Chapter4/Hyperbola}
+                                          {Immagini/Chapter3/Hyperbola}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -10133,7 +10131,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no y in font nullfont!
@@ -11864,7 +11862,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.308 \includegraphics
-                      [width=.4\textwidth]{Immagini/Chapter4/KB}
+                      [width=.4\textwidth]{Immagini/Chapter3/KB}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -11884,7 +11882,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.308 \includegraphics[width=.4\textwidth]
-                                          {Immagini/Chapter4/KB}
+                                          {Immagini/Chapter3/KB}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -11893,7 +11891,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.308 \includegraphics[width=.4\textwidth]
-                                          {Immagini/Chapter4/KB}
+                                          {Immagini/Chapter3/KB}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -11918,7 +11916,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no B in font nullfont!
@@ -11971,7 +11969,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.319 \includegraphics
-                      [width=.8\textwidth]{Immagini/Chapter4/KB1}
+                      [width=.8\textwidth]{Immagini/Chapter3/KB1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -11991,7 +11989,7 @@ Missing character: There is no 8 in font nullfont!
 <to be read again> 
                    ]
 l.319 \includegraphics[width=.8\textwidth]
-                                          {Immagini/Chapter4/KB1}
+                                          {Immagini/Chapter3/KB1}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -12000,7 +11998,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.319 \includegraphics[width=.8\textwidth]
-                                          {Immagini/Chapter4/KB1}
+                                          {Immagini/Chapter3/KB1}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -12025,7 +12023,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no B in font nullfont!
@@ -12642,7 +12640,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.345 \includegraphics
-                      [width=1.\textwidth]{Immagini/Chapter4/CodeKB}
+                      [width=1.\textwidth]{Immagini/Chapter3/CodeKB}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -12662,7 +12660,7 @@ Missing character: There is no . in font nullfont!
 <to be read again> 
                    ]
 l.345 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeKB}
+                                          {Immagini/Chapter3/CodeKB}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -12671,7 +12669,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.345 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeKB}
+                                          {Immagini/Chapter3/CodeKB}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -12696,7 +12694,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -13443,7 +13441,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.357 \includegraphics
-                      [width=1.\textwidth]{Immagini/Chapter4/MontelSystem2}
+                      [width=1.\textwidth]{Immagini/Chapter3/MontelSystem2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13463,7 +13461,7 @@ Missing character: There is no . in font nullfont!
 <to be read again> 
                    ]
 l.357 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/MontelSystem2}
+                                          {Immagini/Chapter3/MontelSystem2}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -13472,7 +13470,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.357 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/MontelSystem2}
+                                          {Immagini/Chapter3/MontelSystem2}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -13497,7 +13495,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -13897,7 +13895,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.369 \includegraphics
-                      [width=1.\textwidth]{Immagini/Chapter4/CodeMontel}
+                      [width=1.\textwidth]{Immagini/Chapter3/CodeMontel}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13917,7 +13915,7 @@ Missing character: There is no . in font nullfont!
 <to be read again> 
                    ]
 l.369 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeMontel}
+                                          {Immagini/Chapter3/CodeMontel}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -13926,7 +13924,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.369 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeMontel}
+                                          {Immagini/Chapter3/CodeMontel}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -13951,7 +13949,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -15095,7 +15093,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.385 \includegraphics
-                      [width=1.0\textwidth]{Immagini/Chapter4/Cattura}
+                      [width=1.0\textwidth]{Immagini/Chapter3/Cattura}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -15116,7 +15114,7 @@ Missing character: There is no 0 in font nullfont!
 <to be read again> 
                    ]
 l.385 \includegraphics[width=1.0\textwidth]
-                                           {Immagini/Chapter4/Cattura}
+                                           {Immagini/Chapter3/Cattura}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -15125,7 +15123,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.385 \includegraphics[width=1.0\textwidth]
-                                           {Immagini/Chapter4/Cattura}
+                                           {Immagini/Chapter3/Cattura}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -15150,7 +15148,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -15208,7 +15206,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.396 \includegraphics
-                      [width=1.\textwidth]{Immagini/Chapter4/CodeSystem}
+                      [width=1.\textwidth]{Immagini/Chapter3/CodeSystem}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -15228,7 +15226,7 @@ Missing character: There is no . in font nullfont!
 <to be read again> 
                    ]
 l.396 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeSystem}
+                                          {Immagini/Chapter3/CodeSystem}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -15237,7 +15235,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.396 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeSystem}
+                                          {Immagini/Chapter3/CodeSystem}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -15262,7 +15260,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -16137,7 +16135,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.419    {\includegraphics
-                          [width=.4\textwidth]{Immagini/Chapter4/CodeOptElem...
+                          [width=.4\textwidth]{Immagini/Chapter3/CodeOptElem...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -16157,7 +16155,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.419    {\includegraphics[width=.4\textwidth]
-                                              {Immagini/Chapter4/CodeOptElem...
+                                              {Immagini/Chapter3/CodeOptElem...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -16166,7 +16164,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.419    {\includegraphics[width=.4\textwidth]
-                                              {Immagini/Chapter4/CodeOptElem...
+                                              {Immagini/Chapter3/CodeOptElem...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -16191,7 +16189,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -16246,7 +16244,7 @@ LaTeX Warning: Reference `fig: CodeGaussian' on page  undefined on input line 4
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.422    {\includegraphics
-                          [width=.4\textwidth]{Immagini/Chapter4/CodeOfScreen}}
+                          [width=.4\textwidth]{Immagini/Chapter3/CodeOfScreen}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -16266,7 +16264,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    ]
 l.422    {\includegraphics[width=.4\textwidth]
-                                              {Immagini/Chapter4/CodeOfScreen}}
+                                              {Immagini/Chapter3/CodeOfScreen}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -16275,7 +16273,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.422    {\includegraphics[width=.4\textwidth]
-                                              {Immagini/Chapter4/CodeOfScreen}}
+                                              {Immagini/Chapter3/CodeOfScreen}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -16300,7 +16298,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -17371,7 +17369,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.435 \includegraphics
-                      [width=1.\textwidth]{Immagini/Chapter4/CodeTraceCompound}
+                      [width=1.\textwidth]{Immagini/Chapter3/CodeTraceCompound}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -17391,7 +17389,7 @@ Missing character: There is no . in font nullfont!
 <to be read again> 
                    ]
 l.435 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeTraceCompound}
+                                          {Immagini/Chapter3/CodeTraceCompound}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -17400,7 +17398,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.435 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeTraceCompound}
+                                          {Immagini/Chapter3/CodeTraceCompound}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -17425,7 +17423,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -19754,7 +19752,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.467 \includegraphics
-                      [width=1.\textwidth]{Immagini/Chapter4/CodeTraceMontel}
+                      [width=1.\textwidth]{Immagini/Chapter3/CodeTraceMontel}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -19774,7 +19772,7 @@ Missing character: There is no . in font nullfont!
 <to be read again> 
                    ]
 l.467 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeTraceMontel}
+                                          {Immagini/Chapter3/CodeTraceMontel}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -19783,7 +19781,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.467 \includegraphics[width=1.\textwidth]
-                                          {Immagini/Chapter4/CodeTraceMontel}
+                                          {Immagini/Chapter3/CodeTraceMontel}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -19808,7 +19806,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -19860,7 +19858,7 @@ or  <return>  to continue without it.
 
 )
 ! Emergency stop.
-<*> ./Chapter4.tex
+<*> ./Chapter3.tex
                   
 *** (job aborted, no legal \end found)
 

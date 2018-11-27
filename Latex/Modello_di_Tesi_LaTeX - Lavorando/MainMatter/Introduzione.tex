@@ -23,84 +23,17 @@
 %
 % ------------------------------------------------------------------------ %
 %
-Due esempi di pantografi in presa sono mostrati in figura~\ref{fig:pantoinpresa}; l'architettura asimmetrica del quadro (\ref{fig:pantoinpresa-asimm}) è quella tradizionalmente adottata per i pantografi impiegati nell'alta velocità ferroviaria.
-%
-% FIGURE
-% ------------------------------------------------------------------------ %
-% pantoinpresa
-% ------------------------------------------------------------------------ %
-%
-\begin{figure}
-%
-\centering
-%
-\subfloat[][Architettura simmetrica\label{fig:pantoinpresa-simm}]
-   {\includegraphics[width=.48\textwidth]{pantosimm}}\quad
-%
-\subfloat[][Architettura asimmetrica\label{fig:pantoinpresa-asimm}]
-   {\includegraphics[width=.48\textwidth]{pantoinpresa2}}
-%
-\caption{Esempi di pantografi.}
-%
-\label{fig:pantoinpresa}
-%
-\end{figure}
-%
-% ------------------------------------------------------------------------ %
-%
-\subsubsection{Argomento da Approfondire1}
-%
-Qualche citazione.
-%
-\lipsum[1-3]
-%
 
-\bigskip
+The simulation of x-ray beam properties during the transport along a beamline is important for the design, the optimization and the operation of the beamline. The main optical element used for X-ray are curved mirrors, used in a grazing configuration, in order to focalize or collimate a beam. In a beam line are used simple mirrors or some particular kind of mirror combination that increase the perfomance of the optical system. An typical example is the Kirkpatrick-Baez (KB) system, very popular at the ESRF because of its many good properties and so well studied. However, the extreme quality of the synchrotron beams that will be available with the ESRF upgraded storage ring pushes the requirement in optics to consider more and more perfect elements. There is also another configuration of mirror, named "Montel" system, that should do the same work of the Kirkpatrick-Baez (KB) system.
+\\
+During my traineeships at the ESRF I developed a python library that is able do simulate a ray-tracing of a beam to some simple optical element, such as mirror, and other a bit complicated that are basically a combination of mirrors element such as Kirkpatrick-Baez (KB) system and a Montel system.
+\\
+Moreover the Montel code it is used to understand the effect of such element with respect to an incident beam in order to 
 
-E adesso una nota a piè di pagina.\footnote{Nota a piè di pagina.}
-In figura~\vref{fig:noimage} non è riportata alcuna immagine\dots o forse si?
-%
-% FIGURE
-% ------------------------------------------------------------------------ %
-% noimage
-% ------------------------------------------------------------------------ %
-%
-\begin{figure}
-%
-\centering
-%
-\includegraphics[width=.6\textwidth]{noimage}
-%
-\caption{Nessuna immagine\dots Sorry.}
-%
-\label{fig:noimage}
-%
-\end{figure}
-%
-% ------------------------------------------------------------------------ %
-%
-\subsubsection{Scopi della Tesi}
-%
-\lipsum[1-3]
-%
-% ------------------------------------------------------------------------ %
-%
-\clearpage
-%
-\subsection*{Outline}
-%
-\par Il testo della tesi è così strutturato:
-%
-% ------------------------------------------------------------------------ %
-%
-\begin{description}
-%
-\item[{\hyperref[cap:statoarte]{Nel primo capitolo}}] è delineato lo stato dell'arte \lipsum[1]
-%
-\item[{\hyperref[cap:provesperimentali]{Il secondo capitolo}}] presenta i risultati della campagna di prove sperimentali \lipsum[2]
-%
-\item[{\hyperref[cap:analisinumeriche]{Nel terzo capitolo}}] si descrivono le scelte di modellazione \lipsum[3]
-%
-\end{description}
-%
-% ------------------------------------------------------------------------ %
+The thesis is struchter in
+\begin{enumerate}
+\item Chapter 1: review of the interaction x-ray - matter in order to explain the importance of the mirror in a grazing configuration for x-ray radiation
+\item Chapter 2: it is reported the theoretical explanation of mirror effect, and it is done a study of the Kirkpatrick-Baez (KB) system and Montel system, with a comparison between them.
+\item Chapter 4: describes how the python library works going defining the way in which the algoritm is written 
+\item Chapter 5: shows the correct operation of the program testing it with respect to OASYS, software developed by Manuel Sanchez Del Rio, end a paper. Then report the analysis of Montel simulation done. 
+\end{enumerate}

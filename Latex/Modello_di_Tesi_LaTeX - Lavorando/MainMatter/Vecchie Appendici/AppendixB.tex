@@ -1,0 +1,160 @@
+% ------------------------------------------------------------------------ %
+% !TEX encoding = UTF-8 Unicode
+% !TEX TS-program = pdflatex
+% !TEX root = ../Tesi.tex
+% !TEX spellcheck = it-IT
+% ------------------------------------------------------------------------ %
+%
+% ------------------------------------------------------------------------ %
+% 	NOME APPENDICE 2
+% ------------------------------------------------------------------------ %
+%
+\chapter{Secondo Capitolo d'Appendice}
+%
+\label{cap:appendice2}
+%
+% ------------------------------------------------------------------------ %
+%
+\lipsum[1-2]
+%
+
+\medskip
+La tabella~\ref{tab:sidewaystable} nella pagina seguente riporta, con i rispettivi codici identificativi, le prove sperimentali effettuate\dots.
+%
+% ------------------------------------------------------------------------ %
+%
+\begin{sidewaystable}
+%
+\caption[Elenco completo delle prove sperimentali]{Elenco completo delle prove sperimentali. I {\color{webbrown} codici evidenziati} indicano le prove che hanno dato buoni risultati.}
+%
+\label{tab:sidewaystable}
+%
+\centering
+%
+\begin{tabular}{>{\bfseries}r c c c c c c}
+%
+\toprule
+%
+\textbf{Codice} & %
+	\textbf{Parametro1}	& \textbf{Parametro2 [m]}	 & \textbf{Parametro3 [N]} %
+							& \textbf{Opzione1} %
+									& \textbf{Opzione2} %
+											& \textbf{Opzione3}\\ 
+%
+\midrule
+%
+030  	& DENTE		& $1.5$		& $142$ 	& NO	& --	& NO\\ 
+%
+{\color{webbrown} 201}  	& DENTE		& $1.5$		& $175$ 	& NO	& --	& NO\\ 
+%
+410  	& DENTE		& $1.8$		& $142$ 	& NO	& --	& NO\\ 
+%
+{\color{webbrown} 011}  	& DENTE		& $1.55$		& $175$ 	& NO	& --	& NO\\ 
+%
+150  	& PIEDE		& $1.5$		& $142$ 	& NO	& --	& NO\\ 
+%
+{\color{webbrown} 161}  	& PIEDE		& $1.5$		& $98$ 	& NO	& --	& NO\\ 
+%
+113 	& PIEDE		& $1.8$		& $142$ 	& NO	& --	& NO\\ 
+%
+{\color{webbrown} 141}  	& PIEDE		& $1.55$		& $98$ 	& NO	& --	& NO\\ 
+%
+\midrule
+%
+{\color{webbrown} 1300}  	& DENTE		& $1.5$		& $142$ 		& SI 	& SI 	& NO\\
+%
+1201  	& DENTE		& $1.5$		& $165$ 		& SI 	& SI 	& NO\\
+%
+{\color{webbrown} 1070}  	& DENTE		& $1.8$		& $142$ 		& SI 	& SI 	& NO\\
+%
+1811  	& DENTE		& $1.55$		& $165$ 		& SI 	& SI 	& NO\\
+%
+{\color{webbrown} 1106}  	& PIEDE		& $1.5$		& $142$ 		& SI 	& SI 	& NO\\
+%
+1501  	& PIEDE		& $1.5$		& $98$ 		& SI 	& SI 	& NO\\
+%
+{\color{webbrown} 2110}  	& PIEDE		& $1.8$		& $142$ 		& SI 	& SI 	& NO\\
+%
+1411  	& PIEDE		& $1.55$		& $98$ 		& SI 	& SI 	& NO\\
+%
+\midrule
+%
+14110  	& PIEDE		& $1.8$		& $142$ 		& SI 	& NO 	& NO\\
+%
+16210  	& DENTE		& $1.8$		& $142$ 		& SI 	& NO 	& NO\\
+%
+19220  	& DENTE		& $1.9$		& $142$ 		& SI 	& NO 	& NO\\
+%
+10110  	& PIEDE		& $1.8$		& $142$ 		& SI 	& NO 	& NO\\
+%
+11142  	& PIEDE		& $1.9$		& $142$ 		& SI 	& NO 	& NO\\
+%
+\midrule
+%
+{\color{webbrown} 712100}  	& PIEDE		& $1.5$		& $142$ 		& SI 	& NO	& SI\\
+%
+112142  	& PIEDE		& $1.9$		& $142$ 		& SI 	& NO	& SI\\
+%
+\bottomrule 
+%
+\end{tabular}
+%
+\end{sidewaystable}
+%
+% -----------------------------END------------------------------------- %
+
+\begin{lstlisting}[language=Python, caption=pollo, label=code:1]
+import numpy as np
+
+a = a + 1
+b =0
+for i in arang (a):
+	a = a + i
+	
+print(a)
+\end{lstlisting}
+
+as it is showed in Code \ref{code:1}
+
+Table \ref{table: absorption coeff.}. report the X-Ray Mass Attenuation Coefficients. Material constants assumed in the present evaluations for elemental media. Values are given for the ratio of atomic number-to-mass Z/A, the mean excitation energy I, and the density $\rho $. Some density values are only nominal; those for Z = 85 and 87 were arbitrarily set to 10 in order to complete the calculations.
+
+\begin{tabular}{l|l|l|l|l|r}
+
+Z & Element &   & Z/A & I [eV] & Density $\frac{[g]}{[cm^3]}$ \\
+\hline
+1 &	H &	 	Hydrogen &	 	0.99212 &	 	19.2 &	 	8.375E-05 \\
+2 &	He &	Helium &	0.49968 &	41.8 &	1.663E-04 \\
+3 & Li &	Lithium &	0.43221 &	40.0 &	5.340E-01 \\
+4 &	Be &	Beryllium &	0.44384 &	63.7 &	1.848E+00 \\ 
+5 &	B &	Boron &	0.46245 &	76.0 &	2.370E+00 \\
+6 &	C &	Carbon, Graphite &	0.49954 &	78.0 &	1.700E+00 \\
+7 &	N &	Nitrogen &	0.49976 &	82.0 &	1.165E-03 \\
+8 &	O &	Oxygen &	0.50002 &	95.0 &	1.332E-03 \\
+9 &	F &	Fluorine &	0.47372 &	115.0 &	1.580E-03 \\
+10 &	Ne &	Neon &	0.49555 &	137.0 &	8.385E-04 \\
+11 &	Na &	Sodium &	0.47847 &	149.0 &	9.710E-01 \\
+12 &	Mg &	Magnesium &	0.49373 &	156.0 &	1.740E+00 \\
+13 &	Al &	Aluminum &	0.48181 &	166.0 &	2.699E+00 \\
+14 &	Si &	Silicon &	0.49848 &	173.0 &	2.330E+00 \\
+15 &	P &	Phosphorus &	0.48428 &	173.0 &	2.200E+00 \\
+16 &	S &	Sulfur &	0.49897 &	180.0 &	2.000E+00 \\
+17 &	Cl &	Chlorine &	0.47951 &	174.0 &	2.995E-03 \\
+18 &	Ar &	Argon &	0.45059 &	188.0 &	1.662E-03 \\
+19 &	K &	Potassium &	0.48595 &	190.0 &	8.620E-01 \\
+20 &	Ca &	Calcium &	0.49903 &	191.0 &	1.550E+00 \\
+21 &	Sc &	Scandium &	0.46712 &	216.0 &	2.989E+00 \\
+22 &	Ti &	Titanium &	0.45948 &	233.0 &	4.540E+00 \\
+23 &	V &	Vanadium &	0.45150 &	245.0 &	6.110E+00 \\
+24 &	Cr &	Chromium &	0.46157 &	257.0 &	7.180E+00 \\
+25 &	Mn &	Manganese &	0.45506 &	272.0 &	7.440E+00 \\
+26 &	Fe &	Iron &	0.46556 &	286.0 &	7.874E+00 \\
+27 &	Co &	Cobalt &	0.45815 &	297.0 &	8.900E+00 \\
+28 &	Ni &	Nickel &	0.47708 &	311.0 &	8.902E+00 \\
+29 &	Cu &	Copper &	0.45636 &	322.0 &	8.960E+00 \\
+30 &	Zn &	Zinc &	0.45879 &	330.0 &	7.133E+00 \\
+31 &	Ga &	Gallium &	0.44462 &	334.0 &	5.904E+00 \\
+32 &	Ge &	Germanium &	0.44071 &	350.0 &	5.323E+00 \\
+33 &	As &	Arsenic &	0.44046 &	347.0 &	5.730E+00 \\
+
+\label{table: absorption coeff.}
+\end{tabular}

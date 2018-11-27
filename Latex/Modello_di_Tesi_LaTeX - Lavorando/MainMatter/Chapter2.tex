@@ -229,7 +229,7 @@ Unfortunately, for the case of mirror, there is no way to satisfy the Sine Abbe 
 %
 \includegraphics[width=.6\textwidth]{Immagini/Chapter2/KBSystem}
 %
-\caption{Different kind of surface conic, with the same $c $ base curvature value, and different constant $k $.}
+\caption{Kirkpatrick-Baez system}
 %
 \label{fig: SurfaceConic1}
 %
@@ -249,7 +249,7 @@ Unfortunately, for the case of mirror, there is no way to satisfy the Sine Abbe 
 %
 \includegraphics[width=.6\textwidth]{Immagini/Chapter2/MontelSystem}
 %
-\caption{Different kind of surface conic, with the same $c $ base curvature value, and different constant $k $.}
+\caption{Montel system}
 %
 \label{fig: SurfaceConic1}
 %
@@ -263,7 +263,7 @@ The image quality and dimension, for x-rays reflective optics, is  caused by abe
 %
 \includegraphics[width=.7\textwidth]{Immagini/Chapter2/System3}
 %
-\caption{Different kind of surface conic, with the same $c $ base curvature value, and different constant $k $.}
+\caption{Standard parameters that define an elliptical mirror}
 %
 \label{fig: System3}
 %
@@ -287,33 +287,41 @@ D_{FWHM} \sim  \frac{0.88 \lambda}{\theta_i}
 %
 \includegraphics[width=.7\textwidth]{Immagini/Chapter2/System4}
 %
-\caption{Different kind of surface conic, with the same $c $ base curvature value, and different constant $k $.}
+\caption{New parameter that define an elliptical mirror, useful for calculation}
 %
 \label{fig: System4}
 %
 \end{figure}
 %
 To study the diffraction limit of a KB system, it is done a theorical treatment of micro focusing using elliptical mirror, and working on the parameter that define the geometrical shape, using the system in Figure \ref{fig: System4}. The image and objective divergence, $\theta_i $ and $\theta_o $, depend on the angle $\theta_d $, the ratio $L $ over $F_d $, length of the mirror over the distance between the image focus and the end of the mirror, and the angle $\theta_d $.
+%
 \begin{figure}[]
 %
 \centering
 %
-\includegraphics[width=1.\textwidth]{Immagini/Chapter2/Plot1}
+\subfloat[][Plot2 \label{fig: Plot1a}]
+   {\includegraphics[width=.5\textwidth]{Immagini/Chapter2/Plott1}}
 %
-\caption{Plot1}
+\subfloat[][Plot3  \label{fig: Plot1b}]
+   {\includegraphics[width=.5\textwidth]{Immagini/Chapter2/Plott2}} \quad
 %
+\subfloat[][Plot3  \label{fig: Plot1c}]
+   {\includegraphics[width=.5\textwidth]{Immagini/Chapter2/Plott3}}
+%
+\caption{Plots}
 \label{fig: Plot1}
 %
 \end{figure}
 %
-\noindent Figure \ref{fig: Plot1} can be used to estimate the fraction of the mirror that can reflect different wavelengths. If the mirrpr is designed to work for the wavelength $\lambda $ with $\theta_d = \theta_c $, a new wave with wavelength equal to $\lambda / 2 $, the part of the mirror that is covered is that with $x / F_d > 3.5$ reflect efficiently the radiation. With Figure \ref{fig: Plot1} b it is possible to estimate the radiation collect at the image plane. Normalizing the length of the mirror with $F_d $ and, normalizing the divergence angle collected with the biggest angle $\theta_d $, then the normalized numbers fall down to a universal curve aass menobhysa di a foactor of 10-20. This curve is useful because it can estimate the radiation collected by the KB/Montel.For example, if $L/F_d $ is n for each mirror of the KB system, then the total length of the system is related to the clearance distance of the second mirror
+\noindent Figure \ref{fig: Plot1a} can be used to estimate the fraction of the mirror that can reflect different wavelengths. If the mirrpr is designed to work for the wavelength $\lambda $ with $\theta_d = \theta_c $, a new wave with wavelength equal to $\lambda / 2 $, the part of the mirror that is covered is that with $x / F_d > 3.5$ reflect efficiently the radiation. With Figure \ref{fig: Plot1b}  it is possible to estimate the radiation collect at the image plane. Normalizing the length of the mirror with $F_d $ and, normalizing the divergence angle collected with the biggest angle $\theta_d $, then the normalized numbers fall down to a universal curve aass menobhysa di a foactor of 10-20. This curve is useful because it can estimate the radiation collected by the KB/Montel.For example, if $L/F_d $ is n for each mirror of the KB system, then the total length of the system is related to the clearance distance of the second mirror
 \begin{equation}
 L= (2 n + n^2 ) F_d
 \label{eq: clearance distance}
 \end{equation}
-\noindent for the Montel system the total length is only $L = n F_d $. In Figure \ref{fig: Plot1} c is showed the length of both compound system, and, for large  $n>2 $ the situation is dramatical, for example for $n=2 $ KB length is about the same of Montel with $n=8 $. This mean that the diffraction limit for total external reflection for KB is about $16 nm$, for Montel $11 nm$.
+\noindent for the Montel system the total length is only $L = n F_d $. In Figure \ref{fig: Plot1c} is showed the length of both compound system, and, for large  $n>2 $ the situation is dramatical, for example for $n=2 $ KB length is about the same of Montel with $n=8 $. This mean that the diffraction limit for total external reflection for KB is about $16 nm$, for Montel $11 nm$.
 \\
 Mirrors can be designed to work well with short or medium or large wavelengths. Depending on the design, the diffraction  limit is limited to certain conditions. If the mirrors are designed for short wavelength, according to Equation \ref{eq: D_FWHM}, the diffraction limit is mainly governed by the wavelength, because the divergence collected is roughly independent from the wavelength. On the contrary, if the mirror are optimized to long wavelengths, the surface that reflect the radiation is only a fraction, this compromise the shortest wavelength. Figure \ref{fig: Plot2} show the dependace of the diffraction limit with mirror designed to be optimize, with the choice of the $\theta_d $ to different situation.
+%
 %
 \begin{figure}[]
 %
@@ -326,7 +334,7 @@ Mirrors can be designed to work well with short or medium or large wavelengths. 
    {\includegraphics[width=.5\textwidth]{Immagini/Chapter2/Plot3}}
 %
 \caption{Plots}
-\label{fig :Plots}
+\label{fig: Plot1}
 %
 \end{figure}
 %
@@ -349,7 +357,7 @@ however. First, the mirror surface must be protected against damage and deformat
 %
 \includegraphics[width=.8\textwidth]{Immagini/Chapter2/MontelEdges}
 %
-\caption{Different kind of surface conic, with the same $c $ base curvature value, and different constant $k $.}
+\caption{Example in how to build a Montel system starting from two cilindrical mirror cutting the edge with ad angle of $45^{\circ} $.}
 %
 \label{fig: MontelEdges}
 %
