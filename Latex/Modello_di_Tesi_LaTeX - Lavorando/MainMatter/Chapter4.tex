@@ -1,25 +1,15 @@
 \chapter{Results}
 \label{capitolo4}
 
-
-\begin{quotation}
-{\footnotesize
-\noindent \emph{``Terence: Ma scusa di che ti preoccupi, i piedipiatti hanno altro a cui pensare, in questo momento stanno cercando due cadaveri scomparsi \\
-Bud: Se non spegni quella sirena uno di quei due cadaveri scomparsi lo trovano di sicuro!''}
-\begin{flushright}
-Nati con la camicia
-\end{flushright}
-}
-\end{quotation}
+This Chapter contain a first part in which the program is tested with the state of art, in order to demonstrate the correct working of the library. And, secondly, is done a deeply study of the Montel system using the implementing codes of the library.
 \vspace{0.5cm}
-
 \section{Testing}
 To demonstrate the correct behaviour of the program there are done a comparison  with respect to the OASYS software for ray tracing simulation, developed by Manuel Sanchez Del Rio, and with respect to the  paper \cite{resta2015nested}. The comparison with OASYS check the correct working of all the component apart from Montel system (mirrors, lens, KB ...), on the contrary, the paper is dedicate for the Montel simulation, because this particular kind of optical system, is not implemented on OASYS.
 %
 \subsection{Testing with OASYS}
 %
 OASYS (OrAnge SYnchrotron Suite) is a graphical environment for optic simulation used in synchrotron facilities based on orange 3, developped by Manuel Sanchez Del Rio (ESRF) and Luca Rebuffi (ELETTRA).
-The comparison between the program and the OASYS software is done with the system in Figure \ref{fig: Optical system}, where the 1st optical system collimate the source, the 2nd optical system focalize the mean at the image plane, the system beewtween the source and the 1st optical system correspond to the focal distance of the system $d_1 = f = 0.4 m $, between the 12st and the 2nd optical system thre is a distance $d_2 = 0.6 m $ and the distance beetween the 2nd the 2nd and the image plane correspond to the focal length of the 2nd optical system that is $d_3 = f = 0.4$. A system that have parameters defined as before, make a copy of the source image at the image plane.
+The comparison between the program and the OASYS software is done with the system in Figure \ref{fig: Optical system}, where the 1st optical system collimate the source, the 2nd optical system focalize the mean at the image plane, the system between the source and the 1st optical system correspond to the focal distance of the system $d_1 = f = 0.4 m $, between the 12st and the 2nd optical system with a distance $d_2 = 0.6 m $ and the distance between the 2nd system and the image plane correspond to the focal length of the 2nd optical system that is $d_3 = f = 0.4$. A system that have parameters defined as before, make a copy of the source image at the image plane.
 %
 \begin{figure}[]
 %
@@ -143,7 +133,7 @@ Repeating the simulation with my program using the parameter defined in  in the 
 \end{figure}
 %
 \section{Analysis of Montel system}
-In this section it is done, using the Montel tools devolopped, a study of the Montel effect with respect to a Beam, simulating different situation. The first point, to understand that Montel work well, it is simulated the behaviour of a pointwise source with a certain divergence, using a collimating system, and watching what happen to the beam. The  second step is to simulate a collimating beam with a certain source shape geometry and figure out the image plot obtained by a focalizing system in its image plane. What is expected is a point, in the velocity space for the first situation and in the real space for the second simulation, because this is the behaviour of an ideal collimating/focalizing system. For the simulation are used parabolical Montel and an incidence angle of 2$^{\circ} $ (the choice of the angle is arbitrary, that of the paraboic system is because is needed to collimate a beam, also for elliptical system is possible to tcollimate a beam using one focal distance very big).
+In this section it is done, using the Montel tools developed, a study of the Montel effect with respect to a Beam, simulating different situation. The first point, to understand that Montel work well, it is simulated the behaviour of a point-wise source with a certain divergence, using a collimating system, and watching what happen to the beam. The  second step is to simulate a collimating beam with a certain source shape geometry and figure out the image plot obtained by a focalizing system in its image plane. What is expected is a point, in the velocity space for the first situation and in the real space for the second simulation, because this is the behaviour of an ideal collimating/focalizing system. For the simulation are used parabolical Montel and an incidence angle of 2$^{\circ} $ (the choice of the angle is arbitrary, that of the paraboic system is because is needed to collimate a beam, also for elliptical system is possible to collimate a beam using one focal distance very big).
 \\
 In Figure \ref{fig: ideal} are reported the result for the ideal collimating/focalizing cases.
 For the collimation system is used a point wise source with a Gaussian divergence of FWHM of 25$\mu $m, \ref{fig: coll.Source}, to the image plane. As it is showed there is a collimation, but not perfect, this effect is one limit of the Montel because the perpendicular geometry is not the ideal one. Moreover, for the focalizing system, it is used a circular source spot having a radius of 1mm, \ref{fig: foc.Source}, with a collimated beam, that show, at the image plane \ref{fig: focalizingImage}, a similar behaviour as for the collimation case, for the same reason.
@@ -169,7 +159,7 @@ For the collimation system is used a point wise source with a Gaussian divergenc
 %
 \end{figure}
 %
-Another interested point to show is the footprint on the two mirror that are represented in Figure \ref{fig: footprint}. It is possible to note that the area hitted by the beam have a greater component on the y direction (due to the grazing incidence), than in the other direction. In this particular case the x-lenght of the xy-mirror, and the z-lenght of the zy-mirror, is very small (at the order of 20$\mu $m) with respect to the y-lenght that is $\sim $20mm. These calculatione are done for a very small Gaussian spot with a FWHM of 1$\mu $m and a narrow divergence of FWHM equal to 25$\mu $rad.
+Another interested point to show is the footprint on the two mirror that are represented in Figure \ref{fig: footprint}. It is possible to note that the area hit by the beam have a greater component on the y direction (due to the grazing incidence), than in the other direction. In this particular case the x-lenght of the xy-mirror, and the z-lenght of the zy-mirror, is very small (at the order of 20$\mu $m) with respect to the y-lenght that is $\sim $20mm. These calculatione are done for a very small Gaussian spot with a FWHM of 1$\mu $m and a narrow divergence of FWHM equal to 25$\mu $rad.
 \begin{figure}[]
 %
 \centering
@@ -185,7 +175,7 @@ Another interested point to show is the footprint on the two mirror that are rep
 \label{fig: footprint}
 %
 \end{figure}
-Up to know the dimension of the Montel were not considered, the Montel is setted to have infinite dimension in all the direction. This approach hold in the case of a small source and a narrow profile divergence, otherwise, for example of an isotropic souce that can be modelled with a very big divergence the situation change. In this section, it is used a Beam source with a square shape with a side of 1mm, with a Gaussian profile divergence of FWHM=1mrad in order to show what happen to the Montel  where it is covered over all its surface. The focalizing parabolic Montel parameter are:
+Up to know the dimension of the Montel were not considered, the Montel is set to have infinite dimension in all the direction. This approach hold in the case of a small source and a narrow profile divergence, otherwise, for example of an isotropic source that can be modelled with a very big divergence the situation change. In this section, it is used a Beam source with a square shape with a side of 1mm, with a Gaussian profile divergence of FWHM=1mrad in order to show what happen to the Montel  where it is covered over all its surface. The focalizing parabolic Montel parameter are:
 \begin{itemize}
 \item object  distance: 1m
 \item image distance: 3m
@@ -206,7 +196,7 @@ Up to know the dimension of the Montel were not considered, the Montel is setted
 %
 \end{figure}
 %
-Figure \ref{fig:BigSourceMontel}, show thee image plane of the Montel defined above. This plot show 4 figure, the biggest one, reppresented by the red dots, correspond to the rays that reach the image plane without touch the Montel, the rays coloured in blue, are those which are subject to only one reflection that are positioned in different part of the image plane depending which mirror meet, those that hit the xy-mirror correspond to the beam elongated along z, the zy-mirror correspond to the beam elongate along x. At the end, the green dots, are the rays that do both reflection and are centred to the center of the image plane by definition of it. 
+Figure \ref{fig:BigSourceMontel}, show thee image plane of the Montel defined above. This plot show 4 figure, the biggest one, represented by the red dots, correspond to the rays that reach the image plane without touch the Montel, the rays coloured in blue, are those which are subject to only one reflection that are positioned in different part of the image plane depending which mirror meet, those that hit the xy-mirror correspond to the beam elongated along z, the zy-mirror correspond to the beam elongate along x. At the end, the green dots, are the rays that do both reflection and are centred to the center of the image plane by definition of it. 
 \subsection{Alignment}
 Alignment of a beam is important for experimental use so, this section studies the behaviour of a beam when the beam is not perfectly align, in order to understand the behaviour of the beam in the different cases and act consequently. 
 \\
@@ -300,7 +290,7 @@ Another way that can be studied to align correctly a beam, is to study the behav
 %
 \end{figure}
 
-Figure \ref{fig: reuslt diff. path} show the behaviour of the two FWHM of the beam changing the incidence point of the beam moving the different paths. This point is defined with respect to the center of the Montel system that correspond to the origin (0, 0, 0). In Figure \ref{fig: Y path}, the incidence point move along y-axis, start from the point (0, 1.5mm, 0) and arriving to the point (0, -1.5mm, 0), and show, more or less, a flat behaviour of the FWHM. Figure \ref{fig: XZ path} start from the point (0, 0, 0.15mm) and arrive to (-0.15mm, 0, 0) and have specular behaviour for the two FWHM, there is a minumum of the two FWHM near the origin point, moving on the oe1 worse the FWHM of $z^{'} $ and maintain the other constant, on the contrary, moving on the oe2 the situation is reversed, in this case the FWHM of $x^{'} $ get worse, maintaining constant the one of $z^{'} $. Figure \ref{fig: XYZ1 path} start from (0, 1.5mm, 0.15mm) and arrive to (-0.15mm, -1.5mm, 0) and Figure \ref{fig: XYZ2 path} start from (-0.15mm, 1.5mm, 0) and arrive to (0., -1.5mm, 0.15mm). The behaviour of this last two path are similar to that of \ref{fig: XZ path}, this is reasonable, because the motion along y-axis does not influence the FWHM because of the definition of the cylindrical mirror, that in any point along the y direction have the same geometry.
+Figure \ref{fig: reuslt diff. path} show the behaviour of the two FWHM of the beam changing the incidence point of the beam moving the different paths. This point is defined with respect to the center of the Montel system that correspond to the origin (0, 0, 0). In Figure \ref{fig: Y path}, the incidence point move along y-axis, start from the point (0, 1.5mm, 0) and arriving to the point (0, -1.5mm, 0), and show, more or less, a flat behaviour of the FWHM. Figure \ref{fig: XZ path} start from the point (0, 0, 0.15mm) and arrive to (-0.15mm, 0, 0) and have specular behaviour for the two FWHM, there is a minimum of the two FWHM near the origin point, moving on the oe1 worse the FWHM of $z^{'} $ and maintain the other constant, on the contrary, moving on the oe2 the situation is reversed, in this case the FWHM of $x^{'} $ get worse, maintaining constant the one of $z^{'} $. Figure \ref{fig: XYZ1 path} start from (0, 1.5mm, 0.15mm) and arrive to (-0.15mm, -1.5mm, 0) and Figure \ref{fig: XYZ2 path} start from (-0.15mm, 1.5mm, 0) and arrive to (0., -1.5mm, 0.15mm). The behaviour of this last two path are similar to that of \ref{fig: XZ path}, this is reasonable, because the motion along y-axis does not influence the FWHM because of the definition of the cylindrical mirror, that in any point along the y direction have the same geometry.
 %
 %
 \begin{figure}[]
@@ -326,7 +316,7 @@ Figure \ref{fig: reuslt diff. path} show the behaviour of the two FWHM of the be
 In Figure \ref{fig: 2nd reuslt diff. path} it is show the intensity profile of the two-reflection beam after the Montel, calculated as the number of the rays in the two-reflection beam with respect to the initial number of rays. The source used, in this case, correspond to a big spot of a square geometry with an area of $1mm^2 $, and a large Gaussian divergence with a FWHM of 10mrad. The Montel used is a parabolic localizing system having e an object distance of 1m, an image distance of 3m, an incidence angle of $2^{\circ} $ and a finite dimension, with a length of 20cm and a width of 2cm.
 The different path move along these points; ymax=50cm, ymin=-50cm, xmin=-2cm, xmax=0, zmax=2cm, zmin=0
 \\
-The plots in Figure \ref{fig: 2nd reuslt diff. path}, are interesting, because rappresent the intensity of the "green" Beam in Figure \ref{fig:BigSourceMontel}, that can be directly measured and so, it is possible to realted the centring of the Beam calculating the intensity of this Beam.
+The plots in Figure \ref{fig: 2nd reuslt diff. path}, are interesting, because represents the intensity of the "green" Beam in Figure \ref{fig:BigSourceMontel}, that can be directly measured and so, it is possible to realted the centring of the Beam calculating the intensity of this Beam.
 %
 \begin{figure}[]
 %

@@ -1,40 +1,39 @@
 \chapter{MONWES}
 \label{capitolo3}
 \thispagestyle{empty}
-
-\begin{quotation}
-{\footnotesize
-\noindent \emph{``Bud: No, calma, calma, stiamo calmi, noi siamo su un'isola deserta, e per il momento non t'ammazzo perch\'e mi potresti servire come cibo ...''}
-\begin{flushright}
-Chi trova un amico trova un tesoro
-\end{flushright}
-}
-\end{quotation}
 \vspace{0.5cm}
 
-My thesis' work is the creation of a python script that simulate a ray-tracing of a beam. This tracing take in account the effect of different type of optical elements that that can find the beam in its way. To implement this ray-tracing it have to define three elements:
-\\ - Beam
-\\ - Optical elements
-\\ - Tracing system
+Chapter \ref{capitolo3} goes deep in the description of the python library developed by me. Monwes (MOntel and Wolter of yunES) library is a python library that perform ray tracing simulations for x-ray radiation along a system consisting of one or several mirror, using the optical element and compound optical elements introduced in Chapter \ref{capitolo2} (MONWES is still on working, the implementation of Wolter systems are not been done yet). The library take inspiration from OASYS ray tracing software developped by Manuel Sanchez Del Rio of ESRF, taking the starting element already present in OASYS environment in order to have the basic element that will be used in the new Montel system. OASYS elements are written for a sequential tracing method, method that doesn't work for Montel system. Thus a great effort has been done to generate a new tracing system that use a parallel approach.
+\\
+Object oriented programming were used consisting in a programming method in which data structures are defined with their type of operation, that are applied to the data structure. This oriented programming is based on the concept of "objects", it contain data in form of fields known as attributes and code in the form of procedure known as methods \cite{gamma2001design}. 
+\\
+The final goal of the MONWES library is that to complement the standatd ray tracing code SHADOW in OASYS with compound elements.
+\\
+The library, and so this Chapter, is composed by three main element:
+\begin{enumerate}
+\item Beam object: containing the information of the beam along the beamline;
+\item Optical element: that initialize the characteristic of the optical element/system used in the beamline;
+\item Tracing system: that  related the Beam characteristic with the effect of the optical elements/systems.
+\end{enumerate}
 
 \vspace{0.5cm}
 
 \section{Beam}
-Beam object is the object that contain the spatial and velocity information of a collection of rays. The Beam object is mainly charecterized by four parameters: 
+Beam object is the object that contain the spatial and velocity information of a collection of rays. The Beam object is mainly characterized by four parameters: 
 \begin{itemize}
 \item Number of rays
 \item Spatial profile
 \item Divergence profile
 \item Flag vector
 \end{itemize}
-Starting from the begging it can say that having a large number of rays is useful in terms of results but, as a back draw, increase the computation time, so, it have to find a compromise between the number of rays and the computation time depending on the quality desired. By default, the number of rays, is setted $25*10^3 $ that allow to have good results without spending lot of time. To change the number of rays it need to do as in figure \ref{fig: BeamRays}, where, the number of rays is choose as $10^4 $.
+Having a large number of rays is useful in terms of results but, as a back draw, increase the computation time, so, it have to find a compromise between the number of rays and the computation time depending on the quality desired. By default, the number of rays, is set $25*10^3 $ that allow to have good results without spending lot of time. Figure \ref{fig: BeamRays} show an initialization of Beam setting the number of ray equal to $10^4 $.
 \begin{figure}[H]
 %
 \centering
 %
 \includegraphics[width=.4\textwidth]{Immagini/Chapter3/BeamRays}
 %
-\caption{Example of Beam definition}
+\caption{Example of Beam initialization}
 %
 \label{fig: BeamRays}
 %
@@ -46,7 +45,7 @@ $\sigma_z $ that correspond the the $\sigma $ of the two dimension, Figure \ref{
 %
 \centering
 %
-\subfloat[][Example code for a Gaussian spot\label{fig: CodeGaussian}]
+\subfloat[][Example code for a Gaussian source in spatial coordinate\label{fig: CodeGaussian}]
    {\includegraphics[width=.4\textwidth]{Immagini/Chapter3/GaussianSpot}}\quad
 %
 \subfloat[][Plot of Figure \ref{fig: CodeGaussian}\label{fig: PlotGaussianExample}]
@@ -71,13 +70,7 @@ Over the Gaussian profile, there are other two geometrical profile that can be d
 \caption{Example 2}
 \label{fig :p2}
 \end{figure}
-Moreover it is possible to define a special shape that have, more or less, the figure of a person with a uniform distribution of the point in all the point of the space. This special shape is showed in Figure \ref{fig: PersonShape}, that is defined in the code written in Figure \ref{fig: CodePerson}. As it is showed, the initialize\_ as\_ person command take two input parameter, the number of the total rays (by default are $25*10^3 $), and a size parameter that set the coordinate limit of the figure, more precisely. In Figure \ref{fig: PersonShape} the size correspond to $10^{-6} $ so the limit are:
-\begin{itemize}
-\item $x_{max} =  1\mu m $
-\item $x_{min} = -1\mu m $
-\item $z_{max} = 1\mu m $
-\item $z_{min} = - 20\mu m $
-\end{itemize}
+Moreover it is possible to define a special shape that have, more or less, the figure of a person with a uniform distribution of the point in all the point of the space. This special shape is showed in Figure \ref{fig: PersonShape}, that is defined in the code written in Figure \ref{fig: CodePerson}. It is used to do a test "imaging" of a system checking that the image, after the optical system, is affected by deformation or defect. As it is showed, the initialize\_ as\_ person command take two input parameter, the number of the total rays (by default are $25*10^3 $), and a size parameter that set the coordinate limit of the figure, more precisely. In Figure \ref{fig: PersonShape} the size correspond to $10^{-6} $ so the limit are: $x_{max} =  1\mu m $, $x_{min} = -1\mu m $, $z_{max} = 1\mu m $, $z_{min} = - 20\mu m $.
 \begin{figure}[H]
 %
 \centering
@@ -98,7 +91,7 @@ The last piece of the Beam object is the "Flag" vector. Every component of this 
 %
 \includegraphics[width=.4\textwidth]{Immagini/Chapter3/ResumeBeam}
 %
-\caption{Resume of the Beam object parameter}
+\caption{Summary of the Beam object parameter}
 %
 \label{fig: ResumeBeam}
 %
@@ -119,7 +112,7 @@ At the end there are the command that plot the various characteristic of the bea
 
 
 \section{Optical Elements}
-Because, as discussed in Chapter 1, mirrors are the principal elements used in synchrotron the main optical element developed is the mirror, but it is also defined an ideal lens that is useful to simulate some particular profile for the Beam.that corresponding to this , more attention is focused on them, on the contrary , for testing uses, only one kind of lens, an ideal lens, is implemented. 
+Because, as discussed in Chapter \ref{Introduzione}, mirrors are the principal elements used in synchrotron the main optical element developed is the mirror, but it is also defined an ideal lens that is useful to simulate some particular profile for the Beam.that corresponding to this , more attention is focused on them, on the contrary , for testing uses, only one kind of lens, an ideal lens, is implemented. 
 \subsection{Mirrors and lens}
 The different kind of mirror that are defined are:
 \begin{itemize}
@@ -157,7 +150,7 @@ For the spherical case, the parameter that characterize a sphere is the radius, 
 x^2 + y^2 + z^2 = r^2
 \label{eq: sphere}
 \end{equation}
-Moreover, it is known, from the spherical lens optics, that
+Moreover, it is known, from the spherical lens optics (see Chapter \ref{capitolo2}) , that:
 \begin{equation}
 \frac{1}{p} + \frac{1}{q} = \frac{2}{r_t \sin \theta_g}
 \label{eq: sphereLaw1}
@@ -167,11 +160,11 @@ and
 \frac{1}{p} + \frac{1}{q} = \frac{2 \sin \theta_g}{r_s}
 \label{eq: sphereLaw2}
 \end{equation}
-where $r_t $, is the tangential radius, and $r_s $ is the saggital radius. The sphere case have $r_t = r_s $, this mean that, apart from the normal incidence case, the sphere cannot perfectly focolize/collimate a beam.The radius choosen in Surface\_ conic object is that corresponding to the equation \ref{eq: sphereLaw1}: 
+where $r_t $, is the tangential radius, and $r_s $ is the saggital radius. The sphere case have $r_t = r_s $, this mean that, apart from the normal incidence case, the sphere cannot perfectly focalize/collimate a beam.The radius chosen in Surface\_ conic object is that corresponding to the equation \ref{eq: sphereLaw1}: 
 \begin{equation}
-r = \frac{2}{\cos \theta} \frac{pq}{p + q}
+r = \frac{2}{\sin \theta_g} \frac{pq}{p + q}
 \end{equation}
-where p correspond to the object focus length, q to the image lengths, $\theta_g $ to the incidence angle and $\theta = \frac{\pi}{2} - \theta_g $.
+where p correspond to the object focus length, q to the image lengths, $\theta_g $ to the incidence angle.
 \\
 For the paraboloid shape, to find the correct coefficients that define the right surface, it is needed the incidence angle, one focal distance and another parameter that distinguish between the two behaviour of the mirror that are showed in Figure \ref{fig: ParabolaFocus} and, Figure \ref{fig: ParabolaColl}. This two system correspond mirrors that, physically, have different behaviour, the first one Figure \ref{fig: ParabolaFocus}, focalize a Beam, the second one, Figure \ref{fig: ParabolaColl}, collimate a Beam.
 \begin{figure}[H]
@@ -214,7 +207,7 @@ where d is the object focal distance, in the case depicted in Figure \ref{fig: P
 \label{fig: ParabolaSystem}
 %
 \end{figure}
-For the elliptical case the situation is rappresented in Figure \ref{fig: ellipse}. Equation \ref{eq: ellipse} describe the general equation of an ellipse where appear two unknown $a$ and $b $.
+For the elliptical case the situation is represents in Figure \ref{fig: ellipse}. Equation \ref{eq: ellipse} describe the general equation of an ellipse where appear two unknown $a$ and $b $.
 %
 \begin{equation}
 \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
@@ -289,7 +282,7 @@ Apart of the mirrors elements is implement also an ideal lens element that follo
 		\frac{1}{f_z} = \frac{1}{p} + \frac{1}{q}
 		\label{eq: lens equation2}
 \end{equation}
-where $f_x $ is the x focal length and $f_z $ is the z focal length. For this optical element the input parameters are the object focal distance, image object distance and the two focal distances ($f_x $, $f_z $) that, in the default mode, are setted equal with a value equal to $f_x = f_z = \frac{pq}{p+q} $.
+where $f_x $ is the x focal length and $f_z $ is the z focal length. For this optical element the input parameters are the object focal distance, image object distance and the two focal distances ($f_x $, $f_z $) that, in the default mode, are set equal with a value equal to $f_x = f_z = \frac{pq}{p+q} $.
 
 \subsection{Compound Optical Element (KB and Montel system)}
 
@@ -377,7 +370,7 @@ The following Figure \ref{fig: CodeMontel} show an example code for a parabolic 
 \section{Tracing System}
 Defined the Beam and the different optical element, to complete a simulation, is needed a tool that put everything together and modify the property of the beam after the interaction with the optical elements.
 \\
-For example, if it want to simulate the system depicted in Figure \ref{fig: System}, it have to define a Beam source, the optical element and, at the end, somewhere, the distances between the optical elements. The tracing part of the program, for the non-compound optical element, is written in such a way that the trace work in series, one optical element after the other. This, in series methods, work with the definition of two distances, object/image distance from the center of the optical element, the incidence angle of the Beam, that can be different from the designing one,and a second angle that define the mirror with respect to the Beam. (normally and also for the default case the incidence angle i equal to the designed one, and the second angle is fixed to $0^{\circ} $). One possibilities, to define the systam in Figure \ref{fig: System} is to set the object distances of the mirrors equal to distance $d_0 $ and $d_1 $, and the image distances equal to $0 $, for the lens lets set the object distance equal to $d_3 $ and the image distance equal to $d_4 $ as it is reported in Figure \ref{fig: CodeSystem}.
+For example, if it want to simulate the system depicted in Figure \ref{fig: System}, it have to define a Beam source, the optical element and, at the end, somewhere, the distances between the optical elements. The tracing part of the program, for the non-compound optical element, is written in such a way that the trace work in series, one optical element after the other. This, in series methods, work with the definition of two distances, object/image distance from the center of the optical element, the incidence angle of the Beam, that can be different from the designing one,and a second angle that define the mirror with respect to the Beam. (normally and also for the default case the incidence angle i equal to the designed one, and the second angle is fixed to $0^{\circ} $). One possibilities, to define the system in Figure \ref{fig: System} is to set the object distances of the mirrors equal to distance $d_0 $ and $d_1 $, and the image distances equal to $0 $, for the lens lets set the object distance equal to $d_3 $ and the image distance equal to $d_4 $ as it is reported in Figure \ref{fig: CodeSystem}.
 \begin{figure}[H]
 %
 \centering
@@ -404,7 +397,7 @@ For example, if it want to simulate the system depicted in Figure \ref{fig: Syst
 \subsection{Tracing for simple Optical element}
 Going deeper in the code, the algorithm that trace a single element is divided in 5 step
 \begin{enumerate}
-	\item change the reference system with that soldal with the optical element after two rotation, one along x-axis, and second along y-axis, and a translation equal to the object distance of the optical element
+	\item change the reference system from that of the optical axes to that of the optical element after two rotation, one along x-axis, and second along y-axis, and a translation equal to the object distance of the optical element
 	\item free propagation up to the optical element
 	\item effect of the optical element
 	\item free propagation to the image plane
@@ -442,15 +435,15 @@ For KB system the situation is more or less the same as for a simple optical mir
 \subsection{Tracing for Montel}
 Montel system is completely different from the KB system and all the series optical system, so it need a new trace system. This new trace system is divided as follow
 \begin{enumerate}
-	\item Changing the reference frame in one having the center on the center of the mirrors, with a z-axis corresponding to the normal of one mirror and -x-axis equal to the normal of the second mirror. This transformation is done in a similar way of the normal tracing, two rotation of the beam, and one translation, differently from the normal tracing, the tw rotation are done such that the beam hit the mirrors with an incidence angle set by the user
+	\item Changing the reference frame in one having the center on the center of the mirrors, with a z-axis corresponding to the normal of one mirror and -x-axis equal to the normal of the second mirror. This transformation is done in a similar way of the normal tracing, two rotation of the beam, and one translation, differently from the normal tracing, the two rotation are done such that the beam hit the mirrors with an incidence angle set by the user
 	\item Focus the attention on the travel time of each ray in order to know which is the nearest optical element of each ray
 	\item free propagation of each ray up to the nearest optical element
 	\item effect of the system for each ray
 	\item repeat the 2$^{nd} $, 3$^{rd} $ and 4$^{th} $ passage two times, in order to consider the two reflection
-	\item Change the reference system solidale with the beam that is subject to two reflection, doing two rotation and one translation
+	\item Change the reference system to the optical axes that is subject to two reflection, doing two rotation and one translation
 \end{enumerate}  
 
-\noindent What is reported above is the default tracing system that, because of its centrality on my thesis' work have many option. What is setted by the user is 
+\noindent What is reported above is the default tracing system that, because of its centrality on my thesis' work have many option. What is set by the user is 
 \begin{enumerate}
 	\item focal distances and incidence angles, that define the two rotation and the translation of the tracing system
 	\item name of the File in which is saved the data of the simulation, by default no data is saved

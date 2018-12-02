@@ -1,4 +1,15 @@
-\begin{thebibliography}{RKM15}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{HHK{\etalchar{+}}10}
+
+\bibitem[Aga91]{agarwal1991interaction}
+Bipin~K Agarwal.
+\newblock Interaction of x-rays with matter.
+\newblock In {\em X-Ray Spectroscopy}, pages 121--126. Springer, 1991.
+
+\bibitem[CL70]{cromer1970relativistic}
+Don~T Cromer and David Liberman.
+\newblock Relativistic calculation of anomalous scattering factors for x rays.
+\newblock {\em The Journal of Chemical Physics}, 53(5):1891--1898, 1970.
 
 \bibitem[Dal16]{ThomsonScattering}
 Daniele Dallacasa.
@@ -8,15 +19,82 @@ Daniele Dallacasa.
 Richard Fitzpatrick.
 \newblock Rayleigh scattering, 2006.
 
+\bibitem[GHJV95]{gamma2001design}
+Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+\newblock {\em Design patterns: Abstraction and reuse of object-oriented
+  design}.
+\newblock Springer, 1995.
+
+\bibitem[gis15]{Refractiveindex}
+gisaxs.
+\newblock Refractive index, 2015.
+
+\bibitem[HHK{\etalchar{+}}10]{honnicke2010tracing}
+Marcelo~Goncalves Honnicke, Xianrong Huang, Jeffrey~W Keister, Chaminda~Nalaka
+  Kodituwakku, and Yong~Q Cai.
+\newblock Tracing x-rays through an l-shaped laterally graded multilayer
+  mirror: a synchrotron application.
+\newblock {\em Journal of synchrotron radiation}, 17(3):352--359, 2010.
+
+\bibitem[IBK09]{ice2009nested}
+Gene~E Ice, Rozaliya~I Barabash, and Ali Khounsary.
+\newblock Nested mirrors for x-rays and neutrons.
+\newblock In {\em Advances in X-Ray/EUV Optics and Components IV}, volume 7448,
+  page 74480B. International Society for Optics and Photonics, 2009.
+
+\bibitem[LBN10]{CXRO}
+MSD LBNL.
+\newblock Center for x-ray optics, 2010.
+
+\bibitem[LIA{\etalchar{+}}11]{liu2011achromatic}
+Wenjun Liu, Gene~E Ice, Lahsen Assoufid, Chian Liu, Bing Shi, Ruben
+  Khachatryan, Jun Qian, Paul Zschack, Jonathan~Z Tischler, and J-Y Choi.
+\newblock Achromatic nested kirkpatrick--baez mirror optics for hard x-ray
+  nanofocusing.
+\newblock {\em Journal of synchrotron radiation}, 18(4):575--579, 2011.
+
+\bibitem[Man81]{manson1981theory}
+Steven~T Manson.
+\newblock Theory of sub-kev photoionization cross sections.
+\newblock In {\em AIP Conference Proceedings}, volume~75, pages 156--161. AIP,
+  1981.
+
 \bibitem[Mic86]{michette1986optical}
 A.G. Michette.
 \newblock {\em Optical systems for soft X rays}.
 \newblock Plenum Press, 1986.
 
+\bibitem[Mon57]{montel1957x}
+M~i Montel.
+\newblock X-ray microscopy with catamegonic roof mirrors.
+\newblock {\em X-ray Microscopy and Microradiography}, pages 177--185, 1957.
+
+\bibitem[MSL{\etalchar{+}}14]{mundboth2014tests}
+K~Mundboth, J~Sutter, D~Laundy, S~Collins, S~Stoupin, and Yu~Shvyd'ko.
+\newblock Tests and characterization of a laterally graded multilayer montel
+  mirror.
+\newblock {\em Journal of synchrotron radiation}, 21(1):16--23, 2014.
+
+\bibitem[MY09]{matsuyama2009textbook}
+S~Matsuyama and H~Yumoto.
+\newblock Textbook for hard x-ray focusing with kirkpatrick-baez optics.
+\newblock {\em Unpublished Report}, 2009.
+
 \bibitem[RKM15]{resta2015nested}
 Giacomo Resta, Boris Khaykovich, and David Moncton.
 \newblock Nested kirkpatrick--baez (montel) optics for hard x-rays.
 \newblock {\em Journal of Applied Crystallography}, 48(2):558--564, 2015.
+
+\bibitem[SFV09]{article_res_geat}
+Francesc Salvat and José Fernández-Varea.
+\newblock Overview of physical interaction models for photon and electron
+  transport used in monte carlo codes.
+\newblock {\em Metrologia}, 46:S112, 03 2009.
+
+\bibitem[SS05]{X-RayWolter}
+Robert Shannon and Roland Shack.
+\newblock {\em Legends in Applied Optics}.
+\newblock James E. Harvey, 2005.
 
 \bibitem[Uni16]{ComptonScattering}
 Boston University.

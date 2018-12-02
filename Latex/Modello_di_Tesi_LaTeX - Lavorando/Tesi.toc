@@ -4,40 +4,39 @@
 \babel@toc {italian}{}
 \babel@toc {english}{}
 \babel@toc {italian}{}
-\contentsline {chapter}{Introduzione}{1}{section*.15}
+\contentsline {chapter}{Introduzione}{1}{section*.13}
 \contentsline {chapter}{\numberline {1}Focusing for X-rays}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Interaction with Matter}{5}{section.1.1}
 \contentsline {section}{\numberline {1.2}Total External Reflection}{9}{section.1.2}
-\contentsline {chapter}{\numberline {2}Mirrors for X-rays}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Spherical surface}{17}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Astigmatism}{17}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Spherical Aberration}{19}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Reducing aberration}{20}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Conic Surfaces}{20}{section.2.2}
-\contentsline {section}{\numberline {2.3}Compound Optical system}{22}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Wolter System}{22}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Kirkpatrick-Baez System}{23}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Montel}{24}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Diffraction limit of Montel compared to sequential K:}{24}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Flux limit}{28}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Optical Design}{28}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {3}MONWES}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}Beam}{31}{section.3.1}
-\contentsline {section}{\numberline {3.2}Optical Elements}{35}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Mirrors and lens}{35}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Compound Optical Element (KB and Montel system)}{39}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Tracing System}{41}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Tracing for simple Optical element}{42}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Tracing for KB}{43}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Tracing for Montel}{43}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {4}Results}{47}{chapter.4}
-\contentsline {section}{\numberline {4.1}Testing}{47}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Testing with OASYS}{47}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Testing with the paper}{50}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Analysis of Montel system}{50}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Alignment}{54}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Alignment: Orthogonality}{54}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Alignment: Incidence angle}{54}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Alignment: point of incidence}{54}{subsection.4.2.4}
-\contentsline {chapter}{\numberline {A}Table for absorption coefficents}{61}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}How to calculated the ellipse's and hyperbola's coefficients}{65}{appendix.Alph2}
+\contentsline {chapter}{\numberline {2}Mirrors for X-rays}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Spherical surface}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Astigmatism}{15}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Spherical Aberration}{17}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Reducing aberration}{18}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Conic Surfaces}{18}{section.2.2}
+\contentsline {section}{\numberline {2.3}Compound Optical system}{19}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Wolter System \cite {X-RayWolter}}{20}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Kirkpatrick-Baez System \cite {matsuyama2009textbook} }{21}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Montel}{22}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Description}{22}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Optical Design \cite {ice2009nested}}{23}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}MONWES}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Beam}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Optical Elements}{29}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Mirrors and lens}{29}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Compound Optical Element (KB and Montel system)}{33}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Tracing System}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Tracing for simple Optical element}{36}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Tracing for KB}{37}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Tracing for Montel}{37}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}Results}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Testing}{41}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Testing with OASYS}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Testing with the paper}{44}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Analysis of Montel system}{44}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Alignment}{48}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Alignment: Orthogonality}{48}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Alignment: Incidence angle}{48}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Alignment: point of incidence}{48}{subsection.4.2.4}
+\contentsline {chapter}{\numberline {A}Table for absorption coefficents}{55}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}How to calculated the ellipse's and hyperbola's coefficients}{59}{appendix.Alph2}
