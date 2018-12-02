@@ -26,11 +26,11 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Example 3\relax }}{27}{figure.caption.33}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Summary of the Beam object parameter\relax }}{28}{figure.caption.34}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Parabola\relax }}{30}{figure.caption.35}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces System\relax }}{31}{figure.caption.36}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Part of a parabola (blue), with other characteristic (different color) \cite {wikiParabola}\relax }}{31}{figure.caption.36}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Ellipse System\relax }}{32}{figure.caption.37}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Hyperbola System\relax }}{32}{figure.caption.38}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces System\relax }}{33}{figure.caption.39}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces System\relax }}{34}{figure.caption.40}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces KB system\relax }}{33}{figure.caption.39}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Different object/image focal length that characterize the whole KB system, and the single mirrors. Is it also showed the separation length between the two mirror\relax }}{34}{figure.caption.40}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Example 5\relax }}{34}{figure.caption.41}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces System\relax }}{35}{figure.caption.42}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Example 6\relax }}{35}{figure.caption.43}
@@ -38,25 +38,26 @@
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Example 7\relax }}{36}{figure.caption.45}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Example 1\relax }}{37}{figure.caption.46}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Example 8\relax }}{37}{figure.caption.47}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Example 8\relax }}{39}{figure.caption.48}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces From \cite {liu2011achromatic}. For the KB system (Figure \ref {fig: KB111}) all the rays hit sequentially one mirror after the other. For the Montel system (Figure \ref {fig: Montel111}) a portion of rays coming from the source hit firstly oe1 and secondly oe2, the other portion do the opposite thing.\relax }}{38}{figure.caption.48}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Example 8\relax }}{39}{figure.caption.49}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Example 8\relax }}{40}{figure.caption.50}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Optical system\relax }}{42}{figure.caption.49}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Parameter of the source used for the comparison with OASYS\relax }}{42}{figure.caption.50}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Parameter of the source used for the comparison with OASYS\relax }}{43}{figure.caption.51}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Parameter of the source used for the comparison with OASYS\relax }}{43}{figure.caption.52}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Parameter of the source used for the comparison with OASYS\relax }}{43}{figure.caption.53}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Illustration of the Montel system used as a collimator in the paper \cite {resta2015nested}\relax }}{44}{figure.caption.54}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of the Montel simulations with a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{45}{figure.caption.55}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Ideal system\relax }}{46}{figure.caption.56}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Footprint, on the xy-mirror (\ref {fig: footprint_oe1}) and on zy-mirror (\ref {fig: footprint_oe2}). The red dots are those rays that hit before xy-mirror and after zy-mirror, the blue ones hit first xy-mirror and after zy-mirror.\relax }}{47}{figure.caption.57}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Illumination at the image plane of the different Beam (red dots correspond to np-reflected rays, blue dot to one-reflected rays, green dots to two-reflected rays).\relax }}{47}{figure.caption.58}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Histogram of x' after Montel\relax }}{49}{figure.caption.59}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces FWHM of x' after the Montel changing the orthogonality\relax }}{50}{figure.caption.60}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Incidence angle\relax }}{50}{figure.caption.61}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Different path for simulate the non-centred beam\relax }}{51}{figure.caption.62}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{52}{figure.caption.63}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{53}{figure.caption.64}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Optical system used for the test with OASYS\relax }}{42}{figure.caption.51}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Parameter of the source used for the test with OASYS\relax }}{42}{figure.caption.52}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Image for the testing ideal lenses system in Figure \ref {fig: Optical system} of: my simulation (Figure \ref {fig: my Ideal Lenses}) and OASYS simulation (Figure \ref {fig: Ideal Lenses OASYS})\relax }}{43}{figure.caption.53}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Image for the testing paraboloid system in Figure \ref {fig: Optical system} of: my simulation (Figure \ref {fig: my Paraboloid}) and OASYS simulation (Figure \ref {fig: Paraboloid OASYS})\relax }}{43}{figure.caption.54}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Image for the testing KB system in Figure \ref {fig: Optical system} of: my simulation (Figure \ref {fig: my KB}) and OASYS simulation (Figure \ref {fig: KB OASYS})\relax }}{43}{figure.caption.55}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Illustration of the Montel system used as a collimator in the paper \cite {resta2015nested}\relax }}{44}{figure.caption.56}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of the Montel simulations with a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{45}{figure.caption.57}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ideal system\relax }}{46}{figure.caption.58}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Illumination at the image plane of the different Beam (red dots correspond to np-reflected rays, blue dot to one-reflected rays, green dots to two-reflected rays).\relax }}{47}{figure.caption.59}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Different path for simulate the non-centred beam\relax }}{48}{figure.caption.60}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{49}{figure.caption.61}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{50}{figure.caption.62}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Footprint, on the xy-mirror (\ref {fig: footprint_oe1}) and on zy-mirror (\ref {fig: footprint_oe2}). The red dots are those rays that hit before xy-mirror and after zy-mirror, the blue ones hit first xy-mirror and after zy-mirror.\relax }}{50}{figure.caption.63}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Histogram of x' after Montel\relax }}{52}{figure.caption.64}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces FWHM of x' after the Montel changing the orthogonality\relax }}{53}{figure.caption.65}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Hyperbola's system\relax }}{60}{figure.caption.65}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Hyperbola's system\relax }}{61}{figure.caption.66}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Hyperbola's system\relax }}{60}{figure.caption.66}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Hyperbola's system\relax }}{61}{figure.caption.67}

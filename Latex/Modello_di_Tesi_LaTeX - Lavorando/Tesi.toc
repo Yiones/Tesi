@@ -25,18 +25,17 @@
 \contentsline {section}{\numberline {3.2}Optical Elements}{29}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Mirrors and lens}{29}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Compound Optical Element (KB and Montel system)}{33}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Compound System: KirkPatrickBaez}{33}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Compound System: Montel }{34}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}Tracing System}{35}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Tracing for simple Optical element}{36}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Tracing for KB}{37}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Tracing for Montel}{37}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {4}Results}{41}{chapter.4}
-\contentsline {section}{\numberline {4.1}Testing}{41}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Testing with OASYS}{41}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Testing with the paper}{44}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {4}Test and Results}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Testing against OASYS}{41}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Benchmarking}{44}{subsection.4.1.1}
 \contentsline {section}{\numberline {4.2}Analysis of Montel system}{44}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Alignment}{48}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Alignment: Orthogonality}{48}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Alignment: Incidence angle}{48}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Alignment: point of incidence}{48}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Non-centred Beam}{47}{section.4.3}
+\contentsline {section}{\numberline {4.4}My work for the ID 20}{51}{section.4.4}
 \contentsline {chapter}{\numberline {A}Table for absorption coefficents}{55}{appendix.Alph1}
 \contentsline {chapter}{\numberline {B}How to calculated the ellipse's and hyperbola's coefficients}{59}{appendix.Alph2}

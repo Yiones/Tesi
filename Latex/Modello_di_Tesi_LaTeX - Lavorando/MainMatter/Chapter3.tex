@@ -202,7 +202,7 @@ where d is the object focal distance, in the case depicted in Figure \ref{fig: P
 %
 \includegraphics[width=0.8\textwidth]{Immagini/Chapter3/Parab}
 %
-\caption{System}
+\caption{Part of a parabola (blue), with other characteristic (different color) \cite{wikiParabola}}
 %
 \label{fig: ParabolaSystem}
 %
@@ -273,7 +273,7 @@ q = \sqrt{ab} \sin\theta
 After that it, as in the case of the ellipsoidal mirror, it need a rotation and a translation to complete the work.
 For the mirrors, in the program, there is a further option that make the mirror cylindrical in one dimension maintain its surface conic in the other, to do this, in Surface\_ conic object, it is defined a function set\_ cylindrical, that change the shape of the surface, from a complete surface conic, to a surface conic in one dimension and cylindrical in the other.
 \\
-Apart of the mirrors elements is implement also an ideal lens element that follow the typical lens equation:
+In addition of the mirrors elements is implemented also an ideal lens element that follow the typical lens equation:
 \begin{equation}
 		\frac{1}{f_x} = \frac{1}{p} + \frac{1}{q}
 		\label{eq: lens equation1}
@@ -292,7 +292,7 @@ This program include also two different system composed by more mirrors. Startin
 \item Montel
 \end{itemize}
 
-%\subsection{KirkPatrickBaez System}
+\subsection{Compound System: KirkPatrickBaez}
 KirkPatrickBaez or, more simply, KB system are shown in Figure \ref{fig: KB} is composed by two cylindrical surfacing conic mirror placed one after the other with the two focal lens that converge in the same point. There are implemented two different kind of KB system, a first one composed by two elliptical mirrors and a second one composed by parabolic mirrors. The input parameter that the program need are the two incidence angle and the two focal, with respect to the center of the KB system, represented in Figure \ref{fig: KB1} and the separation of the two mirror, from center to center.
 \begin{figure}[H]
 %
@@ -300,7 +300,7 @@ KirkPatrickBaez or, more simply, KB system are shown in Figure \ref{fig: KB} is 
 %
 \includegraphics[width=.4\textwidth]{Immagini/Chapter3/KB}
 %
-\caption{System}
+\caption{KB system}
 %
 \label{fig: KB}
 %
@@ -311,7 +311,7 @@ KirkPatrickBaez or, more simply, KB system are shown in Figure \ref{fig: KB} is 
 %
 \includegraphics[width=.8\textwidth]{Immagini/Chapter3/KB1}
 %
-\caption{System}
+\caption{Different object/image focal length that characterize the whole KB system, and the single mirrors. Is it also showed the separation length between the two mirror}
 %
 \label{fig: KB1}
 %
@@ -342,6 +342,7 @@ Because this system is simply a system composed by two surface conical mirror in
 \label{fig: CodeKB}
 %
 \end{figure}
+\subsection{Compound System: Montel }
 The Montel system, depicted in Figure \ref{fig: MontelSystem}, is composed, as for the KB, by two surface conical mirror cylindrical in one direction, but, because the two mirror are not in series, as for the case of the KB, the situation is a bit complicate. Starting from definition of the two mirrors one is rotated of 90$^\circ $, in order to have a mirror in the xy plane, and another one in the zy plane. As shown in Figure \ref{fig: MontelSystem} the center of the Cartesian system is setted in the point where the  optical axis of the system hit the compound system having the normal of the first normal equal to the z-axis, and the second normal equal to the - x-axis. The system is defined by the following parameter p, q, $\theta_z $, $\theta_x $, where p and q are the focal distance of the two mirrors and $\theta_z $ and $\theta_x $ are the angle of incidence to define the correct mirrors  (by default $\theta_z = \theta_x $).
 \begin{figure}[H]
 %
@@ -433,31 +434,72 @@ For KB system the situation is more or less the same as for a simple optical mir
 %
 \end{figure}
 \subsection{Tracing for Montel}
-Montel system is completely different from the KB system and all the series optical system, so it need a new trace system. This new trace system is divided as follow
-\begin{enumerate}
-	\item Changing the reference frame in one having the center on the center of the mirrors, with a z-axis corresponding to the normal of one mirror and -x-axis equal to the normal of the second mirror. This transformation is done in a similar way of the normal tracing, two rotation of the beam, and one translation, differently from the normal tracing, the two rotation are done such that the beam hit the mirrors with an incidence angle set by the user
-	\item Focus the attention on the travel time of each ray in order to know which is the nearest optical element of each ray
-	\item free propagation of each ray up to the nearest optical element
-	\item effect of the system for each ray
-	\item repeat the 2$^{nd} $, 3$^{rd} $ and 4$^{th} $ passage two times, in order to consider the two reflection
-	\item Change the reference system to the optical axes that is subject to two reflection, doing two rotation and one translation
-\end{enumerate}  
-
-\noindent What is reported above is the default tracing system that, because of its centrality on my thesis' work have many option. What is set by the user is 
-\begin{enumerate}
-	\item focal distances and incidence angles, that define the two rotation and the translation of the tracing system
-	\item name of the File in which is saved the data of the simulation, by default no data is saved
-	\item there is the possibility to choose a different point, from the origin, in which the the optical axis hit the system
-	\item there is also the possibility to have a final output frame that is not solidal by the two-reflected beam, but with the non reflected beam or with the other two beam that are reflected only one time
-	\item It is also the possibility to figure out the footprint of the two reflected beam on the system. For clarity the beam that hit the first mirror and after the second is labelled with red point, the beam that hit the second and after first mirror is labelled by blue color
-\end{enumerate}
-
-\noindent These options are added in order to study better the behaviour of a beam with a Montel system. The possibilities to change the angle of incidence and to hit different part from the origin can be used to study what happen to a beam when is not aligned, or not perfectly aligned, and use these result to align the system in the laboratories. The possibilities to save a File is useful in particular in those case where there is a huge computational effort that need a lot of time, in these cases is possible to work with the result of a big simulation without reappointing it, and so save time. Figure \ref{fig: CodeTraceMontel} show the code that trace a Montel elements, containing also the special option that were defined above.
+As said at the beginning of the Chapter, the tracing method used for Montel is new and different from the other. For the KB case the tracing method utilized is sequential. This mean that all the rays hit firstly a mirror, and secondly the other mirror. Figure \ref{fig : 111} and Figure \ref{fig: RealMontel}, show the KB (Figure \ref{fig: KB111}) and Montel (Figure \ref{fig: Montel111} and \ref{fig: RealMontel}) situations.
 \begin{figure}[H]
 %
 \centering
 %
-\includegraphics[width=1.\textwidth]{Immagini/Chapter3/CodeTraceMontel}
+\subfloat[][KB\label{fig: KB111}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter3/KB111}}\quad
+%
+\subfloat[][Montel \label{fig: Montel111}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter3/Montel111}}
+%
+\caption{From \cite{liu2011achromatic}. For the KB system (Figure \ref{fig: KB111}) all the rays hit sequentially one mirror after the other. For the Montel system (Figure \ref{fig: Montel111}) a portion of rays coming from the source hit firstly oe1 and secondly oe2, the other portion do the opposite thing.}
+\label{fig : 111}
+%
+\end{figure}
+\noindent The first step to trace the Montel is that to change the reference frame from the source optical axial to the optical system. This system is chosen to have origin in the center of whole system with the normal of the two mirror along z and -x axis, as it is showed in Figure \ref{fig: MontelSystem}. Moreover, the change of reference frame, has to be done in order to force the beam to have incidence angles, and distance from the center of the system equal to those chosen by the user. To do this, two rotation, that rules the values of the angles and one translation, that rule the distance between source and center of Montel. These angles and distance can be equal to the initialized values.
+\\
+The second step consist in the propagation step. Because the beam hit simultaneously the two mirror a new method is implemented. This method, named comparison$\_ $time, compare the time that each ray take to reach the different mirrors. Calculated the time for each ray, is set a flag that specify the closest optical element. At this point the Beam is divided in three "sub-Beams", a first one that contain the rays going to the first mirror, a second one that contain the rays going to the second mirror, and a third one that contain the rays that, because of the finite size of the mirrors, doesn't hit any mirror. At this point each sub-Beam is traced to the corresponding optical element and so are computed the effect of the mirror on the 1st and 2nd sub-Beams. This process gives three output: "beam1", "beam2" and "beam3". These output contain the information of the beam along the whole propagation system.
+\\
+%\begin{figure}[H]
+%
+%\centering
+%
+%\includegraphics[width=1.\textwidth]{Immagini/Chapter3/Montel_x_ray_beam}
+%
+%\caption{Example 8}
+%
+%\label{fig: RealMontel}
+%
+%\end{figure}
+The "beam1" and "beam2", are list of two dimension that contain the rays of that will hit the first mirror at the first and at the second iteration. "beam3" is the most important output, because contain the information of the beam at the image plane. This list is divided in three Beam, where the first beam contain the information of the ray that undergo no-reflection, the second Beam contain the information of the ray that undergo one-reflection and the third contain the information of the ray that undergo two-reflection.
+Figure \ref{fig: BigSourceMontel}, show the spatial coordinate of the three element of the "beam3", where the red dots correspond to the beam with no-reflection, the blue dots correspond to the beam with no-reflection and the green dots correspond to the beam with no-reflection.
+\\
+The last step of this tracing method consist in a re-change of reference frame to the optical axis of the two reflected beam (as showed in Figure \ref{fig: BigSourceMontel}, where the green dots are centred in the point (0,0)). This transformation is similar to the first step of this tracing method where the two reflection are done with respect to the same angle of incidence, and the translation depend on the value set by the user corresponding to the distance from the center of the Montel system.
+\\
+Here below a brief summary of the tracing method:
+	\\ \hspace{20mm} 1. Changing the reference frame from the source optical axis to the Montel system
+	\\ \hspace{20mm} 2. Focus the attention on the travel time of each ray in order to know which is the nearest optical element of each ray
+	\\ \hspace{20mm} 3. free propagation of each ray up to the nearest optical element
+	\\ \hspace{20mm} 4. effect of the system for each ray
+	\\ \hspace{20mm} 5. repeat the 2$^{nd} $, 3$^{rd} $ and 4$^{th} $ passage two times, in order to consider the two reflection
+	\\ \hspace{20mm} 6. Change the reference system to the optical axes that is subject to two reflection, doing two rotation and one translation
+\begin{figure}[H]
+%
+\centering
+%
+\includegraphics[width=1.\textwidth]{Immagini/Chapter3/BigSourceMontel}
+%
+\caption{Example 8}
+%
+\label{fig: BigSourceMontel}
+%
+\end{figure}
+\noindent Because of the importance of the Montel system in my Thesis, it is implemented some additive option with the aim to study better the behaviour of the system. These new parameters that affect the tracing system are: 
+	\\ \hspace{20mm} 1. focal distances and incidence angles, that define the two rotation and the translation of the tracing system
+	\\ \hspace{20mm} 2. name of the File in which is saved the data of the simulation, by default no data is saved
+	\\ \hspace{20mm} 3. there is the possibility to choose a different point, from the origin, in which the the optical axis hit the system
+	\\ \hspace{20mm} 4. there is also the possibility to have a final output frame that is not solidal by the two-reflected beam, but with the non reflected beam or with the other two beam that are reflected only one time
+	\\ \hspace{20mm} 5. It is also the possibility to figure out the footprint of the two reflected beam on the system. For clarity the beam that hit the first mirror and after the second is labelled with red point, the beam that hit the second and after first mirror is labelled by blue color
+
+\noindent In Chapter \ref{capitolo4}, these option will be useful in the comprehension of the Montel. The possibilities to change the angle of incidence and to hit different part from the origin can be used to study what happen to a beam when is not aligned, or not perfectly aligned, and use these result to align the system in the laboratories. The possibilities to save a File is useful in particular in those case where there is a huge computational effort that need a lot of time, in these cases is possible to work with the result of a big simulation without reappointing it, and so save time. Figure \ref{fig: CodeTraceMontel} show the code that trace a Montel elements, containing also the special option that were defined above.
+\begin{figure}[H]
+%
+\centering
+%
+\includegraphics[width=.65\textwidth]{Immagini/Chapter3/CodeTraceMontel}
 %
 \caption{Example 8}
 %

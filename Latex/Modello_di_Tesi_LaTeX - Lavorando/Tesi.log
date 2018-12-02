@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.29)  2 DEC 2018 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.29)  3 DEC 2018 00:46
 entering extended mode
 **./Tesi.tex
 (Tesi.tex
@@ -1047,21 +1047,6 @@ LaTeX Warning: Label `fig: System' multiply defined.
 LaTeX Warning: Label `fig :p1' multiply defined.
 
 
-LaTeX Warning: Label `fig: footprint_oe1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig: footprint_oe1' multiply defined.
-
-
-LaTeX Warning: Label `fig: footprint_oe2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig: footprint_oe2' multiply defined.
-
-
-LaTeX Warning: Label `fig: incidence angle' multiply defined.
-
-
 LaTeX Warning: Label `fig: Y path' multiply defined.
 
 
@@ -1497,7 +1482,7 @@ Capitolo 1.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 14.
 
-<Immagini/Chapter1/Scattering1.png, id=325, 347.04657pt x 432.11438pt>
+<Immagini/Chapter1/Scattering1.png, id=349, 347.04657pt x 432.11438pt>
 File: Immagini/Chapter1/Scattering1.png Graphic file (type png)
 <use Immagini/Chapter1/Scattering1.png>
 Package pdftex.def Info: Immagini/Chapter1/Scattering1.png  used on input line 
@@ -1509,7 +1494,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 19.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 19.
-<Immagini/Chapter1/Scattering2.png, id=327, 340.27126pt x 420.82219pt>
+<Immagini/Chapter1/Scattering2.png, id=351, 340.27126pt x 420.82219pt>
 File: Immagini/Chapter1/Scattering2.png Graphic file (type png)
 <use Immagini/Chapter1/Scattering2.png>
 Package pdftex.def Info: Immagini/Chapter1/Scattering2.png  used on input line 
@@ -1524,7 +1509,7 @@ ng>]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 99.
 
-<Immagini/Chapter1/KLM.png, id=361, 477.28313pt x 237.13594pt>
+<Immagini/Chapter1/KLM.png, id=385, 477.28313pt x 237.13594pt>
 File: Immagini/Chapter1/KLM.png Graphic file (type png)
 <use Immagini/Chapter1/KLM.png>
 Package pdftex.def Info: Immagini/Chapter1/KLM.png  used on input line 103.
@@ -1539,7 +1524,7 @@ LaTeX Warning: Citation `henke1981atomic' on page 8 undefined on input line 220
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 254.
 
-<Immagini/Chapter1/System.png, id=418, 460.72125pt x 286.06876pt>
+<Immagini/Chapter1/System.png, id=441, 460.72125pt x 286.06876pt>
 File: Immagini/Chapter1/System.png Graphic file (type png)
 <use Immagini/Chapter1/System.png>
 Package pdftex.def Info: Immagini/Chapter1/System.png  used on input line 258.
@@ -1549,7 +1534,7 @@ Package pdftex.def Info: Immagini/Chapter1/System.png  used on input line 258.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 533.
 
-<Immagini/Chapter1/IdealReflection.png, id=481, 429.10312pt x 392.21532pt>
+<Immagini/Chapter1/IdealReflection.png, id=504, 429.10312pt x 392.21532pt>
 File: Immagini/Chapter1/IdealReflection.png Graphic file (type png)
 <use Immagini/Chapter1/IdealReflection.png>
 Package pdftex.def Info: Immagini/Chapter1/IdealReflection.png  used on input l
@@ -1559,17 +1544,17 @@ ine 537.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 544.
 
-<Immagini/Chapter1/Si.png, id=482, 429.10312pt x 392.21532pt>
+<Immagini/Chapter1/Si.png, id=505, 429.10312pt x 392.21532pt>
 File: Immagini/Chapter1/Si.png Graphic file (type png)
 <use Immagini/Chapter1/Si.png>
 Package pdftex.def Info: Immagini/Chapter1/Si.png  used on input line 549.
 (pdftex.def)             Requested size: 231.00128pt x 211.14676pt.
-<Immagini/Chapter1/Rh.png, id=483, 432.11438pt x 388.45125pt>
+<Immagini/Chapter1/Rh.png, id=506, 432.11438pt x 388.45125pt>
 File: Immagini/Chapter1/Rh.png Graphic file (type png)
 <use Immagini/Chapter1/Rh.png>
 Package pdftex.def Info: Immagini/Chapter1/Rh.png  used on input line 552.
 (pdftex.def)             Requested size: 231.00128pt x 207.65636pt.
-<Immagini/Chapter1/Pb.png, id=484, 449.42906pt x 389.95688pt>
+<Immagini/Chapter1/Pb.png, id=507, 449.42906pt x 389.95688pt>
 File: Immagini/Chapter1/Pb.png Graphic file (type png)
 <use Immagini/Chapter1/Pb.png>
 Package pdftex.def Info: Immagini/Chapter1/Pb.png  used on input line 555.
@@ -1595,7 +1580,7 @@ ia-tion, it can be used re-frac-tion(compound
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 17.
 
-<Immagini/Chapter2/System1.png, id=522, 392.96812pt x 400.49625pt>
+<Immagini/Chapter2/System1.png, id=545, 392.96812pt x 400.49625pt>
 File: Immagini/Chapter2/System1.png Graphic file (type png)
 <use Immagini/Chapter2/System1.png>
 Package pdftex.def Info: Immagini/Chapter2/System1.png  used on input line 21.
@@ -1607,7 +1592,7 @@ Package pdftex.def Info: Immagini/Chapter2/System1.png  used on input line 21.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 66.
 
-<Immagini/Chapter2/MeridianAndSagittal.png, id=541, 391.4625pt x 218.31563pt>
+<Immagini/Chapter2/MeridianAndSagittal.png, id=564, 391.4625pt x 218.31563pt>
 File: Immagini/Chapter2/MeridianAndSagittal.png Graphic file (type png)
 <use Immagini/Chapter2/MeridianAndSagittal.png>
 Package pdftex.def Info: Immagini/Chapter2/MeridianAndSagittal.png  used on inp
@@ -1618,7 +1603,7 @@ ut line 70.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 148.
 
-<Immagini/Chapter2/SurfaceConic1.png, id=564, 277.78781pt x 244.66406pt>
+<Immagini/Chapter2/SurfaceConic1.png, id=587, 277.78781pt x 244.66406pt>
 File: Immagini/Chapter2/SurfaceConic1.png Graphic file (type png)
 <use Immagini/Chapter2/SurfaceConic1.png>
 Package pdftex.def Info: Immagini/Chapter2/SurfaceConic1.png  used on input lin
@@ -1628,7 +1613,7 @@ e 152.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 163.
 
-<Immagini/Chapter2/SphericalMirror.png, id=568, 353.82187pt x 418.56375pt>
+<Immagini/Chapter2/SphericalMirror.png, id=591, 353.82187pt x 418.56375pt>
 File: Immagini/Chapter2/SphericalMirror.png Graphic file (type png)
 <use Immagini/Chapter2/SphericalMirror.png>
 Package pdftex.def Info: Immagini/Chapter2/SphericalMirror.png  used on input l
@@ -1639,7 +1624,7 @@ Underfull \hbox (badness 4108) in paragraph at lines 168--168
 [][]|\T1/lmr/m/n/10 (+20) Sphe-ri-cal mir-
  []
 
-<Immagini/Chapter2/ParabolicMirror.png, id=569, 355.3275pt x 418.56375pt>
+<Immagini/Chapter2/ParabolicMirror.png, id=592, 355.3275pt x 418.56375pt>
 File: Immagini/Chapter2/ParabolicMirror.png Graphic file (type png)
 <use Immagini/Chapter2/ParabolicMirror.png>
 Package pdftex.def Info: Immagini/Chapter2/ParabolicMirror.png  used on input l
@@ -1650,7 +1635,7 @@ ine 171.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 185.
 
-<Immagini/Chapter2/SineAbbeCondition.png, id=580, 192.72pt x 144.54pt>
+<Immagini/Chapter2/SineAbbeCondition.png, id=603, 192.72pt x 144.54pt>
 File: Immagini/Chapter2/SineAbbeCondition.png Graphic file (type png)
 <use Immagini/Chapter2/SineAbbeCondition.png>
 Package pdftex.def Info: Immagini/Chapter2/SineAbbeCondition.png  used on input
@@ -1665,19 +1650,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 202.
 
-<Immagini/Chapter2/Wolter1.png, id=590, 432.11438pt x 301.125pt>
+<Immagini/Chapter2/Wolter1.png, id=613, 432.11438pt x 301.125pt>
 File: Immagini/Chapter2/Wolter1.png Graphic file (type png)
 <use Immagini/Chapter2/Wolter1.png>
 Package pdftex.def Info: Immagini/Chapter2/Wolter1.png  used on input line 207.
 
 (pdftex.def)             Requested size: 167.99744pt x 117.07068pt.
-<Immagini/Chapter2/Wolter2.png, id=591, 392.21532pt x 280.79906pt>
+<Immagini/Chapter2/Wolter2.png, id=614, 392.21532pt x 280.79906pt>
 File: Immagini/Chapter2/Wolter2.png Graphic file (type png)
 <use Immagini/Chapter2/Wolter2.png>
 Package pdftex.def Info: Immagini/Chapter2/Wolter2.png  used on input line 210.
 
 (pdftex.def)             Requested size: 167.99744pt x 120.27422pt.
-<Immagini/Chapter2/Wolter3.png, id=592, 386.19281pt x 269.50688pt>
+<Immagini/Chapter2/Wolter3.png, id=615, 386.19281pt x 269.50688pt>
 File: Immagini/Chapter2/Wolter3.png Graphic file (type png)
 <use Immagini/Chapter2/Wolter3.png>
 Package pdftex.def Info: Immagini/Chapter2/Wolter3.png  used on input line 213.
@@ -1689,7 +1674,7 @@ ror.png> <./Immagini/Chapter2/SineAbbeCondition.png>]
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 219.
 
-<Immagini/Chapter2/KBSystem.png, id=602, 482.55281pt x 112.92188pt>
+<Immagini/Chapter2/KBSystem.png, id=625, 482.55281pt x 112.92188pt>
 File: Immagini/Chapter2/KBSystem.png Graphic file (type png)
 <use Immagini/Chapter2/KBSystem.png>
 Package pdftex.def Info: Immagini/Chapter2/KBSystem.png  used on input line 226
@@ -1697,7 +1682,7 @@ Package pdftex.def Info: Immagini/Chapter2/KBSystem.png  used on input line 226
 (pdftex.def)             Requested size: 252.00256pt x 58.97127pt.
 [21 <./Immagini/Chapter2/Wolter1.png> <./Immagini/Chapter2/Wolter2.png> <./Imma
 gini/Chapter2/Wolter3.png>]
-<Immagini/Chapter2/MontelSystem.png, id=617, 406.51875pt x 161.85469pt>
+<Immagini/Chapter2/MontelSystem.png, id=640, 406.51875pt x 161.85469pt>
 File: Immagini/Chapter2/MontelSystem.png Graphic file (type png)
 <use Immagini/Chapter2/MontelSystem.png>
 Package pdftex.def Info: Immagini/Chapter2/MontelSystem.png  used on input line
@@ -1712,7 +1697,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 258.
 
-<Immagini/Chapter2/MontelEdges.png, id=625, 739.26187pt x 382.42876pt>
+<Immagini/Chapter2/MontelEdges.png, id=648, 739.26187pt x 382.42876pt>
 File: Immagini/Chapter2/MontelEdges.png Graphic file (type png)
 <use Immagini/Chapter2/MontelEdges.png>
 Package pdftex.def Info: Immagini/Chapter2/MontelEdges.png  used on input line 
@@ -1724,32 +1709,32 @@ Capitolo 3.
 [25
 
 ]
-<Immagini/Chapter3/BeamRays.png, id=649, 199.49532pt x 38.39343pt>
+<Immagini/Chapter3/BeamRays.png, id=672, 199.49532pt x 38.39343pt>
 File: Immagini/Chapter3/BeamRays.png Graphic file (type png)
 <use Immagini/Chapter3/BeamRays.png>
 Package pdftex.def Info: Immagini/Chapter3/BeamRays.png  used on input line 34.
 
 (pdftex.def)             Requested size: 167.99744pt x 32.33286pt.
-<Immagini/Chapter3/GaussianSpot.png, id=652, 481.8pt x 361.35pt>
+<Immagini/Chapter3/GaussianSpot.png, id=675, 481.8pt x 361.35pt>
 File: Immagini/Chapter3/GaussianSpot.png Graphic file (type png)
 <use Immagini/Chapter3/GaussianSpot.png>
 Package pdftex.def Info: Immagini/Chapter3/GaussianSpot.png  used on input line
  49.
 (pdftex.def)             Requested size: 167.99744pt x 125.99469pt.
-<Immagini/Chapter3/GaussianExamplePlotSpot.png, id=653, 462.528pt x 346.896pt>
+<Immagini/Chapter3/GaussianExamplePlotSpot.png, id=676, 462.528pt x 346.896pt>
 File: Immagini/Chapter3/GaussianExamplePlotSpot.png Graphic file (type png)
 <use Immagini/Chapter3/GaussianExamplePlotSpot.png>
 Package pdftex.def Info: Immagini/Chapter3/GaussianExamplePlotSpot.png  used on
  input line 52.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter3/CodeCircularRectangular.png, id=659, 523.20468pt x 361.35pt>
+<Immagini/Chapter3/CodeCircularRectangular.png, id=682, 523.20468pt x 361.35pt>
 
 File: Immagini/Chapter3/CodeCircularRectangular.png Graphic file (type png)
 <use Immagini/Chapter3/CodeCircularRectangular.png>
 Package pdftex.def Info: Immagini/Chapter3/CodeCircularRectangular.png  used on
  input line 65.
 (pdftex.def)             Requested size: 167.99744pt x 116.02583pt.
-<Immagini/Chapter3/RectangularExamplePlotSpot.png, id=660, 462.528pt x 346.896p
+<Immagini/Chapter3/RectangularExamplePlotSpot.png, id=683, 462.528pt x 346.896p
 t>
 File: Immagini/Chapter3/RectangularExamplePlotSpot.png Graphic file (type png)
 <use Immagini/Chapter3/RectangularExamplePlotSpot.png>
@@ -1758,306 +1743,314 @@ Package pdftex.def Info: Immagini/Chapter3/RectangularExamplePlotSpot.png  used
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
  [26 <./Immagini/Chapter3/BeamRays.png> <./Immagini/Chapter3/GaussianSpot.png> 
 <./Immagini/Chapter3/GaussianExamplePlotSpot.png>]
-<Immagini/Chapter3/PersonExamplePlotSpot.png, id=673, 462.528pt x 346.896pt>
+<Immagini/Chapter3/PersonExamplePlotSpot.png, id=696, 462.528pt x 346.896pt>
 File: Immagini/Chapter3/PersonExamplePlotSpot.png Graphic file (type png)
 <use Immagini/Chapter3/PersonExamplePlotSpot.png>
 Package pdftex.def Info: Immagini/Chapter3/PersonExamplePlotSpot.png  used on i
-nput line 85.
+nput line 79.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter3/CodePerson.png, id=674, 630.10406pt x 361.35pt>
+<Immagini/Chapter3/CodePerson.png, id=697, 630.10406pt x 361.35pt>
 File: Immagini/Chapter3/CodePerson.png Graphic file (type png)
 <use Immagini/Chapter3/CodePerson.png>
 Package pdftex.def Info: Immagini/Chapter3/CodePerson.png  used on input line 8
-8.
+2.
 (pdftex.def)             Requested size: 167.99744pt x 96.34175pt.
-<Immagini/Chapter3/ResumeBeam.png, id=676, 232.61906pt x 221.32687pt>
+<Immagini/Chapter3/ResumeBeam.png, id=699, 232.61906pt x 221.32687pt>
 File: Immagini/Chapter3/ResumeBeam.png Graphic file (type png)
 <use Immagini/Chapter3/ResumeBeam.png>
 Package pdftex.def Info: Immagini/Chapter3/ResumeBeam.png  used on input line 9
-8.
+2.
 (pdftex.def)             Requested size: 167.99744pt x 159.84827pt.
  [27 <./Immagini/Chapter3/CodeCircularRectangular.png> <./Immagini/Chapter3/Rec
 tangularExamplePlotSpot.png> <./Immagini/Chapter3/PersonExamplePlotSpot.png> <.
 /Immagini/Chapter3/CodePerson.png>] [28 <./Immagini/Chapter3/ResumeBeam.png>] [
 29]
-<Immagini/Chapter3/ParabolaFoc.png, id=709, 1505.625pt x 1939.99782pt>
+<Immagini/Chapter3/ParabolaFoc.png, id=735, 1505.625pt x 1939.99782pt>
 File: Immagini/Chapter3/ParabolaFoc.png Graphic file (type png)
 <use Immagini/Chapter3/ParabolaFoc.png>
 Package pdftex.def Info: Immagini/Chapter3/ParabolaFoc.png  used on input line 
-181.
+175.
 (pdftex.def)             Requested size: 167.99744pt x 216.44942pt.
-<Immagini/Chapter3/ParabolaColl.png, id=710, 421.575pt x 456.20438pt>
+<Immagini/Chapter3/ParabolaColl.png, id=736, 421.575pt x 456.20438pt>
 File: Immagini/Chapter3/ParabolaColl.png Graphic file (type png)
 <use Immagini/Chapter3/ParabolaColl.png>
 Package pdftex.def Info: Immagini/Chapter3/ParabolaColl.png  used on input line
- 184.
+ 178.
 (pdftex.def)             Requested size: 167.99744pt x 181.79633pt.
- [30 <./Immagini/Chapter3/ParabolaFoc.png> <./Immagini/Chapter3/ParabolaColl.pn
-g>]
-<Immagini/Chapter3/Parab.png, id=727, 1505.625pt x 1231.60126pt>
+<Immagini/Chapter3/Parab.png, id=741, 1505.625pt x 1231.60126pt>
 File: Immagini/Chapter3/Parab.png Graphic file (type png)
 <use Immagini/Chapter3/Parab.png>
-Package pdftex.def Info: Immagini/Chapter3/Parab.png  used on input line 209.
+Package pdftex.def Info: Immagini/Chapter3/Parab.png  used on input line 203.
 (pdftex.def)             Requested size: 336.00128pt x 274.8432pt.
-<Immagini/Chapter3/EllipseSystem3.jpg, id=731, 558.888pt x 315.0972pt>
+ [30 <./Immagini/Chapter3/ParabolaFoc.png> <./Immagini/Chapter3/ParabolaColl.pn
+g>]
+<Immagini/Chapter3/EllipseSystem3.jpg, id=759, 558.888pt x 315.0972pt>
 File: Immagini/Chapter3/EllipseSystem3.jpg Graphic file (type jpg)
 <use Immagini/Chapter3/EllipseSystem3.jpg>
 Package pdftex.def Info: Immagini/Chapter3/EllipseSystem3.jpg  used on input li
-ne 239.
+ne 233.
 (pdftex.def)             Requested size: 336.00128pt x 189.43478pt.
+
+Underfull \vbox (badness 2221) has occurred while \output is active []
+
  [31 <./Immagini/Chapter3/Parab.png>]
-<Immagini/Chapter3/Hyperbola.png, id=742, 383.93437pt x 312.41719pt>
+<Immagini/Chapter3/Hyperbola.png, id=769, 383.93437pt x 312.41719pt>
 File: Immagini/Chapter3/Hyperbola.png Graphic file (type png)
 <use Immagini/Chapter3/Hyperbola.png>
-Package pdftex.def Info: Immagini/Chapter3/Hyperbola.png  used on input line 27
-1.
+Package pdftex.def Info: Immagini/Chapter3/Hyperbola.png  used on input line 26
+5.
 (pdftex.def)             Requested size: 210.0pt x 170.8861pt.
  [32 <./Immagini/Chapter3/EllipseSystem3.jpg> <./Immagini/Chapter3/Hyperbola.pn
 g>]
-<Immagini/Chapter3/KB.jpg, id=753, 266.9975pt x 190.7125pt>
+<Immagini/Chapter3/KB.jpg, id=780, 266.9975pt x 190.7125pt>
 File: Immagini/Chapter3/KB.jpg Graphic file (type jpg)
 <use Immagini/Chapter3/KB.jpg>
-Package pdftex.def Info: Immagini/Chapter3/KB.jpg  used on input line 307.
+Package pdftex.def Info: Immagini/Chapter3/KB.jpg  used on input line 301.
 (pdftex.def)             Requested size: 167.99744pt x 120.00108pt.
-<Immagini/Chapter3/KB1.png, id=754, 795.72281pt x 438.13687pt>
+<Immagini/Chapter3/KB1.png, id=781, 795.72281pt x 438.13687pt>
 File: Immagini/Chapter3/KB1.png Graphic file (type png)
 <use Immagini/Chapter3/KB1.png>
-Package pdftex.def Info: Immagini/Chapter3/KB1.png  used on input line 318.
+Package pdftex.def Info: Immagini/Chapter3/KB1.png  used on input line 312.
 (pdftex.def)             Requested size: 336.00128pt x 185.00566pt.
  [33 <./Immagini/Chapter3/KB.jpg>]
-<Immagini/Chapter3/CodeKB.png, id=763, 584.1825pt x 68.50594pt>
+<Immagini/Chapter3/CodeKB.png, id=790, 584.1825pt x 68.50594pt>
 File: Immagini/Chapter3/CodeKB.png Graphic file (type png)
 <use Immagini/Chapter3/CodeKB.png>
-Package pdftex.def Info: Immagini/Chapter3/CodeKB.png  used on input line 344.
+Package pdftex.def Info: Immagini/Chapter3/CodeKB.png  used on input line 338.
 (pdftex.def)             Requested size: 420.0pt x 49.2542pt.
-<Immagini/Chapter3/MontelSystem2.jpg, id=766, 1463.4675pt x 632.3625pt>
+<Immagini/Chapter3/MontelSystem2.jpg, id=793, 1463.4675pt x 632.3625pt>
 File: Immagini/Chapter3/MontelSystem2.jpg Graphic file (type jpg)
 <use Immagini/Chapter3/MontelSystem2.jpg>
 Package pdftex.def Info: Immagini/Chapter3/MontelSystem2.jpg  used on input lin
-e 356.
+e 351.
 (pdftex.def)             Requested size: 420.0pt x 181.47955pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [34 <./Immagini/Chapter3/KB1.png> <./Immagini/Chapter3/CodeKB.png>]
-<Immagini/Chapter3/CodeMontel.png, id=774, 668.4975pt x 64.74188pt>
+<Immagini/Chapter3/CodeMontel.png, id=801, 668.4975pt x 64.74188pt>
 File: Immagini/Chapter3/CodeMontel.png Graphic file (type png)
 <use Immagini/Chapter3/CodeMontel.png>
 Package pdftex.def Info: Immagini/Chapter3/CodeMontel.png  used on input line 3
-68.
+63.
 (pdftex.def)             Requested size: 420.0pt x 40.67694pt.
-<Immagini/Chapter3/Cattura.png, id=778, 636.87938pt x 222.07968pt>
+<Immagini/Chapter3/Cattura.png, id=805, 636.87938pt x 222.07968pt>
 File: Immagini/Chapter3/Cattura.png Graphic file (type png)
 <use Immagini/Chapter3/Cattura.png>
-Package pdftex.def Info: Immagini/Chapter3/Cattura.png  used on input line 384.
+Package pdftex.def Info: Immagini/Chapter3/Cattura.png  used on input line 379.
 
 (pdftex.def)             Requested size: 420.0pt x 146.45444pt.
-<Immagini/Chapter3/CodeSystem.png, id=779, 746.03719pt x 194.22563pt>
+<Immagini/Chapter3/CodeSystem.png, id=806, 746.03719pt x 194.22563pt>
 File: Immagini/Chapter3/CodeSystem.png Graphic file (type png)
 <use Immagini/Chapter3/CodeSystem.png>
 Package pdftex.def Info: Immagini/Chapter3/CodeSystem.png  used on input line 3
-95.
+90.
 (pdftex.def)             Requested size: 420.0pt x 109.3435pt.
  [35 <./Immagini/Chapter3/MontelSystem2.jpg> <./Immagini/Chapter3/CodeMontel.pn
 g>]
-<Immagini/Chapter3/CodeOptElem.png, id=788, 381.67593pt x 80.55093pt>
+<Immagini/Chapter3/CodeOptElem.png, id=815, 381.67593pt x 80.55093pt>
 File: Immagini/Chapter3/CodeOptElem.png Graphic file (type png)
 <use Immagini/Chapter3/CodeOptElem.png>
 Package pdftex.def Info: Immagini/Chapter3/CodeOptElem.png  used on input line 
-418.
+413.
 (pdftex.def)             Requested size: 167.99744pt x 35.4548pt.
-<Immagini/Chapter3/CodeOfScreen.png, id=789, 322.95656pt x 76.78688pt>
+<Immagini/Chapter3/CodeOfScreen.png, id=816, 322.95656pt x 76.78688pt>
 File: Immagini/Chapter3/CodeOfScreen.png Graphic file (type png)
 <use Immagini/Chapter3/CodeOfScreen.png>
 Package pdftex.def Info: Immagini/Chapter3/CodeOfScreen.png  used on input line
- 421.
+ 416.
 (pdftex.def)             Requested size: 167.99744pt x 39.94345pt.
  [36 <./Immagini/Chapter3/Cattura.png> <./Immagini/Chapter3/CodeSystem.png>]
-<Immagini/Chapter3/CodeTraceCompound.png, id=806, 449.42906pt x 206.27063pt>
+<Immagini/Chapter3/CodeTraceCompound.png, id=833, 449.42906pt x 206.27063pt>
 File: Immagini/Chapter3/CodeTraceCompound.png Graphic file (type png)
 <use Immagini/Chapter3/CodeTraceCompound.png>
 Package pdftex.def Info: Immagini/Chapter3/CodeTraceCompound.png  used on input
- line 434.
+ line 429.
 (pdftex.def)             Requested size: 420.0pt x 192.77077pt.
- [37 <./Immagini/Chapter3/CodeOptElem.png> <./Immagini/Chapter3/CodeOfScreen.pn
-g> <./Immagini/Chapter3/CodeTraceCompound.png>]
-<Immagini/Chapter3/CodeTraceMontel.png, id=815, 760.34062pt x 322.20375pt>
+
+
+LaTeX Warning: Reference `fig: RealMontel' on page 37 undefined on input line 4
+37.
+
+
+LaTeX Warning: Reference `fig: RealMontel' on page 37 undefined on input line 4
+37.
+
+<Immagini/Chapter3/KB111.png, id=837, 321.45094pt x 244.66406pt>
+File: Immagini/Chapter3/KB111.png Graphic file (type png)
+<use Immagini/Chapter3/KB111.png>
+Package pdftex.def Info: Immagini/Chapter3/KB111.png  used on input line 443.
+(pdftex.def)             Requested size: 167.99744pt x 127.87189pt.
+<Immagini/Chapter3/Montel111.png, id=838, 316.93407pt x 233.37187pt>
+File: Immagini/Chapter3/Montel111.png Graphic file (type png)
+<use Immagini/Chapter3/Montel111.png>
+Package pdftex.def Info: Immagini/Chapter3/Montel111.png  used on input line 44
+6.
+(pdftex.def)             Requested size: 167.99744pt x 123.70786pt.
+[37 <./Immagini/Chapter3/CodeOptElem.png> <./Immagini/Chapter3/CodeOfScreen.png
+> <./Immagini/Chapter3/CodeTraceCompound.png>]
+<Immagini/Chapter3/BigSourceMontel.png, id=855, 462.528pt x 346.896pt>
+File: Immagini/Chapter3/BigSourceMontel.png Graphic file (type png)
+<use Immagini/Chapter3/BigSourceMontel.png>
+Package pdftex.def Info: Immagini/Chapter3/BigSourceMontel.png  used on input l
+ine 483.
+(pdftex.def)             Requested size: 420.0pt x 315.01419pt.
+ [38 <./Immagini/Chapter3/KB111.png> <./Immagini/Chapter3/Montel111.png>] [39 <
+./Immagini/Chapter3/BigSourceMontel.png>]
+<Immagini/Chapter3/CodeTraceMontel.png, id=869, 760.34062pt x 322.20375pt>
 File: Immagini/Chapter3/CodeTraceMontel.png Graphic file (type png)
 <use Immagini/Chapter3/CodeTraceMontel.png>
 Package pdftex.def Info: Immagini/Chapter3/CodeTraceMontel.png  used on input l
-ine 466.
-(pdftex.def)             Requested size: 420.0pt x 177.98448pt.
-) (MainMatter/Chapter4.tex [38] [39 <./Immagini/Chapter3/CodeTraceMontel.png>] 
-[40
-
-]
+ine 502.
+(pdftex.def)             Requested size: 272.99744pt x 115.68843pt.
+) (MainMatter/Chapter4.tex [40 <./Immagini/Chapter3/CodeTraceMontel.png>]
 Capitolo 4.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 14.
+               Default added (so using `tbp') on input line 15.
 
-<Immagini/Chapter4/OpticalSystems.png, id=842, 514.17094pt x 173.89969pt>
+<Immagini/Chapter4/OpticalSystems.png, id=877, 514.17094pt x 173.89969pt>
 File: Immagini/Chapter4/OpticalSystems.png Graphic file (type png)
 <use Immagini/Chapter4/OpticalSystems.png>
 Package pdftex.def Info: Immagini/Chapter4/OpticalSystems.png  used on input li
-ne 18.
+ne 19.
 (pdftex.def)             Requested size: 252.00256pt x 85.2328pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 27.
+               Default added (so using `tbp') on input line 28.
 
-<Immagini/Chapter4/SouceOASYS.png, id=844, 462.528pt x 346.896pt>
+<Immagini/Chapter4/SouceOASYS.png, id=879, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/SouceOASYS.png Graphic file (type png)
 <use Immagini/Chapter4/SouceOASYS.png>
 Package pdftex.def Info: Immagini/Chapter4/SouceOASYS.png  used on input line 3
-2.
+3.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/DivergenceOASYS.png, id=845, 462.528pt x 346.896pt>
+<Immagini/Chapter4/DivergenceOASYS.png, id=880, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/DivergenceOASYS.png Graphic file (type png)
 <use Immagini/Chapter4/DivergenceOASYS.png>
 Package pdftex.def Info: Immagini/Chapter4/DivergenceOASYS.png  used on input l
-ine 35.
+ine 36.
 (pdftex.def)             Requested size: 201.5982pt x 151.20024pt.
-[41]
+[41
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 50.
-
-<Immagini/Chapter4/IdealLens.png, id=854, 462.528pt x 346.896pt>
+] [42 <./Immagini/Chapter4/OpticalSystems.png> <./Immagini/Chapter4/SouceOASYS.
+png> <./Immagini/Chapter4/DivergenceOASYS.png>]
+<Immagini/Chapter4/IdealLens.png, id=901, 987.2082pt x 484.9317pt>
 File: Immagini/Chapter4/IdealLens.png Graphic file (type png)
 <use Immagini/Chapter4/IdealLens.png>
-Package pdftex.def Info: Immagini/Chapter4/IdealLens.png  used on input line 55
+Package pdftex.def Info: Immagini/Chapter4/IdealLens.png  used on input line 58
 .
-(pdftex.def)             Requested size: 210.0pt x 157.49915pt.
-<Immagini/Chapter4/IdealLensOASYS.png, id=855, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 210.0pt x 103.14836pt.
+<Immagini/Chapter4/IdealLensOASYS.png, id=902, 1028.34187pt x 505.13719pt>
 File: Immagini/Chapter4/IdealLensOASYS.png Graphic file (type png)
 <use Immagini/Chapter4/IdealLensOASYS.png>
 Package pdftex.def Info: Immagini/Chapter4/IdealLensOASYS.png  used on input li
-ne 58.
-(pdftex.def)             Requested size: 210.0pt x 157.49915pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 66.
-
+ne 61.
+(pdftex.def)             Requested size: 210.0pt x 103.15298pt.
 File: Immagini/Chapter4/IdealLens.png Graphic file (type png)
 <use Immagini/Chapter4/IdealLens.png>
-Package pdftex.def Info: Immagini/Chapter4/IdealLens.png  used on input line 71
+Package pdftex.def Info: Immagini/Chapter4/IdealLens.png  used on input line 74
 .
-(pdftex.def)             Requested size: 210.0pt x 157.49915pt.
+(pdftex.def)             Requested size: 210.0pt x 103.14836pt.
 File: Immagini/Chapter4/IdealLensOASYS.png Graphic file (type png)
 <use Immagini/Chapter4/IdealLensOASYS.png>
 Package pdftex.def Info: Immagini/Chapter4/IdealLensOASYS.png  used on input li
-ne 74.
-(pdftex.def)             Requested size: 210.0pt x 157.49915pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 82.
-
-<Immagini/Chapter4/KB.png, id=856, 462.528pt x 346.896pt>
+ne 77.
+(pdftex.def)             Requested size: 210.0pt x 103.15298pt.
+<Immagini/Chapter4/KB.png, id=915, 987.2082pt x 484.9317pt>
 File: Immagini/Chapter4/KB.png Graphic file (type png)
 <use Immagini/Chapter4/KB.png>
-Package pdftex.def Info: Immagini/Chapter4/KB.png  used on input line 85.
-(pdftex.def)             Requested size: 210.0pt x 157.49915pt.
-<Immagini/Chapter4/KBOASYS.png, id=857, 462.528pt x 346.896pt>
+Package pdftex.def Info: Immagini/Chapter4/KB.png  used on input line 88.
+(pdftex.def)             Requested size: 210.0pt x 103.14836pt.
+<Immagini/Chapter4/KBOASYS.png, id=916, 1028.34187pt x 505.13719pt>
 File: Immagini/Chapter4/KBOASYS.png Graphic file (type png)
 <use Immagini/Chapter4/KBOASYS.png>
-Package pdftex.def Info: Immagini/Chapter4/KBOASYS.png  used on input line 88.
-(pdftex.def)             Requested size: 210.0pt x 157.49915pt.
-[42 <./Immagini/Chapter4/OpticalSystems.png> <./Immagini/Chapter4/SouceOASYS.pn
-g> <./Immagini/Chapter4/DivergenceOASYS.png>] [43 <./Immagini/Chapter4/IdealLen
-s.png> <./Immagini/Chapter4/IdealLensOASYS.png> <./Immagini/Chapter4/KB.png> <.
-/Immagini/Chapter4/KBOASYS.png>]
+Package pdftex.def Info: Immagini/Chapter4/KBOASYS.png  used on input line 91.
+(pdftex.def)             Requested size: 210.0pt x 103.15298pt.
+ [43 <./Immagini/Chapter4/IdealLens.png> <./Immagini/Chapter4/IdealLensOASYS.pn
+g> <./Immagini/Chapter4/KB.png> <./Immagini/Chapter4/KBOASYS.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 102.
+               Default added (so using `tbp') on input line 104.
 
-<Immagini/Chapter4/PaperMontelSystem.png, id=885, 903.375pt x 402.75468pt>
+<Immagini/Chapter4/PaperMontelSystem.png, id=932, 903.375pt x 402.75468pt>
 File: Immagini/Chapter4/PaperMontelSystem.png Graphic file (type png)
 <use Immagini/Chapter4/PaperMontelSystem.png>
 Package pdftex.def Info: Immagini/Chapter4/PaperMontelSystem.png  used on input
- line 104.
+ line 106.
 (pdftex.def)             Requested size: 336.00128pt x 149.80353pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 113.
+               Default added (so using `tbp') on input line 115.
 
 
 
 pdfTeX warning: pdflatex (file ./Immagini/Chapter4/PaperSpotMontel.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Immagini/Chapter4/PaperSpotMontel.pdf, id=894, 420.06938pt x 420.06938pt>
+<Immagini/Chapter4/PaperSpotMontel.pdf, id=941, 420.06938pt x 420.06938pt>
 File: Immagini/Chapter4/PaperSpotMontel.pdf Graphic file (type pdf)
 <use Immagini/Chapter4/PaperSpotMontel.pdf>
 Package pdftex.def Info: Immagini/Chapter4/PaperSpotMontel.pdf  used on input l
-ine 118.
+ine 120.
 (pdftex.def)             Requested size: 167.99744pt x 167.99913pt.
-<Immagini/Chapter4/ImageDimension.png, id=895, 462.528pt x 346.896pt>
+<Immagini/Chapter4/ImageDimension.png, id=942, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/ImageDimension.png Graphic file (type png)
 <use Immagini/Chapter4/ImageDimension.png>
 Package pdftex.def Info: Immagini/Chapter4/ImageDimension.png  used on input li
-ne 121.
+ne 123.
 (pdftex.def)             Requested size: 201.5982pt x 151.20024pt.
 
 
 pdfTeX warning: pdflatex (file ./Immagini/Chapter4/PaperDivergenceMontel.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Immagini/Chapter4/PaperDivergenceMontel.pdf, id=896, 422.32782pt x 322.95656pt
+<Immagini/Chapter4/PaperDivergenceMontel.pdf, id=943, 422.32782pt x 322.95656pt
 >
 File: Immagini/Chapter4/PaperDivergenceMontel.pdf Graphic file (type pdf)
 <use Immagini/Chapter4/PaperDivergenceMontel.pdf>
 Package pdftex.def Info: Immagini/Chapter4/PaperDivergenceMontel.pdf  used on i
-nput line 124.
+nput line 126.
 (pdftex.def)             Requested size: 167.99744pt x 128.4707pt.
-<Immagini/Chapter4/DivergenceDimension.png, id=897, 462.528pt x 346.896pt>
+<Immagini/Chapter4/DivergenceDimension.png, id=944, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/DivergenceDimension.png Graphic file (type png)
 <use Immagini/Chapter4/DivergenceDimension.png>
 Package pdftex.def Info: Immagini/Chapter4/DivergenceDimension.png  used on inp
-ut line 127.
+ut line 129.
 (pdftex.def)             Requested size: 201.5982pt x 151.20024pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 140.
+               Default added (so using `tbp') on input line 143.
 
-<Immagini/Chapter4/CollimationSource.png, id=902, 462.528pt x 346.896pt>
+<Immagini/Chapter4/CollimationSource.png, id=950, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/CollimationSource.png Graphic file (type png)
 <use Immagini/Chapter4/CollimationSource.png>
 Package pdftex.def Info: Immagini/Chapter4/CollimationSource.png  used on input
- line 145.
+ line 148.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/CollimationImage.png, id=903, 462.528pt x 346.896pt>
+<Immagini/Chapter4/CollimationImage.png, id=951, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/CollimationImage.png Graphic file (type png)
 <use Immagini/Chapter4/CollimationImage.png>
 Package pdftex.def Info: Immagini/Chapter4/CollimationImage.png  used on input 
-line 148.
+line 151.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/FocalizingSource.png, id=904, 462.528pt x 346.896pt>
+<Immagini/Chapter4/FocalizingSource.png, id=952, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/FocalizingSource.png Graphic file (type png)
 <use Immagini/Chapter4/FocalizingSource.png>
 Package pdftex.def Info: Immagini/Chapter4/FocalizingSource.png  used on input 
-line 151.
+line 154.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/FocalizingImage.png, id=905, 462.528pt x 346.896pt>
+<Immagini/Chapter4/FocalizingImage.png, id=953, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/FocalizingImage.png Graphic file (type png)
 <use Immagini/Chapter4/FocalizingImage.png>
 Package pdftex.def Info: Immagini/Chapter4/FocalizingImage.png  used on input l
-ine 154.
+ine 157.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 163.
+               Default added (so using `tbp') on input line 167.
 
-<Immagini/Chapter4/footprint_oe1.png, id=907, 481.8pt x 361.35pt>
-File: Immagini/Chapter4/footprint_oe1.png Graphic file (type png)
-<use Immagini/Chapter4/footprint_oe1.png>
-Package pdftex.def Info: Immagini/Chapter4/footprint_oe1.png  used on input lin
-e 168.
-(pdftex.def)             Requested size: 167.99744pt x 125.99469pt.
-<Immagini/Chapter4/footprint_oe2.png, id=908, 481.8pt x 361.35pt>
-File: Immagini/Chapter4/footprint_oe2.png Graphic file (type png)
-<use Immagini/Chapter4/footprint_oe2.png>
-Package pdftex.def Info: Immagini/Chapter4/footprint_oe2.png  used on input lin
-e 171.
-(pdftex.def)             Requested size: 167.99744pt x 125.99469pt.
+<Immagini/Chapter4/BigSourceMontel.png, id=954, 462.528pt x 346.896pt>
+File: Immagini/Chapter4/BigSourceMontel.png Graphic file (type png)
+<use Immagini/Chapter4/BigSourceMontel.png>
+Package pdftex.def Info: Immagini/Chapter4/BigSourceMontel.png  used on input l
+ine 171.
+(pdftex.def)             Requested size: 252.00256pt x 189.00427pt.
 [44 <./Immagini/Chapter4/PaperMontelSystem.png>] [45 <./Immagini/Chapter4/Paper
 SpotMontel.pdf> <./Immagini/Chapter4/ImageDimension.png> <./Immagini/Chapter4/P
 aperDivergenceMontel.pdf> <./Immagini/Chapter4/DivergenceDimension.png>]
@@ -2068,126 +2061,118 @@ onImage.png> <./Immagini/Chapter4/FocalizingSource.png> <./Immagini/Chapter4/Fo
 calizingImage.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 187.
+               Default added (so using `tbp') on input line 191.
 
-<Immagini/Chapter4/BigSourceMontel.png, id=946, 462.528pt x 346.896pt>
-File: Immagini/Chapter4/BigSourceMontel.png Graphic file (type png)
-<use Immagini/Chapter4/BigSourceMontel.png>
-Package pdftex.def Info: Immagini/Chapter4/BigSourceMontel.png  used on input l
-ine 191.
-(pdftex.def)             Requested size: 252.00256pt x 189.00427pt.
-[47 <./Immagini/Chapter4/footprint_oe1.png> <./Immagini/Chapter4/footprint_oe2.
-png> <./Immagini/Chapter4/BigSourceMontel.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 228.
-
-<Immagini/Chapter4/Histogram.png, id=959, 462.528pt x 346.896pt>
-File: Immagini/Chapter4/Histogram.png Graphic file (type png)
-<use Immagini/Chapter4/Histogram.png>
-Package pdftex.def Info: Immagini/Chapter4/Histogram.png  used on input line 23
-3.
-(pdftex.def)             Requested size: 252.00256pt x 189.00427pt.
-<Immagini/Chapter4/HistogramFitted.png, id=960, 467.49657pt x 514.92375pt>
-File: Immagini/Chapter4/HistogramFitted.png Graphic file (type png)
-<use Immagini/Chapter4/HistogramFitted.png>
-Package pdftex.def Info: Immagini/Chapter4/HistogramFitted.png  used on input l
-ine 236.
-(pdftex.def)             Requested size: 252.00256pt x 277.56754pt.
-<Immagini/Chapter4/FWHMChangingOrt.png, id=961, 462.528pt x 346.896pt>
-File: Immagini/Chapter4/FWHMChangingOrt.png Graphic file (type png)
-<use Immagini/Chapter4/FWHMChangingOrt.png>
-Package pdftex.def Info: Immagini/Chapter4/FWHMChangingOrt.png  used on input l
-ine 248.
-(pdftex.def)             Requested size: 252.00256pt x 189.00427pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 257.
-
-<Immagini/Chapter4/IncidenceAngle.png, id=962, 462.528pt x 346.896pt>
-File: Immagini/Chapter4/IncidenceAngle.png Graphic file (type png)
-<use Immagini/Chapter4/IncidenceAngle.png>
-Package pdftex.def Info: Immagini/Chapter4/IncidenceAngle.png  used on input li
-ne 262.
-(pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/IncidenceAngle2.png, id=963, 462.528pt x 346.896pt>
-File: Immagini/Chapter4/IncidenceAngle2.png Graphic file (type png)
-<use Immagini/Chapter4/IncidenceAngle2.png>
-Package pdftex.def Info: Immagini/Chapter4/IncidenceAngle2.png  used on input l
-ine 265.
-(pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-[48] [49 <./Immagini/Chapter4/Histogram.png> <./Immagini/Chapter4/HistogramFitt
-ed.png>] [50 <./Immagini/Chapter4/FWHMChangingOrt.png> <./Immagini/Chapter4/Inc
-idenceAngle.png> <./Immagini/Chapter4/IncidenceAngle2.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 281.
-
-<Immagini/Chapter4/Cattura2.png, id=987, 710.655pt x 382.42876pt>
+<Immagini/Chapter4/Cattura2.png, id=990, 710.655pt x 382.42876pt>
 File: Immagini/Chapter4/Cattura2.png Graphic file (type png)
 <use Immagini/Chapter4/Cattura2.png>
-Package pdftex.def Info: Immagini/Chapter4/Cattura2.png  used on input line 285
+Package pdftex.def Info: Immagini/Chapter4/Cattura2.png  used on input line 195
 .
 (pdftex.def)             Requested size: 420.0pt x 226.02197pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 296.
+               Default added (so using `tbp') on input line 207.
 
-<Immagini/Chapter4/Ypath.png, id=994, 462.528pt x 346.896pt>
+<Immagini/Chapter4/Ypath.png, id=997, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/Ypath.png Graphic file (type png)
 <use Immagini/Chapter4/Ypath.png>
-Package pdftex.def Info: Immagini/Chapter4/Ypath.png  used on input line 301.
+Package pdftex.def Info: Immagini/Chapter4/Ypath.png  used on input line 212.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/XZpath.png, id=995, 462.528pt x 346.896pt>
+<Immagini/Chapter4/XZpath.png, id=998, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/XZpath.png Graphic file (type png)
 <use Immagini/Chapter4/XZpath.png>
-Package pdftex.def Info: Immagini/Chapter4/XZpath.png  used on input line 304.
+Package pdftex.def Info: Immagini/Chapter4/XZpath.png  used on input line 215.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/XYZ1Path.png, id=996, 462.528pt x 346.896pt>
+<Immagini/Chapter4/XYZ1Path.png, id=999, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/XYZ1Path.png Graphic file (type png)
 <use Immagini/Chapter4/XYZ1Path.png>
-Package pdftex.def Info: Immagini/Chapter4/XYZ1Path.png  used on input line 307
+Package pdftex.def Info: Immagini/Chapter4/XYZ1Path.png  used on input line 218
 .
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/XYZ2Path.png, id=997, 462.528pt x 346.896pt>
+<Immagini/Chapter4/XYZ2Path.png, id=1000, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/XYZ2Path.png Graphic file (type png)
 <use Immagini/Chapter4/XYZ2Path.png>
-Package pdftex.def Info: Immagini/Chapter4/XYZ2Path.png  used on input line 310
+Package pdftex.def Info: Immagini/Chapter4/XYZ2Path.png  used on input line 221
 .
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 321.
+               Default added (so using `tbp') on input line 232.
 
-<Immagini/Chapter4/Ypath_2.png, id=1001, 462.528pt x 346.896pt>
+<Immagini/Chapter4/Ypath_2.png, id=1004, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/Ypath_2.png Graphic file (type png)
 <use Immagini/Chapter4/Ypath_2.png>
-Package pdftex.def Info: Immagini/Chapter4/Ypath_2.png  used on input line 326.
+Package pdftex.def Info: Immagini/Chapter4/Ypath_2.png  used on input line 237.
 
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/XZpath_2.png, id=1002, 462.528pt x 346.896pt>
+<Immagini/Chapter4/XZpath_2.png, id=1005, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/XZpath_2.png Graphic file (type png)
 <use Immagini/Chapter4/XZpath_2.png>
-Package pdftex.def Info: Immagini/Chapter4/XZpath_2.png  used on input line 329
+Package pdftex.def Info: Immagini/Chapter4/XZpath_2.png  used on input line 240
 .
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/XYZ1Path_2.png, id=1003, 462.528pt x 346.896pt>
+<Immagini/Chapter4/XYZ1Path_2.png, id=1006, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/XYZ1Path_2.png Graphic file (type png)
 <use Immagini/Chapter4/XYZ1Path_2.png>
-Package pdftex.def Info: Immagini/Chapter4/XYZ1Path_2.png  used on input line 3
-32.
+Package pdftex.def Info: Immagini/Chapter4/XYZ1Path_2.png  used on input line 2
+43.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-<Immagini/Chapter4/XYZ2Path_2.png, id=1004, 462.528pt x 346.896pt>
+<Immagini/Chapter4/XYZ2Path_2.png, id=1007, 462.528pt x 346.896pt>
 File: Immagini/Chapter4/XYZ2Path_2.png Graphic file (type png)
 <use Immagini/Chapter4/XYZ2Path_2.png>
-Package pdftex.def Info: Immagini/Chapter4/XYZ2Path_2.png  used on input line 3
-35.
+Package pdftex.def Info: Immagini/Chapter4/XYZ2Path_2.png  used on input line 2
+46.
 (pdftex.def)             Requested size: 167.99744pt x 125.99931pt.
-) [51 <./Immagini/Chapter4/Cattura2.png>] [52 <./Immagini/Chapter4/Ypath.png> <
-./Immagini/Chapter4/XZpath.png> <./Immagini/Chapter4/XYZ1Path.png> <./Immagini/
-Chapter4/XYZ2Path.png>] (MainMatter/AppendixA.tex [53 <./Immagini/Chapter4/Ypat
-h_2.png> <./Immagini/Chapter4/XZpath_2.png> <./Immagini/Chapter4/XYZ1Path_2.png
-> <./Immagini/Chapter4/XYZ2Path_2.png>] [54
+[47 <./Immagini/Chapter4/BigSourceMontel.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 254.
+
+<Immagini/Chapter4/footprint_oe1.png, id=1019, 481.8pt x 361.35pt>
+File: Immagini/Chapter4/footprint_oe1.png Graphic file (type png)
+<use Immagini/Chapter4/footprint_oe1.png>
+Package pdftex.def Info: Immagini/Chapter4/footprint_oe1.png  used on input lin
+e 259.
+(pdftex.def)             Requested size: 167.99744pt x 125.99469pt.
+<Immagini/Chapter4/footprint_oe2.png, id=1020, 481.8pt x 361.35pt>
+File: Immagini/Chapter4/footprint_oe2.png Graphic file (type png)
+<use Immagini/Chapter4/footprint_oe2.png>
+Package pdftex.def Info: Immagini/Chapter4/footprint_oe2.png  used on input lin
+e 262.
+(pdftex.def)             Requested size: 167.99744pt x 125.99469pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 272.
+
+<Immagini/Chapter4/Histogram.png, id=1026, 462.528pt x 346.896pt>
+File: Immagini/Chapter4/Histogram.png Graphic file (type png)
+<use Immagini/Chapter4/Histogram.png>
+Package pdftex.def Info: Immagini/Chapter4/Histogram.png  used on input line 27
+7.
+(pdftex.def)             Requested size: 252.00256pt x 189.00427pt.
+<Immagini/Chapter4/HistogramFitted.png, id=1027, 467.49657pt x 514.92375pt>
+File: Immagini/Chapter4/HistogramFitted.png Graphic file (type png)
+<use Immagini/Chapter4/HistogramFitted.png>
+Package pdftex.def Info: Immagini/Chapter4/HistogramFitted.png  used on input l
+ine 280.
+(pdftex.def)             Requested size: 252.00256pt x 277.56754pt.
+<Immagini/Chapter4/FWHMChangingOrt.png, id=1028, 462.528pt x 346.896pt>
+File: Immagini/Chapter4/FWHMChangingOrt.png Graphic file (type png)
+<use Immagini/Chapter4/FWHMChangingOrt.png>
+Package pdftex.def Info: Immagini/Chapter4/FWHMChangingOrt.png  used on input l
+ine 292.
+(pdftex.def)             Requested size: 252.00256pt x 189.00427pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48 <./Immagini/Chapter4/Cattura2.png>] [49 <./Immagini/Chapter4/Ypath.png> <.
+/Immagini/Chapter4/XZpath.png> <./Immagini/Chapter4/XYZ1Path.png> <./Immagini/C
+hapter4/XYZ2Path.png>] [50 <./Immagini/Chapter4/Ypath_2.png> <./Immagini/Chapte
+r4/XZpath_2.png> <./Immagini/Chapter4/XYZ1Path_2.png> <./Immagini/Chapter4/XYZ2
+Path_2.png> <./Immagini/Chapter4/footprint_oe1.png> <./Immagini/Chapter4/footpr
+int_oe2.png>]) (MainMatter/AppendixA.tex [51] [52 <./Immagini/Chapter4/Histogra
+m.png> <./Immagini/Chapter4/HistogramFitted.png>] [53 <./Immagini/Chapter4/FWHM
+ChangingOrt.png>] [54
 
 ]
 Appendice A.
@@ -2202,14 +2187,14 @@ Overfull \vbox (28.5661pt too high) has occurred while \output is active []
 
 ]
 Appendice B.
-<Immagini/AppendixB/EllipseSystem3.jpg, id=1061, 558.888pt x 315.0972pt>
+<Immagini/AppendixB/EllipseSystem3.jpg, id=1101, 558.888pt x 315.0972pt>
 File: Immagini/AppendixB/EllipseSystem3.jpg Graphic file (type jpg)
 <use Immagini/AppendixB/EllipseSystem3.jpg>
 Package pdftex.def Info: Immagini/AppendixB/EllipseSystem3.jpg  used on input l
 ine 56.
 (pdftex.def)             Requested size: 252.00256pt x 142.0761pt.
 [59]
-<Immagini/AppendixB/Hyperbola.png, id=1077, 383.93437pt x 312.41719pt>
+<Immagini/AppendixB/Hyperbola.png, id=1117, 383.93437pt x 312.41719pt>
 File: Immagini/AppendixB/Hyperbola.png Graphic file (type png)
 <use Immagini/AppendixB/Hyperbola.png>
 Package pdftex.def Info: Immagini/AppendixB/Hyperbola.png  used on input line 9
@@ -2243,13 +2228,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28845 strings out of 492970
- 523363 string characters out of 3126593
- 744185 words of memory out of 3000000
- 31544 multiletter control sequences out of 15000+200000
- 650031 words of font info for 180 fonts, out of 3000000 for 9000
+ 28848 strings out of 492970
+ 523345 string characters out of 3126593
+ 745545 words of memory out of 3000000
+ 31560 multiletter control sequences out of 15000+200000
+ 652841 words of font info for 179 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 44i,18n,87p,1769b,978s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,18n,87p,1769b,986s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Yunes/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
 c}{C:/Users/Yunes/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
 y.enc}{C:/Users/Yunes/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
@@ -2275,10 +2260,11 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Yun
 es/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Users/
 Yunes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Use
 rs/Yunes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb>
-Output written on Tesi.pdf (78 pages, 4903527 bytes).
+msam10.pfb><C:/Users/Yunes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb>
+Output written on Tesi.pdf (78 pages, 5029917 bytes).
 PDF statistics:
- 1405 PDF objects out of 1440 (max. 8388607)
- 416 named destinations out of 1000 (max. 500000)
- 38144 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1445 PDF objects out of 1728 (max. 8388607)
+ 406 named destinations out of 1000 (max. 500000)
+ 38653 words of extra memory for PDF output out of 42996 (max. 10000000)
 
