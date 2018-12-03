@@ -1,0 +1,39 @@
+% ------------------------------------------------------------------------ %
+% !TEX encoding = UTF-8 Unicode
+% !TEX TS-program = pdflatex
+% !TEX root = ../Tesi.tex
+% !TEX spellcheck = it-IT
+% ------------------------------------------------------------------------ %
+%
+% ------------------------------------------------------------------------ %
+% 	INTRODUZIONE
+% ------------------------------------------------------------------------ %
+%
+\cleardoublepage
+%
+\phantomsection
+%
+\addcontentsline{toc}{chapter}{Introduzione}
+%
+\chapter*{Introduzione}
+%
+\markboth{Introduzione}{Introduzione}	% headings
+%
+\label{cap:introduzione}
+%
+% ------------------------------------------------------------------------ %
+%
+
+The simulation of x-ray beam properties during the transport along a beamline is important for the design, the optimization and the operation of the beamline. The main optical element used for X-ray are curved mirrors, used in a grazing configuration, in order to focalize or collimate a beam. In a beam line are used simple mirrors or some particular kind of mirror combination that increase the perfomance of the optical system. An typical example is the Kirkpatrick-Baez (KB) system, very popular at the ESRF because of its many good properties and so well studied. However, the extreme quality of the synchrotron beams that will be available with the ESRF upgraded storage ring pushes the requirement in optics to consider more and more perfect elements. There is also another configuration of mirror, named "Montel" system, that should do the same work of the Kirkpatrick-Baez (KB) system.
+\\
+During my traineeships at the ESRF I developed a python library that is able do simulate a ray-tracing of a beam to some simple optical element, such as mirror, and other a bit complicated that are basically a combination of mirrors element such as Kirkpatrick-Baez (KB) system and a Montel system.
+\\
+Moreover the Montel code it is used to understand the effect of such element with respect to an incident beam in order to 
+
+The thesis is struchter in
+\begin{enumerate}
+\item Chapter 1: review of the interaction x-ray - matter in order to explain the importance of the mirror in a grazing configuration for x-ray radiation
+\item Chapter 2: it is reported the theoretical explanation of mirror effect, and it is done a study of the Kirkpatrick-Baez (KB) system and Montel system, with a comparison between them.
+\item Chapter 4: describes how the python library works going defining the way in which the algoritm is written 
+\item Chapter 5: shows the correct operation of the program testing it with respect to OASYS, software developed by Manuel Sanchez Del Rio, end a paper. Then report the analysis of Montel simulation done. 
+\end{enumerate}

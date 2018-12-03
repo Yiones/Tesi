@@ -37,5 +37,7 @@
 \contentsline {section}{\numberline {4.2}Analysis of Montel system}{44}{section.4.2}
 \contentsline {section}{\numberline {4.3}Non-centred Beam}{47}{section.4.3}
 \contentsline {section}{\numberline {4.4}My work for the ID 20}{51}{section.4.4}
-\contentsline {chapter}{\numberline {A}Table for absorption coefficents}{55}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}How to calculated the ellipse's and hyperbola's coefficients}{59}{appendix.Alph2}
+\contentsline {subsection}{\numberline {4.4.1}System parameters}{51}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Result of beam figure and footprint}{52}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Analysis of orthogonality}{52}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {A}How to calculated the ellipse's and hyperbola's coefficients}{55}{appendix.Alph1}

@@ -1,0 +1,16 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Tesi.aux
+The style file: alpha.bst
+Database file #1: sample.bib
+Warning--entry type for "ThomsonScattering" isn't style-file defined
+--line 23 of file sample.bib
+Warning--entry type for "RayleighScattering" isn't style-file defined
+--line 29 of file sample.bib
+Warning--entry type for "Refractiveindex" isn't style-file defined
+--line 55 of file sample.bib
+Warning--entry type for "CXRO" isn't style-file defined
+--line 94 of file sample.bib
+Warning--I didn't find a database entry for "henke1981atomic"
+Warning--empty booktitle in RayXray
+Warning--can't use both volume and number fields in manson1981theory
+Warning--empty booktitle in wikiParabola
+(There were 8 warnings)

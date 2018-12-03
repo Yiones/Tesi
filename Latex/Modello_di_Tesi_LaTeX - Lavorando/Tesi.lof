@@ -52,12 +52,13 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Ideal system\relax }}{46}{figure.caption.58}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Illumination at the image plane of the different Beam (red dots correspond to np-reflected rays, blue dot to one-reflected rays, green dots to two-reflected rays).\relax }}{47}{figure.caption.59}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Different path for simulate the non-centred beam\relax }}{48}{figure.caption.60}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{49}{figure.caption.61}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{50}{figure.caption.62}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Footprint, on the xy-mirror (\ref {fig: footprint_oe1}) and on zy-mirror (\ref {fig: footprint_oe2}). The red dots are those rays that hit before xy-mirror and after zy-mirror, the blue ones hit first xy-mirror and after zy-mirror.\relax }}{50}{figure.caption.63}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Histogram of x' after Montel\relax }}{52}{figure.caption.64}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces FWHM of x' after the Montel changing the orthogonality\relax }}{53}{figure.caption.65}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Results of the changing of the x and z FWHM at the image following different path defined in Figure \ref {fig: path}. The Montel system used have a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{49}{figure.caption.61}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Change of the intensity depending on the path defined in Figure \ref {fig: path}. The Montel system used have a square spot of $10 mm^2 $ and a Gaussian divergence of $25mrad $\relax }}{50}{figure.caption.62}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Source parameters used for the study of the Montel Analyser for ID20\relax }}{51}{figure.caption.63}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Montel parameters used for the simulation for ID20\relax }}{51}{figure.caption.64}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Footprint, on the xy-mirror (\ref {fig: footprint_oe1}) and on zy-mirror (\ref {fig: footprint_oe2}). The red dots are those rays that hit before xy-mirror and after zy-mirror, the blue ones hit first xy-mirror and after zy-mirror.\relax }}{52}{figure.caption.66}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces FWHM of x' after the Montel changing the orthogonality\relax }}{53}{figure.caption.67}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Histogram of x' after Montel\relax }}{54}{figure.caption.68}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Hyperbola's system\relax }}{60}{figure.caption.66}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Hyperbola's system\relax }}{61}{figure.caption.67}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Hyperbola's system\relax }}{56}{figure.caption.69}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Hyperbola's system\relax }}{57}{figure.caption.70}

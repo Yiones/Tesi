@@ -12,14 +12,37 @@ Ray BARRETT.
 \newblock Presentation of Ray Barrett on his work at ESRF presented at ESI2011:
   2nd EIROforum School on Instrumentation, 2011.
 
+\bibitem[Bra97]{braat1997abbe}
+Joseph~JM Braat.
+\newblock Abbe sine condition and related imaging conditions in geometrical
+  optics.
+\newblock In {\em Fifth International Topical Meeting on Education and Training
+  in Optics}, volume 3190, pages 59--65. International Society for Optics and
+  Photonics, 1997.
+
 \bibitem[CL70]{cromer1970relativistic}
 Don~T Cromer and David Liberman.
 \newblock Relativistic calculation of anomalous scattering factors for x rays.
 \newblock {\em The Journal of Chemical Physics}, 53(5):1891--1898, 1970.
 
+\bibitem[CMW16]{chen2016wolter}
+Shenghao Chen, Shuang Ma, and Zhanshan Wang.
+\newblock Wolter-i-like x ray telescope structure using one conical mirror and
+  one quadric mirror.
+\newblock {\em Chinese Optics Letters}, 14(12):123401, 2016.
+
 \bibitem[Dal16]{ThomsonScattering}
 Daniele Dallacasa.
 \newblock Processi di radiazione e mhd, 2016.
+
+\bibitem[dRRD{\etalchar{+}}14]{del2014proposal}
+Manuel~Sanchez del Rio, Luca Rebuffi, Janez Demsar, Niccolo Canestrari, and
+  Oleg Chubar.
+\newblock A proposal for an open source graphical environment for simulating
+  x-ray optics.
+\newblock In {\em Advances in Computational Methods for X-Ray Optics III},
+  volume 9209, page 92090X. International Society for Optics and Photonics,
+  2014.
 
 \bibitem[Fit06]{RayleighScattering}
 Richard Fitzpatrick.
@@ -93,10 +116,30 @@ S~Matsuyama and H~Yumoto.
 \newblock Textbook for hard x-ray focusing with kirkpatrick-baez optics.
 \newblock {\em Unpublished Report}, 2009.
 
+\bibitem[RdR17a]{rebuffi2017interoperability}
+Luca Rebuffi and Manuel~Sanchez del Rio.
+\newblock Interoperability and complementarity of simulation tools for beamline
+  design in the oasys environment.
+\newblock In {\em Advances in Computational Methods for X-Ray Optics IV},
+  volume 10388, page 1038808. International Society for Optics and Photonics,
+  2017.
+
+\bibitem[RdR17b]{rebuffi2017oasys}
+Luca Rebuffi and Manuel~Sanchez del Rio.
+\newblock Oasys (orange synchrotron suite): an open-source graphical
+  environment for x-ray virtual experiments.
+\newblock In {\em Advances in Computational Methods for X-Ray Optics IV},
+  volume 10388, page 103880S. International Society for Optics and Photonics,
+  2017.
+
 \bibitem[RKM15]{resta2015nested}
 Giacomo Resta, Boris Khaykovich, and David Moncton.
 \newblock Nested kirkpatrick--baez (montel) optics for hard x-rays.
 \newblock {\em Journal of Applied Crystallography}, 48(2):558--564, 2015.
+
+\bibitem[ro]{CurvMirrOpt}
+X~ray optic.
+\newblock Curved mirror optics.
 
 \bibitem[SFV09]{article_res_geat}
 Francesc Salvat and José Fernández-Varea.
@@ -113,6 +156,10 @@ Kulinder~Pal Singh.
 Robert Shannon and Roland Shack.
 \newblock {\em Legends in Applied Optics}.
 \newblock James E. Harvey, 2005.
+
+\bibitem[Tel]{TelescopeOptics}
+TelescopeOptics.
+\newblock Conics and aberrations.
 
 \bibitem[Uni16]{ComptonScattering}
 Boston University.

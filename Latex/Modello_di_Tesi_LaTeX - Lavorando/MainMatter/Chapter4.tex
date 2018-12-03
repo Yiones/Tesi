@@ -5,12 +5,12 @@
 
 In the first part of the Chapter is tested the correct working of the MONWES library. The test for mirrors, ideal lens and KB is done against OASYS software. For the Montel system, because is not implemented in OASYS, it is done a benchmark with the paper \cite{resta2015nested}.
 \\
-The second part of the Chapter use the MONWES library to study the behaviour of the Montel system. It is studied the effect of a non-centred beam focusing on how the image dimension and the intensity change with respect to the position of the hitting point of the Beam on the system. At the end is reported the study that I have done, for the beamline ID20 of the ESRF, for a non-orthogonal Montel mirrors.
+The second part of the Chapter use the MONWES library to study the behaviour of the Montel system. It is studied the effect of a non-centred beam watching what happen to the image dimension and the intensity in the case of centred and non centred beam. At the end is reported the study that I have done, for the beamline ID20 of the ESRF, of a non-orthogonal Montel mirrors.
 \vspace{0.5cm}
 \section{Testing against OASYS}
 %
 OASYS (OrAnge SYnchrotron Suite) is a graphical environment for optic simulation used in synchrotron facilities based on orange 3, developped by Manuel Sanchez Del Rio (ESRF) and Luca Rebuffi (ELETTRA).
-The comparison between the program and the OASYS software is done with the system in Figure \ref{fig: Optical system}, where the 1st optical system collimate the source, the 2nd optical system focalize the mean at the image plane, the system between the source and the 1st optical system correspond to the focal distance of the system $d_1 = f = 0.4 m $, between the 12st and the 2nd optical system with a distance $d_2 = 0.6 m $ and the distance between the 2nd system and the image plane correspond to the focal length of the 2nd optical system that is $d_3 = f = 0.4$. A system that have parameters defined as before, make a copy of the source image at the image plane.
+The comparison between the program and the OASYS software is done with the system in Figure \ref{fig: Optical system}. In this system the 1st optical system collimate the source and the 2nd optical system focalize the Beam at the image plane. The different lentgth that characterize the system are: between the source and the 1st optical system there is a  distance of  $d_1 = f = 0.4 m $, between the 2st and the 2nd optical system a distance $d_2 = 0.6 m $ and the distance between the 2nd system and the image plane correspond to a distance of $d_3 = f = 0.4$. A system that have parameters defined as before, make a copy of the source image at the image plane.
 %
 \begin{figure}[]
 %
@@ -24,7 +24,7 @@ The comparison between the program and the OASYS software is done with the syste
 %
 \end{figure}
 %
-The source parameter used are showed in Figure \ref{fig: Source Parameter for OASYS}, and correspond to  a square source spot of $1 \mu m^2 $, and a initial Gaussian divergence with a FWHM of $1 mrad $.
+The source parameter used are showed in Figure \ref{fig: Source Parameter for OASYS}, and correspond to  a square source spot of $1 \mu m^2 $, and a initial Gaussian divergence with a FWHM of $2.3 mrad $.
 \begin{figure}[]
 %
 \centering
@@ -41,13 +41,15 @@ The source parameter used are showed in Figure \ref{fig: Source Parameter for OA
 %
 \end{figure}
 %
-The tests are done using different optical system, with the same focal length and, for the mirror it is used a grazing incidence angle of $\theta = 1.719^{\circ}$. Below are plotted the image of the Beam at the image plane, putting the OASYS' results on the right, and my results on the left. The system simulated are done with:
+The tests is done using different optical system, with the same focal length and, for the mirror, with a grazing incidence angle of $\theta = 1.719^{\circ}$. Below are plotted the image of the Beam at the image plane, putting the OASYS results on the right, and my results on the left. 
+\\
+The system simulated are done with:
 \begin{enumerate}
 \item ideal lenses Figure \ref{fig: Ideal lense OASYS}
 \item parabolic mirror Figure \ref{fig: paraboloid OASYS}
 \item KB system Figure \ref{fig: KB system OASYS}
 \end{enumerate} 
-\noindent As it is showed in the figures, the result are pretty similar, with an image that depend on the kind of the system. The ideal lenses case show a perfect image, on the contrary, KB and paraboloid, show similar  images but a bit ruined degrades by the propagation.
+\noindent As it is showed in the figures \ref{fig: Ideal lense OASYS}, \ref{fig: paraboloid OASYS} and KB system Figure \ref{fig: KB system OASYS}, the result, of OASYS and my simulations are pretty similar- With an image that depend on the kind of the system. The ideal lenses case show a perfect replica of the source image, on the contrary, KB and paraboloid, show similar images but a bit ruined, because it degrades along the propagation.
 \newpage
 %
 \begin{figure}[H]
@@ -99,7 +101,7 @@ The tests are done using different optical system, with the same focal length an
 \newpage
 %
 \subsection{Benchmarking} 
-In Figure \ref{fig: PaperMontelSystem} is depicted the Montel system used in the simulation done by the paper in its system of reference. The aim of this system is to collimate a Beam using a Montel with two parabolic mirrors. The source used have a Gaussian dimension with a FWHM of 2.5$\mu $m and a Gaussian divergence of 5$mrad $. The distances, between the source/image plane and the center of the Montel are, respectively,  $\simeq $ 0.26m and 10.06m, moreover, the incidence angle of the Beam is $\theta_g \simeq 2.86^{\circ} $.
+The system used for the benchmarking is showed in Figure \ref{fig: PaperMontelSystem} using the reference frame of the paper \cite{resta2015nested}. The aim of this system is to collimate a Beam using a Montel with two parabolic mirrors. The source used have a Gaussian dimension with a FWHM of 2.5$\mu $m and a Gaussian divergence of 5$mrad $. The distances, between the source/image plane and the center of the Montel are, respectively,  $\simeq $ 0.26m and 10.06m, moreover, the incidence angle of the Beam is $\theta_g \simeq 2.86^{\circ} $.
 %
 \begin{figure}[]
 	\centering
@@ -110,7 +112,7 @@ In Figure \ref{fig: PaperMontelSystem} is depicted the Montel system used in the
 %
 The result, at the image plane, of the beam size and beam divergence, after the double-reflection of the Montel system, is showed in Figure \ref{fig: My Simulation Comparison}. Where, in Figure \ref{fig: PaperImageShape}, is showed the figure of the beam at the image plane, and, in Figure \ref{fig: PaperImageDivergence}, is showed the divergence. The quantitative values reported on the paper correspond to a Gaussian-like distribution with a spacial FWHM of $\sim $0.7mm, for the spot size, and a FWHM of the Gaussian divergence $\sim $ 0.01 mrad.
 \\
-Repeating the simulation with my program using the parameter defined in  in the paper \cite{resta2015nested}, are figured out in Figure \ref{fig: My Simulation Comparison}. As it is showed in the Figure \ref{fig: My Simulation Comparison} there are a qualitative good agreement with the two simulation .Also, under a quantitative point of view, there is a good agreement in fact, in my simulation are obtained a value of $\sim $1mm of FWHM of image size, pretty similar to the one of the other simulation, and $\sim $0.01 mrad FWHM of divergence that is equal to the one obtained with the other simulation.
+Repeating the simulation with MONWES, and using the parameter defined in  in the paper \cite{resta2015nested} it obtain Figure \ref{fig: My Simulation Comparison}. As it is showed in the Figure \ref{fig: My Simulation Comparison} there are a qualitative good agreement between the two simulation .Also, under a quantitative point of view, there is a good agreement in fact, in my simulation are obtained a value of $\sim $1mm of FWHM of image size, pretty similar to the one of the other simulation, and $\sim $0.01 mrad FWHM of divergence that is equal to the one obtained with the other simulation.
 %
 \begin{figure}[]
 %
@@ -135,7 +137,7 @@ Repeating the simulation with my program using the parameter defined in  in the 
 \end{figure}
 %
 \section{Analysis of Montel system}
-In this section it is done, using the Montel tools developed, a study of the Montel effect with respect to a Beam, simulating different situation. The first point, to understand if  Montel work well, is to simulated the behaviour of a point-wise source with a certain divergence, using a collimating system, and watching what happen to the beam. The  second step is to simulate a collimating beam with a certain source shape geometry and figure out the image plot obtained by a focalizing system in its image plane. What is expected is a point, in the velocity space for the first situation and in the real space for the second simulation, as a consequence of the ideal collimating/focalizing system. For the simulation are used parabolic Montel with an incidence angle of 2$^{\circ} $ (the choice of the angle is arbitrary. Paraboic system are chosen because is the only way to obtain a perfect collimating Beam).
+In this section it is done, using the Montel tools developed, a study of the Montel. The first simulation, to understand if  Montel work well, is to study the behaviour of a point-wise source with a certain divergence, using a collimating system. The second simulation, for the same reason of before, is to simulate a collimating beam with a certain source shape geometry and figure out the image plot obtained by a focalizing system in its image plane. What is expected is a point, in the velocity space for the first situation and in the real space for the second simulation, as a consequence of the ideal collimating/focalizing system. For the simulation are used parabolic Montel with an incidence angle of 2$^{\circ} $ (the choice of the angle is arbitrary. Paraboic system are chosen because is the only way to obtain a perfect collimating Beam).
 \\
 In Figure \ref{fig: ideal} are reported the result for the ideal collimating/focalizing cases.
 For the collimation system is used a point wise source with a Gaussian divergence of FWHM of 25$\mu $m, \ref{fig: coll.Source}. At the image plane the Beam (Figure \ref{fig: CollimationImage}) is collimated, reducing its divergence of 3 order of magnitude. For the focalizing system, it is used a circular source spot having a radius of 1mm, \ref{fig: foc.Source}, with a collimated source beam. At the image plane the dimension of the Beam (Figure \ref{fig: focalizingImage}) is reduced of 3 order magnitude. It is possible to conclude that both collimating and focalizing system work but not perfectly (the final results are not point). One explanation can be that, because of the particular configuration of the mirrors of the Montel, the effect on the Beam are not perfect. This can be an \textbf{intrinsic aberration of the Montel}, that can be studied more in the future.
@@ -200,7 +202,7 @@ In this section is studied the effect of a Montel system of a non centred-Beam i
 %
 \end{figure}
 
-The system used is a focalizing parabolic Montel with an object focal distance of 0.2m and an image focal distance of 0.9, working on miroor designe for incidence angle of $\therefore_g = 2^{\circ}$. Figure \ref{fig: reuslt diff. path} show the result the two FWHM of the beam changing the incidence point of the beam moving the different paths. This point is defined with respect to the center of the Montel system that correspond to the origin (0, 0, 0). In Figure \ref{fig: Y path}, the incidence point move along y-axis, start from the point (0, 1.5mm, 0) and arriving to the point (0, -1.5mm, 0), and show, more or less, a flat behaviour of the FWHM. Figure \ref{fig: XZ path} start from the point (0, 0, 0.15mm) and arrive to (-0.15mm, 0, 0) and have specular behaviour for the two FWHM, there is a minimum of the two FWHM near the origin point, moving on the oe1 worse the FWHM of $z^{'} $ and maintain the other constant, on the contrary, moving on the oe2 the situation is reversed, in this case the FWHM of $x^{'} $ get worse, maintaining constant the one of $z^{'} $. Figure \ref{fig: XYZ1 path} start from (0, 1.5mm, 0.15mm) and arrive to (-0.15mm, -1.5mm, 0) and Figure \ref{fig: XYZ2 path} start from (-0.15mm, 1.5mm, 0) and arrive to (0., -1.5mm, 0.15mm). The behaviour of this last two path are similar to that of \ref{fig: XZ path}, this is reasonable, because the motion along y-axis does not influence the FWHM because of the definition of the cylindrical mirror, that in any point along the y direction have the same geometry.
+The system used is a focalizing parabolic Montel with an object focal distance of 0.2m and an image focal distance of 0.9, working on miroor designe for incidence angle of $\theta_g = 2^{\circ}$. Figure \ref{fig: reuslt diff. path} show the result the two FWHM of the beam changing the incidence point of the beam moving the different paths. This point is defined with respect to the center of the Montel system that correspond to the origin (0, 0, 0). In Figure \ref{fig: Y path}, the incidence point move along y-axis, start from the point (0, 1.5mm, 0) and arriving to the point (0, -1.5mm, 0), and show, more or less, a flat behaviour of the FWHM. Figure \ref{fig: XZ path} start from the point (0, 0, 0.15mm) and arrive to (-0.15mm, 0, 0) and have specular behaviour for the two FWHM, there is a minimum of the two FWHM near the origin point, moving on the oe1 worse the FWHM of $z^{'} $ and maintain the other constant, on the contrary, moving on the oe2 the situation is reversed, in this case the FWHM of $x^{'} $ get worse, maintaining constant the one of $z^{'} $. Figure \ref{fig: XYZ1 path} start from (0, 1.5mm, 0.15mm) and arrive to (-0.15mm, -1.5mm, 0) and Figure \ref{fig: XYZ2 path} start from (-0.15mm, 1.5mm, 0) and arrive to (0., -1.5mm, 0.15mm). The behaviour of this last two path are similar to that of \ref{fig: XZ path}, this is reasonable, because the motion along y-axis does not influence the FWHM because of the definition of the cylindrical mirror, that in any point along the y direction have the same geometry.
 \\
 %
 %
@@ -219,7 +221,7 @@ The system used is a focalizing parabolic Montel with an object focal distance o
 %
 \subfloat[][XYZ2 path\label{fig: XYZ2 path}]
    {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/XYZ2Path}}
-\caption{Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $}
+\caption{Results of the changing of the x and z FWHM at the image following different path defined in Figure \ref{fig: path}. The Montel system used have a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $}
 %
 \label{fig: reuslt diff. path}
 %
@@ -244,14 +246,62 @@ The plots in Figure \ref{fig: 2nd reuslt diff. path}, are interesting, because r
 %
 \subfloat[][XYZ2 path\label{fig: XYZ2 path}]
    {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/XYZ2Path_2}}
-\caption{Resuts of the Montel system of a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $}
+\caption{Change of the intensity depending on the path defined in Figure \ref{fig: path}. The Montel system used have a square spot of $10 mm^2 $ and a Gaussian divergence of $25mrad $}
 %
 \label{fig: 2nd reuslt diff. path}
 %
 \end{figure}
 \section{My work for the ID 20}
 
-\begin{figure}[]
+In this section is reported the study that I have done for the beam of ID20 of the Esrf. The simulation were done in order to study the Montel system bought as analyser that will be used in the beamline.
+
+\subsection{System parameters}
+The system simulated have a source size of $ 1 \mu m^2 $(see Figure \ref{fig: ID20InitialSpot}) with a Gaussian divergence of $25 \mu rad $(see Figure \ref{fig: ID20InitialDivergence}). The parameters of the system are: object distance of $351 mm$, mirror Length of $300mm$, mirror width of $100mm $, the error max between the orthogonal configuration of the two mirror is of $\Delta =  \pm 0.03^{\circ} $ and an incidence angle of $18.1 mrad $. In Figure \ref{fig: ID20System} is showed a 3D graphic view of the Monter system with the parameter used.
+\begin{figure}[H]
+%
+\centering
+%
+\subfloat[][Beam source size (1$\mu $ $m^2 $)\label{fig: ID20InitialSpot}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/ID20InitialSpot}}
+%
+\subfloat[][Beam source divergence ($2h \mu $ $rad $)\label{fig: ID20InitialDivergence}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/ID20InitialDivergence}}\quad
+%
+\caption{Source parameters used for the study of the Montel Analyser for ID20}
+%
+\end{figure}
+
+\begin{figure}[H]
+%
+\centering
+%
+\includegraphics[width=1.\textwidth]{Immagini/Chapter4/ID20System}
+%
+\caption{Montel parameters used for the simulation for ID20}
+%
+\label{fig: ID20System}
+%
+\end{figure}
+
+\subsection{Result of beam figure and footprint}
+
+The image plane is positioned at $1m$ from the center of the Montel system. The property of the beam at the image plane are showed in Figure \ref{fig: ID20image}.It is obtained, a new spot size with a length of $60 \mu $ $m$ in the x direction and $100 \mu $ $m$ in the z direction, and the divergence has a dimension of $\simeq 40\mu$ $rad$.
+\begin{figure}[H]
+%
+\centering
+%
+\subfloat[][Size of the Beam at the image plane\label{fig: image_spot}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/image_spot}}
+%
+\subfloat[][Divergence of the Beam at the image plane\label{fig: image_divergence}]
+   {\includegraphics[width=.4\textwidth]{Immagini/Chapter4/image_divergence}}\quad
+%
+\label{fig: ID20image}
+%
+\end{figure}
+\noindent Moreover is interesting to note the footprint of the two mirror (Figure \ref{fig: footprint}) because the area hit by the beam have a greater component on the y direction (due to the grazing incidence), than in the other direction.The x-length of the xy-mirror, and the z-length of the zy-mirror, is very small (at the order of $20 \mu $ $m$) with respect to the y-length that is $\simeq 20mm$.
+%
+\begin{figure}[H]
 %
 \centering
 %
@@ -266,9 +316,22 @@ The plots in Figure \ref{fig: 2nd reuslt diff. path}, are interesting, because r
 \label{fig: footprint}
 %
 \end{figure}
-In this section is it done an orthogonality studies of the Montel system, it is studied the behaviour of a beam, using a source parameter defined before. Figure \ref{fig:HistogramFitted} presents the interesting histogram versus the horizontal angle $x^{'} $ when the angle between the mirrors change ($\alpha = 90^{\circ} + \Delta $). It can be noted a improvement of the collimation of the beam changing the angle in the case of closer mirrors ($\Delta = -0.004^{\circ} $).
-\\
-Figure show the trend of the FWHM of the $x^{'} $ changing the angle $\Delta $, it is possible to note a minimum for negative angle (this  situation correspond to the indigo line) after that the situation become worse. Moreover, the behaviour of the FWHM is not symmetric with respect to $0^{\circ} $, in case of negative angle deviation the situation improve for small range of deviation angle, after that, the trend get worse, on the opposite way, the situation get worse increasing the positive deviation angle. 
+\subsection{Analysis of orthogonality}
+Figure \ref{fig: Histogram} presents the interesting histograms versus the horizontal anlge $x^{’} $ when the angle between the mirrors change ($\alpha = 90^{\circ} + \Delta $). It can be noted a improvement of the collimation of the beam changing the angle in the case of closer mirrors ($\Delta=-0.01^{\circ} $
+). Figure \ref{fig:FWHM changing orthogonality} show the trend of the FWHM of the $x^{'} $ changing the angle $\Delta $, it is possible to note a minimum for negative angle (this ideal situation is the pink curve reported in Figure \ref{fig: Histogram}) after that the situation become worse. Moreover, the behavior of the FWHM is not symmetrical with respect to $0^{\circ} $, in case of negative angle deviation the situation improve for a small range of deviation angle, after that, the trend get worse, on the opposite way, the situation get worse increasing the positive
+deviation angle.
+
+\begin{figure}
+%
+\centering
+%
+\includegraphics[width=.68\textwidth]{Immagini/Chapter4/FWHM}
+%
+\caption{FWHM of x' after the Montel changing the orthogonality}
+%
+\label{fig:FWHM changing orthogonality}
+%
+\end{figure}
 \begin{figure}[]
 %
 \centering
@@ -277,24 +340,10 @@ Figure show the trend of the FWHM of the $x^{'} $ changing the angle $\Delta $, 
    {\includegraphics[width=0.6\textwidth]{Immagini/Chapter4/Histogram}}\quad
 %
 \subfloat[][Fitted Histogram\label{fig:HistogramFitted}]
-   {\includegraphics[width=.6\textwidth]{Immagini/Chapter4/HistogramFitted}}
+   {\includegraphics[width=.7\textwidth]{Immagini/Chapter4/Histogram2}}
 %
 \caption{Histogram of x' after Montel}
 %
-\label{fig: incidence angle}
+\label{fig: Histogram}
 %
 \end{figure}
-%%%%%
-\begin{figure}
-%
-\centering
-%
-\includegraphics[width=.6\textwidth]{Immagini/Chapter4/FWHMChangingOrt}
-%
-\caption{FWHM of x' after the Montel changing the orthogonality}
-%
-\label{fig:FWHM changing orthogonality}
-%
-\end{figure}
-
-Another interested point to show is the footprint on the two mirror that are represented in Figure \ref{fig: footprint}. It is possible to note that the area hit by the beam have a greater component on the y direction (due to the grazing incidence), than in the other direction. In this particular case the x-lenght of the xy-mirror, and the z-lenght of the zy-mirror, is very small (at the order of 20$\mu $m) with respect to the y-lenght that is $\sim $20mm. These calculatione are done for a very small Gaussian spot with a FWHM of 1$\mu $m and a narrow divergence of FWHM equal to 25$\mu $rad.
