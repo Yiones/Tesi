@@ -78,6 +78,11 @@ Gene~E Ice, Rozaliya~I Barabash, and Ali Khounsary.
 \newblock In {\em Advances in X-Ray/EUV Optics and Components IV}, volume 7448,
   page 74480B. International Society for Optics and Photonics, 2009.
 
+\bibitem[KB48]{kirkpatrick1948formation}
+Paul Kirkpatrick and Albert~Vincio Baez.
+\newblock Formation of optical images by x-rays.
+\newblock {\em JOSA}, 38(9):766--774, 1948.
+
 \bibitem[LBN10]{CXRO}
 MSD LBNL.
 \newblock Center for x-ray optics, 2010.
@@ -170,5 +175,13 @@ Wikipedia.
 \newblock Parabola (geometria).
 \newblock 2018.
 \newblock [Online; accessed 1-December-2018].
+
+\bibitem[Wol75]{wolter1975mirror}
+Hans Wolter.
+\newblock Mirror systems with grazing incidence as image-forming optics for
+  x-rays.
+\newblock {\em Mirror systems with grazing incidence as image-forming optics
+  for X-rays Transl. into ENGLISH from Ann. Phys.(Leipzig), ser. 6, v. 10, 1952
+  p 94-114}, 1975.
 
 \end{thebibliography}

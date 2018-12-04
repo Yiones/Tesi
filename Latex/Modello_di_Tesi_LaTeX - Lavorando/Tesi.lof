@@ -1,64 +1,63 @@
-\babel@toc {italian}{}
-\babel@toc {italian}{}
+\babel@toc {english}{}
 \babel@toc {english}{}
 \babel@toc {italian}{}
 \babel@toc {english}{}
-\babel@toc {italian}{}
+\babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Attenuation coefficient for X-ray radiation of a light material (water Figure \ref {fig: Scattering1}), and an heavy material (lead \ref {fig: Scattering2}) (from \cite {article_res_geat}).\relax }}{4}{figure.caption.15}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces X-ray ionizing process\relax }}{6}{figure.caption.16}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Interface of two medium\relax }}{9}{figure.caption.17}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Reflectivity for the case of a non-absorbing material\relax }}{13}{figure.caption.18}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Reflectivity plot with respect of the grazing incidence angle $\vartheta _i $ of different material with a radiation of $500 eV$ on a substrate of Si \cite {CXRO}\relax }}{14}{figure.caption.19}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Attenuation coefficient for X-ray radiation of a light material (water Figure \ref {fig: Scattering1}), and a heavy material (lead \ref {fig: Scattering2}) (from \cite {article_res_geat}).\relax }}{4}{figure.caption.12}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces X-ray ionizing process\relax }}{6}{figure.caption.13}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Interface of two medium\relax }}{9}{figure.caption.14}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Reflectivity plot with respect of the grazing incidence angle $\vartheta _i $ of different material with a radiation of $500 eV$ on a substrate of Si \cite {CXRO}. It is also plotted the behaviour of an ideal non-absorbing material \ref {fig: IdealReflection}\relax }}{13}{figure.caption.15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Formation image of a circular mirror for a point-wise source placed at a distance $PO $ from the center of the mirror. $R $ is the curvature of the mirror, $\vartheta _i $ the angle of the central ray.\relax }}{16}{figure.caption.20}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Image formation of a spherical mirror. The formation of a point wise source correspond to a two rods, one in the sagittal plane, and the second one in the meridial plane\relax }}{17}{figure.caption.21}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Different kind of surface conic, with the same $c $ base curvature value, and different constant $k $.\relax }}{19}{figure.caption.23}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of spherical aberration correction\relax }}{20}{figure.caption.24}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Sine Abbe condition for a lens\relax }}{20}{figure.caption.25}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Kirkpatrick-Baez system\relax }}{22}{figure.caption.27}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Montel system\relax }}{23}{figure.caption.28}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Example in how to build a Montel system starting from two cylindrical mirror cutting the edge with ad angle of $45^{\circ } $.\relax }}{24}{figure.caption.29}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Formation image of a circular mirror for a point-wise source placed at a distance $PO $ from the center of the mirror. $R $ is the curvature of the mirror, $\vartheta _i $ the angle of the central ray.\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Image formation of a spherical mirror. The formation of a point wise source correspond to a two rods, one in the sagittal plane, and the second one in the meridian plane\relax }}{17}{figure.caption.17}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Different kind of surface conic, with the same $c $ curvature value, and different constant $k $.\relax }}{19}{figure.caption.19}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of spherical aberration correction\relax }}{19}{figure.caption.20}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Sine Abbe condition for a lens\relax }}{20}{figure.caption.21}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Different kind of Wolter System \cite {X-RayWolter}\relax }}{21}{figure.caption.22}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Kirkpatrick-Baez system\relax }}{22}{figure.caption.23}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Montel system\relax }}{23}{figure.caption.24}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Example of how a Montel system is built from two cylindrical mirrors cutting the edge with at angle of $45^{\circ } $.\relax }}{24}{figure.caption.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of Beam initialization\relax }}{26}{figure.caption.30}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Example 1\relax }}{26}{figure.caption.31}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Example 2\relax }}{27}{figure.caption.32}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Example 3\relax }}{27}{figure.caption.33}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Summary of the Beam object parameter\relax }}{28}{figure.caption.34}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Parabola\relax }}{30}{figure.caption.35}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Part of a parabola (blue), with other characteristic (different color) \cite {wikiParabola}\relax }}{31}{figure.caption.36}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Ellipse System\relax }}{32}{figure.caption.37}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Hyperbola System\relax }}{32}{figure.caption.38}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces KB system\relax }}{33}{figure.caption.39}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Different object/image focal length that characterize the whole KB system, and the single mirrors. Is it also showed the separation length between the two mirror\relax }}{34}{figure.caption.40}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Example 5\relax }}{34}{figure.caption.41}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces System\relax }}{35}{figure.caption.42}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Example 6\relax }}{35}{figure.caption.43}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces System\relax }}{36}{figure.caption.44}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Example 7\relax }}{36}{figure.caption.45}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Example 1\relax }}{37}{figure.caption.46}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Example 8\relax }}{37}{figure.caption.47}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces From \cite {liu2011achromatic}. For the KB system (Figure \ref {fig: KB111}) all the rays hit sequentially one mirror after the other. For the Montel system (Figure \ref {fig: Montel111}) a portion of rays coming from the source hit firstly oe1 and secondly oe2, the other portion do the opposite thing.\relax }}{38}{figure.caption.48}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Example 8\relax }}{39}{figure.caption.49}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Example 8\relax }}{40}{figure.caption.50}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of Beam initialization\relax }}{26}{figure.caption.26}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Example 1\relax }}{26}{figure.caption.27}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example 2\relax }}{27}{figure.caption.28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Example 3\relax }}{27}{figure.caption.29}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Summary of the Beam object parameter\relax }}{28}{figure.caption.30}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Parabola\relax }}{30}{figure.caption.31}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Part of a parabola (blue), with other characteristic (different color) \cite {wikiParabola}\relax }}{31}{figure.caption.32}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Ellipse System\relax }}{32}{figure.caption.33}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Hyperbola System\relax }}{32}{figure.caption.34}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces KB system\relax }}{34}{figure.caption.35}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Different object/image focal length that characterize the whole KB system, and the single mirrors. Is it also showed the separation length between the two mirror\relax }}{34}{figure.caption.36}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Example 4\relax }}{34}{figure.caption.37}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Grafical 3D view of the Montel in its reference system\relax }}{35}{figure.caption.38}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Example 5\relax }}{35}{figure.caption.39}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces To simulate this system it need to define: source Beam parameters, optical elements and the distances between them\relax }}{36}{figure.caption.40}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Example 6\relax }}{36}{figure.caption.41}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Example 7\relax }}{37}{figure.caption.42}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Tracing code for a compound optical element that use a sequential tracing method, such as KB system.\relax }}{38}{figure.caption.43}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces For the KB system (\ref {fig: KB111}) all the rays hit sequentially one mirror after the other. For the Montel system (\ref {fig: Montel111}) a portion of rays coming from the source hit firstly oe1 and secondly oe2, the other portion do the opposite thing. From \cite {liu2011achromatic}.\relax }}{38}{figure.caption.44}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Example 8\relax }}{40}{figure.caption.45}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Example 9\relax }}{41}{figure.caption.46}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Optical system used for the test with OASYS\relax }}{42}{figure.caption.51}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Parameter of the source used for the test with OASYS\relax }}{42}{figure.caption.52}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Image for the testing ideal lenses system in Figure \ref {fig: Optical system} of: my simulation (Figure \ref {fig: my Ideal Lenses}) and OASYS simulation (Figure \ref {fig: Ideal Lenses OASYS})\relax }}{43}{figure.caption.53}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Image for the testing paraboloid system in Figure \ref {fig: Optical system} of: my simulation (Figure \ref {fig: my Paraboloid}) and OASYS simulation (Figure \ref {fig: Paraboloid OASYS})\relax }}{43}{figure.caption.54}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Image for the testing KB system in Figure \ref {fig: Optical system} of: my simulation (Figure \ref {fig: my KB}) and OASYS simulation (Figure \ref {fig: KB OASYS})\relax }}{43}{figure.caption.55}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Illustration of the Montel system used as a collimator in the paper \cite {resta2015nested}\relax }}{44}{figure.caption.56}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of the Montel simulations with a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{45}{figure.caption.57}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Ideal system\relax }}{46}{figure.caption.58}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Illumination at the image plane of the different Beam (red dots correspond to np-reflected rays, blue dot to one-reflected rays, green dots to two-reflected rays).\relax }}{47}{figure.caption.59}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Different path for simulate the non-centred beam\relax }}{48}{figure.caption.60}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Results of the changing of the x and z FWHM at the image following different path defined in Figure \ref {fig: path}. The Montel system used have a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{49}{figure.caption.61}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Change of the intensity depending on the path defined in Figure \ref {fig: path}. The Montel system used have a square spot of $10 mm^2 $ and a Gaussian divergence of $25mrad $\relax }}{50}{figure.caption.62}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Source parameters used for the study of the Montel Analyser for ID20\relax }}{51}{figure.caption.63}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Montel parameters used for the simulation for ID20\relax }}{51}{figure.caption.64}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Footprint, on the xy-mirror (\ref {fig: footprint_oe1}) and on zy-mirror (\ref {fig: footprint_oe2}). The red dots are those rays that hit before xy-mirror and after zy-mirror, the blue ones hit first xy-mirror and after zy-mirror.\relax }}{52}{figure.caption.66}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces FWHM of x' after the Montel changing the orthogonality\relax }}{53}{figure.caption.67}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Histogram of x' after Montel\relax }}{54}{figure.caption.68}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Optical system used for the test with OASYS\relax }}{44}{figure.caption.47}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Parameter of the source used for the test with OASYS\relax }}{44}{figure.caption.48}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Image for the testing ideal lenses system in Figure \ref {fig: Optical system} of: my simulation (Figure \ref {fig: my Ideal Lenses}) and OASYS simulation (Figure \ref {fig: Ideal Lenses OASYS})\relax }}{45}{figure.caption.49}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Image for the testing paraboloid system in Figure \ref {fig: Optical system} of: my simulation (Figure \ref {fig: my Paraboloid}) and OASYS simulation (Figure \ref {fig: Paraboloid OASYS})\relax }}{45}{figure.caption.50}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Image for the testing KB system in Figure \ref {fig: Optical system} of: my simulation (Figure \ref {fig: my KB}) and OASYS simulation (Figure \ref {fig: KB OASYS})\relax }}{45}{figure.caption.51}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Illustration of the Montel system used as a collimator in the paper \cite {resta2015nested}\relax }}{46}{figure.caption.52}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of the Montel simulations with a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{47}{figure.caption.53}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ideal system\relax }}{48}{figure.caption.54}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Illumination at the image plane of the different Beam (red dots correspond to np-reflected rays, blue dot to one-reflected rays, green dots to two-reflected rays).\relax }}{49}{figure.caption.55}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Different path for simulate the non-centred beam\relax }}{50}{figure.caption.56}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Results of the changing of the x and z FWHM at the image following different path defined in Figure \ref {fig: path}. The Montel system used have a source beam with a FWHM spot of 2.5$\mu $m and a Gaussian divergence of 5$mrad $\relax }}{51}{figure.caption.57}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Change of the intensity depending on the path defined in Figure \ref {fig: path}. The Montel system used have a square spot of $10 mm^2 $ and a Gaussian divergence of $25mrad $\relax }}{52}{figure.caption.58}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Source parameters used for the study of the Montel Analyser for ID20\relax }}{53}{figure.caption.59}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Montel parameters used for the simulation for ID20\relax }}{53}{figure.caption.60}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Footprint, on the xy-mirror (\ref {fig: footprint_oe1}) and on zy-mirror (\ref {fig: footprint_oe2}). The red dots are those rays that hit before xy-mirror and after zy-mirror, the blue ones hit first xy-mirror and after zy-mirror.\relax }}{54}{figure.caption.62}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces FWHM of x' after the Montel changing the orthogonality\relax }}{55}{figure.caption.63}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Histogram of x' after Montel\relax }}{56}{figure.caption.64}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Hyperbola's system\relax }}{56}{figure.caption.69}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Hyperbola's system\relax }}{57}{figure.caption.70}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Ellipse's system\relax }}{60}{figure.caption.67}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Hyperbola's system\relax }}{61}{figure.caption.68}

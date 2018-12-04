@@ -1,10 +1,9 @@
-\babel@toc {italian}{}
-\babel@toc {italian}{}
+\babel@toc {english}{}
 \babel@toc {english}{}
 \babel@toc {italian}{}
 \babel@toc {english}{}
-\babel@toc {italian}{}
-\contentsline {chapter}{Introduzione}{1}{section*.13}
+\babel@toc {english}{}
+\contentsline {chapter}{Introduzione}{1}{section*.10}
 \contentsline {chapter}{\numberline {1}Focusing for X-rays}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Interaction with Matter}{5}{section.1.1}
 \contentsline {section}{\numberline {1.2}Total External Reflection}{9}{section.1.2}
@@ -12,32 +11,35 @@
 \contentsline {section}{\numberline {2.1}Spherical surface}{15}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Astigmatism}{15}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Spherical Aberration}{17}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Reducing aberration}{18}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Reducing aberrations}{18}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Conic Surfaces}{18}{section.2.2}
-\contentsline {section}{\numberline {2.3}Compound Optical system}{19}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Wolter System \cite {X-RayWolter}}{20}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Kirkpatrick-Baez System \cite {matsuyama2009textbook} }{21}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.3}Compound Optical system}{20}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Wolter System}{20}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Kirkpatrick-Baez System }{21}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Montel}{22}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Description}{22}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Optical Design \cite {ice2009nested}}{23}{subsection.2.4.2}
 \contentsline {chapter}{\numberline {3}MONWES}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Beam}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}Optical Elements}{29}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Mirrors and lens}{29}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Mirrors}{29}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Compound Optical Element (KB and Montel system)}{33}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Compound System: KirkPatrickBaez}{33}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Compound System: Montel }{34}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Tracing System}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.3}Compound System: Kirkpatrick-Baez}{33}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Compound System: Montel }{35}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}The tracing mechanism}{35}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Tracing for simple Optical element}{36}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Tracing for KB}{37}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Tracing for Montel}{37}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {4}Test and Results}{41}{chapter.4}
-\contentsline {section}{\numberline {4.1}Testing against OASYS}{41}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Benchmarking}{44}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Analysis of Montel system}{44}{section.4.2}
-\contentsline {section}{\numberline {4.3}Non-centred Beam}{47}{section.4.3}
-\contentsline {section}{\numberline {4.4}My work for the ID 20}{51}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}System parameters}{51}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Result of beam figure and footprint}{52}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Analysis of orthogonality}{52}{subsection.4.4.3}
-\contentsline {chapter}{\numberline {A}How to calculated the ellipse's and hyperbola's coefficients}{55}{appendix.Alph1}
+\contentsline {subsection}{\numberline {3.3.3}Tracing for Montel}{38}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}Test and Results}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Testing against OASYS}{43}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Benchmarking}{46}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Analysis of Montel system}{46}{section.4.2}
+\contentsline {section}{\numberline {4.3}Non-centred Beam}{49}{section.4.3}
+\contentsline {section}{\numberline {4.4}Simulation of a Montel system for ID20}{53}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}System parameters}{53}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Result of beam figure and footprint}{54}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Analysis of orthogonality}{54}{subsection.4.4.3}
+\contentsline {chapter}{Conclusioni}{57}{section*.65}
+\contentsline {chapter}{\numberline {A}How to calculate the ellipse's and hyperbola's coefficients}{59}{appendix.A}
+\contentsline {section}{\numberline {A.1}Ellipse}{59}{section.A.1}
+\contentsline {section}{\numberline {A.2}Hyperbola}{60}{section.A.2}

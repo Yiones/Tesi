@@ -15,7 +15,7 @@
 %
 \addcontentsline{toc}{chapter}{Introduzione}
 %
-\chapter*{Introduzione}
+\chapter*{Introduction}
 %
 \markboth{Introduzione}{Introduzione}	% headings
 %
@@ -23,17 +23,24 @@
 %
 % ------------------------------------------------------------------------ %
 %
-
-The simulation of x-ray beam properties during the transport along a beamline is important for the design, the optimization and the operation of the beamline. The main optical element used for X-ray are curved mirrors, used in a grazing configuration, in order to focalize or collimate a beam. In a beam line are used simple mirrors or some particular kind of mirror combination that increase the perfomance of the optical system. An typical example is the Kirkpatrick-Baez (KB) system, very popular at the ESRF because of its many good properties and so well studied. However, the extreme quality of the synchrotron beams that will be available with the ESRF upgraded storage ring pushes the requirement in optics to consider more and more perfect elements. There is also another configuration of mirror, named "Montel" system, that should do the same work of the Kirkpatrick-Baez (KB) system.
-\\
-During my traineeships at the ESRF I developed a python library that is able do simulate a ray-tracing of a beam to some simple optical element, such as mirror, and other a bit complicated that are basically a combination of mirrors element such as Kirkpatrick-Baez (KB) system and a Montel system.
-\\
-Moreover the Montel code it is used to understand the effect of such element with respect to an incident beam in order to 
-
-The thesis is struchter in
+The simulation of x-ray beam properties during the transport along a beamline is important for the design, the optimization and the operation of the beamline. For X-ray radiation both refractive and reflective elements are used. But, in this thesis, is discussed only the reflection optics (mirrors and combination of them). The aim of the optical system is that to propagate the radiation from the synchrotron source to the sample. This implies some form of focusing on the Beam.
+\newline
+Reflective elements that can focus Beam are curved mirrors or combination of them. Moreover, because of the high absorption coefficient of the X-ray radiation, a total external reflection is needed. This mean that the mirrors are used in a grazing configuration. 
+\newline
+The simplest curved mirror existing, spherical one, cannot be used, due to the fact that, at grazing incidence, the image is aberrated a lot. To overcome these aberrations other kind of curved mirror can be used: toroidal or conical mirrors. Simple mirror make a good point-point focus. In the case of an image it need an "imaging system" that can propagate the radiation in the correct way. System that are able to do this are: Wolter \cite{wolter1975mirror}, Kirkpatrick-Baez \cite{kirkpatrick1948formation} and Montel \cite{montel1957x} system.
+\newline
+Wolter system are very used in astronomical field. Kirkpatrick-Baez system are very popular at the ESRF because of many good properties. Montel system are not used at ESRF but it is possible to find them in other synchrotron.
+\newline
+OASYS (OrAnge SYnchrotron Suite) \cite{rebuffi2017oasys} \cite{del2014proposal} is an open-source graphical environment for optic simulation developed by Manuel Sanchez del Rio and Luca Rebuffi. This software is used for optical simulation, in particular for syncrotron radiation, at ESRF and over the facilities around the world. It puts together several packages that allow a user-friendly simulation  from the ray tracing tool SHADOW. In this software are already implement curved mirrors, KB system and more system (both refractive and reflective elements).
+\newline
+During my traineeship I developed a python library MONWES (Montel and Wolter of yunEs), that perform ray tracing simulation for X-ray radiation along system consisting of one or several mirrors. It is implemented also implemented complex system such as Kirkpatrick and Montel system. The aim of this library is   to integrate the Montel optical element in OASYS. The optical element used, apart from Montel system, use a sequential tracing method. This method doesn't work for Montel so more effort was done its tracing method. I hope that my efforts will help the scientific community on its job.
+\newline
+In the last part of my traineeship I did a simulation work for the beamline ID20. The simulation were done on a Montel used as analyser that the beamline meant to buy. Comparing the information provided by the company with my simulation. In this thesis it is reported the study done.
+\newline
+The thesis is divided in 4 Chapters with the following structure:
 \begin{enumerate}
-\item Chapter 1: review of the interaction x-ray - matter in order to explain the importance of the mirror in a grazing configuration for x-ray radiation
-\item Chapter 2: it is reported the theoretical explanation of mirror effect, and it is done a study of the Kirkpatrick-Baez (KB) system and Montel system, with a comparison between them.
-\item Chapter 4: describes how the python library works going defining the way in which the algoritm is written 
-\item Chapter 5: shows the correct operation of the program testing it with respect to OASYS, software developed by Manuel Sanchez Del Rio, end a paper. Then report the analysis of Montel simulation done. 
+\item Chapter 1: review of the interaction X-ray - matter in order to explain the importance of the mirror in a grazing configuration to focus and collimate X-ray radiation.
+\item Chapter 2: it is reported the geometrical focusing explanation of mirrors. A study of the Kirkpatrick-Baez and Montel system. Moreover, a comparison between them is presented.
+\item Chapter 4: describes the models and algorithm implemented in MONWES. And show examples of operation of the program.
+\item Chapter 5: a first testing part against OASYS to show the correct work of MONWES. Benchmarking against some results found in bibliography is done. Then it is reported the calculation done with MONWES for an analyser to be installed at the ID20 beamline. 
 \end{enumerate}

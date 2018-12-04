@@ -3,9 +3,9 @@
 
 \vspace{5cm}
 
-In the first part of the Chapter is tested the correct working of the MONWES library. The test for mirrors, ideal lens and KB is done against OASYS software. For the Montel system, because is not implemented in OASYS, it is done a benchmark with the paper \cite{resta2015nested}.
+In the first part of the Chapter is tested the correct working of the MONWES library. The test for mirrors, ideal lens and KB is done against OASYS software. For the Montel system, because it is not implemented in OASYS, it is done a benchmark with the paper \cite{resta2015nested}.
 \\
-The second part of the Chapter use the MONWES library to study the behaviour of the Montel system. It is studied the effect of a non-centred beam watching what happen to the image dimension and the intensity in the case of centred and non centred beam. At the end is reported the study that I have done, for the beamline ID20 of the ESRF, of a non-orthogonal Montel mirrors.
+The second part of the Chapter use the MONWES library to study the behaviour of the Montel system. It is studied the effect of a non-centred beam watching what happen to the image dimension and the intensity in the case of centred and non centred beam. At the end it is reported the study that I have done, for the beamline ID20 of the ESRF, of a non-orthogonal Montel mirrors.
 \vspace{0.5cm}
 \section{Testing against OASYS}
 %
@@ -49,7 +49,7 @@ The system simulated are done with:
 \item parabolic mirror Figure \ref{fig: paraboloid OASYS}
 \item KB system Figure \ref{fig: KB system OASYS}
 \end{enumerate} 
-\noindent As it is showed in the figures \ref{fig: Ideal lense OASYS}, \ref{fig: paraboloid OASYS} and KB system Figure \ref{fig: KB system OASYS}, the result, of OASYS and my simulations are pretty similar- With an image that depend on the kind of the system. The ideal lenses case show a perfect replica of the source image, on the contrary, KB and paraboloid, show similar images but a bit ruined, because it degrades along the propagation.
+\noindent As it is showed in the figures \ref{fig: Ideal lense OASYS}, \ref{fig: paraboloid OASYS} and KB system Figure \ref{fig: KB system OASYS}, the result, of OASYS and my simulations are in good agreement. The ideal lenses case show a perfect replica of the source image, on the contrary, KB and paraboloid, show similar images but a bit aberrated, because it degrades along the propagation.
 \newpage
 %
 \begin{figure}[H]
@@ -101,7 +101,7 @@ The system simulated are done with:
 \newpage
 %
 \subsection{Benchmarking} 
-The system used for the benchmarking is showed in Figure \ref{fig: PaperMontelSystem} using the reference frame of the paper \cite{resta2015nested}. The aim of this system is to collimate a Beam using a Montel with two parabolic mirrors. The source used have a Gaussian dimension with a FWHM of 2.5$\mu $m and a Gaussian divergence of 5$mrad $. The distances, between the source/image plane and the center of the Montel are, respectively,  $\simeq $ 0.26m and 10.06m, moreover, the incidence angle of the Beam is $\theta_g \simeq 2.86^{\circ} $.
+The system used for the benchmarking is showed in Figure \ref{fig: PaperMontelSystem} using the reference frame of the paper \cite{resta2015nested}. The aim of this system is to collimate a Beam using a Montel with two parabolic mirrors. The source used has a Gaussian dimension of 2.5$\mu $m FWHM and a Gaussian divergence of 5$mrad $. The distances, between the source/image plane and the center of the Montel are, respectively,  $\simeq $ 0.26m and 10.06m. The incidence angle of the Beam is $\theta_g \simeq 2.86^{\circ} $.
 %
 \begin{figure}[]
 	\centering
@@ -110,9 +110,9 @@ The system used for the benchmarking is showed in Figure \ref{fig: PaperMontelSy
 		\label{fig: PaperMontelSystem}
 \end{figure}
 %
-The result, at the image plane, of the beam size and beam divergence, after the double-reflection of the Montel system, is showed in Figure \ref{fig: My Simulation Comparison}. Where, in Figure \ref{fig: PaperImageShape}, is showed the figure of the beam at the image plane, and, in Figure \ref{fig: PaperImageDivergence}, is showed the divergence. The quantitative values reported on the paper correspond to a Gaussian-like distribution with a spacial FWHM of $\sim $0.7mm, for the spot size, and a FWHM of the Gaussian divergence $\sim $ 0.01 mrad.
+The result, at the image plane, of the beam size and beam divergence, after the double-reflection of the Montel system, is showed in Figure \ref{fig: My Simulation Comparison}. There in Figure \ref{fig: PaperImageShape} shows the beam at the image plane, and  Figure \ref{fig: PaperImageDivergence}shows the divergence. The quantitative values reported on the paper correspond to a Gaussian-like distribution with a spatial FWHM of $\sim $0.7mm for the spot size, and a FWHM of the Gaussian divergence $\sim $ 0.01 mrad.
 \\
-Repeating the simulation with MONWES, and using the parameter defined in  in the paper \cite{resta2015nested} it obtain Figure \ref{fig: My Simulation Comparison}. As it is showed in the Figure \ref{fig: My Simulation Comparison} there are a qualitative good agreement between the two simulation .Also, under a quantitative point of view, there is a good agreement in fact, in my simulation are obtained a value of $\sim $1mm of FWHM of image size, pretty similar to the one of the other simulation, and $\sim $0.01 mrad FWHM of divergence that is equal to the one obtained with the other simulation.
+Repeating the simulation with MONWES, and using the parameter defined in  in the paper \cite{resta2015nested} it obtain Figure \ref{fig: My Simulation Comparison}. As it is showed in the Figure \ref{fig: My Simulation Comparison} there are a qualitative good agreement between the two simulation. Also, under a quantitative point of view, there is a good agreement in fact, in my simulation are obtained a value of $\sim $1mm of FWHM of image size, pretty similar to the one of the other simulation, and $\sim $0.01 mrad FWHM of divergence that is equal to the one obtained with the other simulation.
 %
 \begin{figure}[]
 %
@@ -137,10 +137,10 @@ Repeating the simulation with MONWES, and using the parameter defined in  in the
 \end{figure}
 %
 \section{Analysis of Montel system}
-In this section it is done, using the Montel tools developed, a study of the Montel. The first simulation, to understand if  Montel work well, is to study the behaviour of a point-wise source with a certain divergence, using a collimating system. The second simulation, for the same reason of before, is to simulate a collimating beam with a certain source shape geometry and figure out the image plot obtained by a focalizing system in its image plane. What is expected is a point, in the velocity space for the first situation and in the real space for the second simulation, as a consequence of the ideal collimating/focalizing system. For the simulation are used parabolic Montel with an incidence angle of 2$^{\circ} $ (the choice of the angle is arbitrary. Paraboic system are chosen because is the only way to obtain a perfect collimating Beam).
+In this section a study of the Montel is done, using the Montel tools developed. The first simulation, to verify that Montel work well, study the behaviour of a point-wise source with a certain divergence, using a collimating system. The second simulation, for the same reason of before, simulates a collimating beam with a certain source shape geometry and figure out the image plot obtained by a focalizing system in its image plane. What is expected is a point in the divergence space for the first situation and in the real space for the second simulation, as a consequence of the ideal collimating/focalizing system. For the simulation parabolic Montel with an incidence angle of 2$^{\circ} $ (the choice of the angle is arbitrary) are used. Paraboic system are chosen because is the only way to obtain a perfect collimating Beam.
 \\
-In Figure \ref{fig: ideal} are reported the result for the ideal collimating/focalizing cases.
-For the collimation system is used a point wise source with a Gaussian divergence of FWHM of 25$\mu $m, \ref{fig: coll.Source}. At the image plane the Beam (Figure \ref{fig: CollimationImage}) is collimated, reducing its divergence of 3 order of magnitude. For the focalizing system, it is used a circular source spot having a radius of 1mm, \ref{fig: foc.Source}, with a collimated source beam. At the image plane the dimension of the Beam (Figure \ref{fig: focalizingImage}) is reduced of 3 order magnitude. It is possible to conclude that both collimating and focalizing system work but not perfectly (the final results are not point). One explanation can be that, because of the particular configuration of the mirrors of the Montel, the effect on the Beam are not perfect. This can be an \textbf{intrinsic aberration of the Montel}, that can be studied more in the future.
+Figure \ref{fig: ideal} reports the result for the ideal collimating/focalizing cases.
+For the collimation system a point wise source  is used with a Gaussian divergence of FWHM of 25$\mu $m, \ref{fig: coll.Source}. At the image plane the Beam (Figure \ref{fig: CollimationImage}) is collimated, reducing its divergence of 3 orders of magnitude. For the focalizing system, it is used a circular source spot having a radius of 1mm, Figure \ref{fig: foc.Source}, with a collimated source beam. At the image plane the dimension of the Beam (Figure \ref{fig: focalizingImage}) is reduced of 3 order magnitude. It is possible to conclude that both collimating and focalizing system work but not perfectly (the final results are not point). One explanation can be that, because of the particular configuration of the mirrors of the Montel, the effect on the Beam are not perfect. This can be an \textbf{intrinsic aberration of the Montel}, that can be studied more in the future.
 \\
 \begin{figure}[]
 %
@@ -251,9 +251,9 @@ The plots in Figure \ref{fig: 2nd reuslt diff. path}, are interesting, because r
 \label{fig: 2nd reuslt diff. path}
 %
 \end{figure}
-\section{My work for the ID 20}
+\section{Simulation of a Montel system for ID20}
 
-In this section is reported the study that I have done for the beam of ID20 of the Esrf. The simulation were done in order to study the Montel system bought as analyser that will be used in the beamline.
+In this section is reported the study that I have done for the beam of ID20 of the ESRF. The simulation were done in order to study the Montel system bought as analyser that will be used in the beamline.
 
 \subsection{System parameters}
 The system simulated have a source size of $ 1 \mu m^2 $(see Figure \ref{fig: ID20InitialSpot}) with a Gaussian divergence of $25 \mu rad $(see Figure \ref{fig: ID20InitialDivergence}). The parameters of the system are: object distance of $351 mm$, mirror Length of $300mm$, mirror width of $100mm $, the error max between the orthogonal configuration of the two mirror is of $\Delta =  \pm 0.03^{\circ} $ and an incidence angle of $18.1 mrad $. In Figure \ref{fig: ID20System} is showed a 3D graphic view of the Monter system with the parameter used.
